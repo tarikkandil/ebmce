@@ -288,31 +288,31 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var store_1 = __webpack_require__(383);
 var angular2_recaptcha_1 = __webpack_require__(537);
-var reset_component_1 = __webpack_require__(477);
-var login_component_1 = __webpack_require__(475);
-var newsletter_component_1 = __webpack_require__(476);
+var reset_component_1 = __webpack_require__(478);
+var login_component_1 = __webpack_require__(476);
+var newsletter_component_1 = __webpack_require__(477);
 var register_component_1 = __webpack_require__(522);
 var common_1 = __webpack_require__(37);
 var forms_1 = __webpack_require__(381);
 var home_routing_module_1 = __webpack_require__(520);
 var dropdown_1 = __webpack_require__(168);
 var validate_equal_directive_1 = __webpack_require__(524);
-var ng_bootstrap_1 = __webpack_require__(442);
+var ng_bootstrap_1 = __webpack_require__(443);
 var user_1 = __webpack_require__(410);
-var health_1 = __webpack_require__(483);
+var health_1 = __webpack_require__(484);
 var address_1 = __webpack_require__(409);
-var beneficiaire_1 = __webpack_require__(482);
-var remote_1 = __webpack_require__(484);
+var beneficiaire_1 = __webpack_require__(483);
+var remote_1 = __webpack_require__(485);
 var result_component_1 = __webpack_require__(523);
 var forms_component_1 = __webpack_require__(516);
-var user_component_1 = __webpack_require__(481);
-var health_component_1 = __webpack_require__(480);
+var user_component_1 = __webpack_require__(482);
+var health_component_1 = __webpack_require__(481);
 var summary_component_1 = __webpack_require__(519);
-var address_component_1 = __webpack_require__(478);
-var beneficiaire_component_1 = __webpack_require__(479);
+var address_component_1 = __webpack_require__(479);
+var beneficiaire_component_1 = __webpack_require__(480);
 var capitalize_pipe_1 = __webpack_require__(518);
 var pipe_account_number_directive_1 = __webpack_require__(526);
-var pipe_account_number_pipe_1 = __webpack_require__(486);
+var pipe_account_number_pipe_1 = __webpack_require__(411);
 var core_2 = __webpack_require__(531);
 var limit_to_directive_1 = __webpack_require__(521);
 var HomeModule = (function () {
@@ -373,7 +373,7 @@ exports.HomeModule = HomeModule;
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(422);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__);
@@ -6513,7 +6513,7 @@ function regExpEscape(text) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__ = __webpack_require__(469);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Dispatcher", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ng2__ = __webpack_require__(511);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "INITIAL_REDUCER", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["a"]; });
@@ -6527,13 +6527,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "_reducerFactory", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "provideStore", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["j"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "StoreModule", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["k"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_reducer__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_reducer__ = __webpack_require__(470);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Reducer", function() { return __WEBPACK_IMPORTED_MODULE_2__src_reducer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_state__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_state__ = __webpack_require__(471);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "State", function() { return __WEBPACK_IMPORTED_MODULE_3__src_state__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_store__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_store__ = __webpack_require__(472);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return __WEBPACK_IMPORTED_MODULE_4__src_store__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_utils__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_utils__ = __webpack_require__(473);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "combineReducers", function() { return __WEBPACK_IMPORTED_MODULE_5__src_utils__["a"]; });
 
 
@@ -7327,8 +7327,8 @@ NgbDatepickerConfig.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(381);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngb_calendar__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_date__ = __webpack_require__(386);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__datepicker_service__ = __webpack_require__(437);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__datepicker_view_model__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__datepicker_service__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__datepicker_view_model__ = __webpack_require__(439);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_util__ = __webpack_require__(382);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__datepicker_config__ = __webpack_require__(396);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__datepicker_i18n__ = __webpack_require__(387);
@@ -7965,7 +7965,7 @@ var initialState = {
     codePostal: '',
     phone: '',
     email: '',
-    cityOfBirth: ''
+    cityOfBirth: 'paris'
 };
 exports.address = function (state, action) {
     if (state === void 0) { state = initialState; }
@@ -8047,14 +8047,67 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/user.js.map
 
 /***/ }),
-/* 411 */,
-/* 412 */
+/* 411 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var PADDING = "000000";
+var MyAccountNumberPipe = (function () {
+    function MyAccountNumberPipe() {
+        // TODO comes from configuration settings
+        this.PREFIX = '';
+        this.DECIMAL_SEPARATOR = ".";
+        this.THOUSANDS_SEPARATOR = " ";
+        this.SUFFIX = '';
+    }
+    MyAccountNumberPipe.prototype.transform = function (value, fractionSize) {
+        if (fractionSize === void 0) { fractionSize = 2; }
+        var _a = (value || "").toString()
+            .split("."), integer = _a[0], _b = _a[1], fraction = _b === void 0 ? "" : _b;
+        integer = integer.replace(/\B(?=(\d{3})+(?!\d))/g, this.THOUSANDS_SEPARATOR);
+        return this.PREFIX + integer;
+    };
+    MyAccountNumberPipe.prototype.parse = function (value, fractionSize) {
+        if (fractionSize === void 0) { fractionSize = 2; }
+        var _a = (value || "").replace(this.PREFIX, "")
+            .replace(this.SUFFIX, "")
+            .split(this.DECIMAL_SEPARATOR), integer = _a[0], _b = _a[1], fraction = _b === void 0 ? "" : _b;
+        integer = integer.replace(new RegExp(this.THOUSANDS_SEPARATOR, "g"), "");
+        fraction = parseInt(fraction, 10) > 0 && fractionSize > 0
+            ? this.DECIMAL_SEPARATOR + (fraction + PADDING).substring(0, fractionSize)
+            : "";
+        return integer;
+    };
+    return MyAccountNumberPipe;
+}());
+MyAccountNumberPipe = __decorate([
+    core_1.Pipe({ name: "myAccountNumber" }),
+    __metadata("design:paramtypes", [])
+], MyAccountNumberPipe);
+exports.MyAccountNumberPipe = MyAccountNumberPipe;
+//# sourceMappingURL=D:/workspace/Bes_project_v1/src/pipe-account-number.pipe.js.map
+
+/***/ }),
+/* 412 */,
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var info_window_manager_1 = __webpack_require__(415);
+var info_window_manager_1 = __webpack_require__(416);
 var infoWindowId = 0;
 /**
  * SebmGoogleMapInfoWindow renders a info window inside a {@link SebmGoogleMapMarker} or standalone.
@@ -8177,7 +8230,7 @@ exports.SebmGoogleMapInfoWindow = SebmGoogleMapInfoWindow;
 //# sourceMappingURL=google-map-info-window.js.map
 
 /***/ }),
-/* 413 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8219,7 +8272,7 @@ exports.SebmGoogleMapPolylinePoint = SebmGoogleMapPolylinePoint;
 //# sourceMappingURL=google-map-polyline-point.js.map
 
 /***/ }),
-/* 414 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8324,7 +8377,7 @@ exports.CircleManager = CircleManager;
 //# sourceMappingURL=circle-manager.js.map
 
 /***/ }),
-/* 415 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8419,7 +8472,7 @@ exports.InfoWindowManager = InfoWindowManager;
 //# sourceMappingURL=info-window-manager.js.map
 
 /***/ }),
-/* 416 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8488,7 +8541,7 @@ exports.KmlLayerManager = KmlLayerManager;
 //# sourceMappingURL=kml-layer-manager.js.map
 
 /***/ }),
-/* 417 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8565,7 +8618,7 @@ exports.PolygonManager = PolygonManager;
 //# sourceMappingURL=polygon-manager.js.map
 
 /***/ }),
-/* 418 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8648,7 +8701,7 @@ exports.PolylineManager = PolylineManager;
 //# sourceMappingURL=polyline-manager.js.map
 
 /***/ }),
-/* 419 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8757,7 +8810,7 @@ exports.LazyMapsAPILoader = LazyMapsAPILoader;
 //# sourceMappingURL=lazy-maps-api-loader.js.map
 
 /***/ }),
-/* 420 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8875,17 +8928,17 @@ var ForkJoinSubscriber = (function (_super) {
 //# sourceMappingURL=ForkJoinObservable.js.map
 
 /***/ }),
-/* 421 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ForkJoinObservable_1 = __webpack_require__(420);
+var ForkJoinObservable_1 = __webpack_require__(421);
 exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
-/* 422 */
+/* 423 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9073,13 +9126,13 @@ NgbAccordion.propDecorators = {
 //# sourceMappingURL=accordion.js.map
 
 /***/ }),
-/* 423 */
+/* 424 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accordion__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accordion__ = __webpack_require__(423);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accordion_config__ = __webpack_require__(393);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__accordion__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__accordion__["b"]; });
@@ -9109,7 +9162,7 @@ NgbAccordionModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=accordion.module.js.map
 
 /***/ }),
-/* 424 */
+/* 425 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9153,13 +9206,13 @@ NgbAlert.propDecorators = {
 //# sourceMappingURL=alert.js.map
 
 /***/ }),
-/* 425 */
+/* 426 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alert__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alert__ = __webpack_require__(425);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_config__ = __webpack_require__(394);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__alert__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__alert_config__["a"]; });
@@ -9185,7 +9238,7 @@ NgbAlertModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=alert.module.js.map
 
 /***/ }),
-/* 426 */
+/* 427 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9416,12 +9469,12 @@ NgbRadio.propDecorators = {
 //# sourceMappingURL=radio.js.map
 
 /***/ }),
-/* 427 */
+/* 428 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__radio__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__radio__ = __webpack_require__(427);
 /* unused harmony reexport NgbRadio */
 /* unused harmony reexport NgbActiveLabel */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__radio__["a"]; });
@@ -9445,7 +9498,7 @@ NgbButtonsModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=radio.module.js.map
 
 /***/ }),
-/* 428 */
+/* 429 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9610,13 +9663,13 @@ var NGB_CAROUSEL_DIRECTIVES = [NgbCarousel, NgbSlide];
 //# sourceMappingURL=carousel.js.map
 
 /***/ }),
-/* 429 */
+/* 430 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__carousel__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__carousel__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__carousel_config__ = __webpack_require__(395);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__carousel__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__carousel__["b"]; });
@@ -9643,7 +9696,7 @@ NgbCarouselModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=carousel.module.js.map
 
 /***/ }),
-/* 430 */
+/* 431 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9678,12 +9731,12 @@ NgbCollapse.propDecorators = {
 //# sourceMappingURL=collapse.js.map
 
 /***/ }),
-/* 431 */
+/* 432 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__collapse__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__collapse__ = __webpack_require__(431);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__collapse__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbCollapseModule; });
 
@@ -9704,7 +9757,7 @@ NgbCollapseModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=collapse.module.js.map
 
 /***/ }),
-/* 432 */
+/* 433 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9743,7 +9796,7 @@ NgbDatepickerDayView.propDecorators = {
 //# sourceMappingURL=datepicker-day-view.js.map
 
 /***/ }),
-/* 433 */
+/* 434 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9754,7 +9807,7 @@ NgbDatepickerDayView.propDecorators = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngb_date_parser_formatter__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_positioning__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngb_calendar__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__datepicker_service__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__datepicker_service__ = __webpack_require__(438);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbInputDatepicker; });
 
 
@@ -9966,7 +10019,7 @@ NgbInputDatepicker.propDecorators = {
 //# sourceMappingURL=datepicker-input.js.map
 
 /***/ }),
-/* 434 */
+/* 435 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10024,7 +10077,7 @@ NgbDatepickerMonthView.propDecorators = {
 //# sourceMappingURL=datepicker-month-view.js.map
 
 /***/ }),
-/* 435 */
+/* 436 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10097,12 +10150,12 @@ NgbDatepickerNavigationSelect.propDecorators = {
 //# sourceMappingURL=datepicker-navigation-select.js.map
 
 /***/ }),
-/* 436 */
+/* 437 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__datepicker_view_model__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__datepicker_view_model__ = __webpack_require__(439);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__datepicker_i18n__ = __webpack_require__(387);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_calendar__ = __webpack_require__(384);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbDatepickerNavigation; });
@@ -10157,7 +10210,7 @@ NgbDatepickerNavigation.propDecorators = {
 //# sourceMappingURL=datepicker-navigation.js.map
 
 /***/ }),
-/* 437 */
+/* 438 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10233,7 +10286,7 @@ NgbDatepickerService.ctorParameters = function () { return [
 //# sourceMappingURL=datepicker-service.js.map
 
 /***/ }),
-/* 438 */
+/* 439 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10246,22 +10299,22 @@ var NavigationEvent;
 //# sourceMappingURL=datepicker-view-model.js.map
 
 /***/ }),
-/* 439 */
+/* 440 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__datepicker__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__datepicker_month_view__ = __webpack_require__(434);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__datepicker_navigation__ = __webpack_require__(436);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__datepicker_input__ = __webpack_require__(433);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__datepicker_month_view__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__datepicker_navigation__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__datepicker_input__ = __webpack_require__(434);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(381);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__datepicker_day_view__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__datepicker_day_view__ = __webpack_require__(433);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__datepicker_i18n__ = __webpack_require__(387);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ngb_calendar__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ngb_date_parser_formatter__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__datepicker_navigation_select__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__datepicker_navigation_select__ = __webpack_require__(436);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__datepicker_config__ = __webpack_require__(396);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__datepicker__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__datepicker_input__["a"]; });
@@ -10332,7 +10385,7 @@ NgbDatepickerModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=datepicker.module.js.map
 
 /***/ }),
-/* 440 */
+/* 441 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10468,12 +10521,12 @@ NgbDropdownToggle.ctorParameters = function () { return [
 //# sourceMappingURL=dropdown.js.map
 
 /***/ }),
-/* 441 */
+/* 442 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdown__ = __webpack_require__(440);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdown__ = __webpack_require__(441);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdown_config__ = __webpack_require__(399);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__dropdown__["a"]; });
 /* unused harmony reexport NgbDropdownToggle */
@@ -10500,28 +10553,28 @@ NgbDropdownModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=dropdown.module.js.map
 
 /***/ }),
-/* 442 */
+/* 443 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accordion_accordion_module__ = __webpack_require__(423);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alert_alert_module__ = __webpack_require__(425);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buttons_radio_module__ = __webpack_require__(427);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__carousel_carousel_module__ = __webpack_require__(429);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collapse_collapse_module__ = __webpack_require__(431);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__datepicker_datepicker_module__ = __webpack_require__(439);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dropdown_dropdown_module__ = __webpack_require__(441);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modal_modal_module__ = __webpack_require__(449);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pagination_pagination_module__ = __webpack_require__(451);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__popover_popover_module__ = __webpack_require__(453);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__progressbar_progressbar_module__ = __webpack_require__(455);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rating_rating_module__ = __webpack_require__(457);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tabset_tabset_module__ = __webpack_require__(459);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__timepicker_timepicker_module__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__tooltip_tooltip_module__ = __webpack_require__(463);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__typeahead_typeahead_module__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accordion_accordion_module__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alert_alert_module__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buttons_radio_module__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__carousel_carousel_module__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collapse_collapse_module__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__datepicker_datepicker_module__ = __webpack_require__(440);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dropdown_dropdown_module__ = __webpack_require__(442);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modal_modal_module__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pagination_pagination_module__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__popover_popover_module__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__progressbar_progressbar_module__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rating_rating_module__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tabset_tabset_module__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__timepicker_timepicker_module__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__tooltip_tooltip_module__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__typeahead_typeahead_module__ = __webpack_require__(467);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgbAccordionModule", function() { return __WEBPACK_IMPORTED_MODULE_1__accordion_accordion_module__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgbAccordionConfig", function() { return __WEBPACK_IMPORTED_MODULE_1__accordion_accordion_module__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgbAccordion", function() { return __WEBPACK_IMPORTED_MODULE_1__accordion_accordion_module__["c"]; });
@@ -10657,7 +10710,7 @@ NgbModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 443 */
+/* 444 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10678,7 +10731,7 @@ NgbModalBackdrop.ctorParameters = function () { return []; };
 //# sourceMappingURL=modal-backdrop.js.map
 
 /***/ }),
-/* 444 */
+/* 445 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10691,7 +10744,7 @@ var ModalDismissReasons;
 //# sourceMappingURL=modal-dismiss-reasons.js.map
 
 /***/ }),
-/* 445 */
+/* 446 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10804,16 +10857,16 @@ NgbModalRef.ctorParameters = function () { return [
 //# sourceMappingURL=modal-ref.js.map
 
 /***/ }),
-/* 446 */
+/* 447 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_popup__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(382);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_backdrop__ = __webpack_require__(443);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal_window__ = __webpack_require__(447);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal_ref__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_backdrop__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal_window__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal_ref__ = __webpack_require__(446);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbModalStack; });
 
 
@@ -10896,12 +10949,12 @@ NgbModalStack.ctorParameters = function () { return [
 //# sourceMappingURL=modal-stack.js.map
 
 /***/ }),
-/* 447 */
+/* 448 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_dismiss_reasons__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_dismiss_reasons__ = __webpack_require__(445);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbModalWindow; });
 
 
@@ -10975,12 +11028,12 @@ NgbModalWindow.propDecorators = {
 //# sourceMappingURL=modal-window.js.map
 
 /***/ }),
-/* 448 */
+/* 449 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_stack__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_stack__ = __webpack_require__(447);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbModal; });
 
 
@@ -11019,20 +11072,20 @@ NgbModal.ctorParameters = function () { return [
 //# sourceMappingURL=modal.js.map
 
 /***/ }),
-/* 449 */
+/* 450 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_backdrop__ = __webpack_require__(443);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_window__ = __webpack_require__(447);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_stack__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_backdrop__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_window__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_stack__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal__ = __webpack_require__(449);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__modal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal_ref__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal_ref__ = __webpack_require__(446);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_5__modal_ref__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_5__modal_ref__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__modal_dismiss_reasons__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__modal_dismiss_reasons__ = __webpack_require__(445);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_6__modal_dismiss_reasons__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbModalModule; });
 
@@ -11062,7 +11115,7 @@ NgbModalModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=modal.module.js.map
 
 /***/ }),
-/* 450 */
+/* 451 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11229,13 +11282,13 @@ NgbPagination.propDecorators = {
 //# sourceMappingURL=pagination.js.map
 
 /***/ }),
-/* 451 */
+/* 452 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pagination__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pagination__ = __webpack_require__(451);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pagination_config__ = __webpack_require__(400);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__pagination__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__pagination_config__["a"]; });
@@ -11261,12 +11314,12 @@ NgbPaginationModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=pagination.module.js.map
 
 /***/ }),
-/* 452 */
+/* 453 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_triggers__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_triggers__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_positioning__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_popup__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_config__ = __webpack_require__(401);
@@ -11409,12 +11462,12 @@ NgbPopover.propDecorators = {
 //# sourceMappingURL=popover.js.map
 
 /***/ }),
-/* 453 */
+/* 454 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover__ = __webpack_require__(453);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_config__ = __webpack_require__(401);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__popover__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__popover_config__["a"]; });
@@ -11439,7 +11492,7 @@ NgbPopoverModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=popover.module.js.map
 
 /***/ }),
-/* 454 */
+/* 455 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11492,13 +11545,13 @@ NgbProgressbar.propDecorators = {
 //# sourceMappingURL=progressbar.js.map
 
 /***/ }),
-/* 455 */
+/* 456 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__progressbar__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__progressbar__ = __webpack_require__(455);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__progressbar_config__ = __webpack_require__(402);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__progressbar__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__progressbar_config__["a"]; });
@@ -11524,7 +11577,7 @@ NgbProgressbarModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=progressbar.module.js.map
 
 /***/ }),
-/* 456 */
+/* 457 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11699,14 +11752,14 @@ NgbRating.propDecorators = {
 //# sourceMappingURL=rating.js.map
 
 /***/ }),
-/* 457 */
+/* 458 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rating_config__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rating__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rating__ = __webpack_require__(457);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__rating__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__rating_config__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbRatingModule; });
@@ -11731,7 +11784,7 @@ NgbRatingModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=rating.module.js.map
 
 /***/ }),
-/* 458 */
+/* 459 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11871,13 +11924,13 @@ NgbTabset.propDecorators = {
 //# sourceMappingURL=tabset.js.map
 
 /***/ }),
-/* 459 */
+/* 460 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabset__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabset__ = __webpack_require__(459);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tabset_config__ = __webpack_require__(404);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__tabset__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__tabset__["b"]; });
@@ -11907,7 +11960,7 @@ NgbTabsetModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=tabset.module.js.map
 
 /***/ }),
-/* 460 */
+/* 461 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12044,13 +12097,13 @@ NgbTimepicker.propDecorators = {
 //# sourceMappingURL=timepicker.js.map
 
 /***/ }),
-/* 461 */
+/* 462 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__timepicker__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__timepicker__ = __webpack_require__(461);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__timepicker_config__ = __webpack_require__(405);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__timepicker__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__timepicker_config__["a"]; });
@@ -12076,12 +12129,12 @@ NgbTimepickerModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=timepicker.module.js.map
 
 /***/ }),
-/* 462 */
+/* 463 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_triggers__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_triggers__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_positioning__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_popup__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tooltip_config__ = __webpack_require__(406);
@@ -12235,12 +12288,12 @@ NgbTooltip.propDecorators = {
 //# sourceMappingURL=tooltip.js.map
 
 /***/ }),
-/* 463 */
+/* 464 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tooltip__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tooltip__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tooltip_config__ = __webpack_require__(406);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__tooltip_config__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__tooltip__["a"]; });
@@ -12265,7 +12318,7 @@ NgbTooltipModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=tooltip.module.js.map
 
 /***/ }),
-/* 464 */
+/* 465 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12317,7 +12370,7 @@ NgbHighlight.propDecorators = {
 //# sourceMappingURL=highlight.js.map
 
 /***/ }),
-/* 465 */
+/* 466 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12577,15 +12630,15 @@ NgbTypeahead.propDecorators = {
 //# sourceMappingURL=typeahead.js.map
 
 /***/ }),
-/* 466 */
+/* 467 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__highlight__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__highlight__ = __webpack_require__(465);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__typeahead_window__ = __webpack_require__(408);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__typeahead__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__typeahead__ = __webpack_require__(466);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__typeahead_config__ = __webpack_require__(407);
 /* unused harmony reexport NgbHighlight */
 /* unused harmony reexport NgbTypeaheadWindow */
@@ -12622,7 +12675,7 @@ NgbTypeaheadModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=typeahead.module.js.map
 
 /***/ }),
-/* 467 */
+/* 468 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12683,7 +12736,7 @@ function listenToTriggers(renderer, nativeElement, triggers, openFn, closeFn, to
 //# sourceMappingURL=triggers.js.map
 
 /***/ }),
-/* 468 */
+/* 469 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12719,7 +12772,7 @@ Dispatcher.INIT = '@ngrx/store/init';
 //# sourceMappingURL=dispatcher.js.map
 
 /***/ }),
-/* 469 */
+/* 470 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12758,7 +12811,7 @@ Reducer.REPLACE = '@ngrx/store/replace-reducer';
 //# sourceMappingURL=reducer.js.map
 
 /***/ }),
-/* 470 */
+/* 471 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12807,7 +12860,7 @@ var State = (function (_super) {
 //# sourceMappingURL=state.js.map
 
 /***/ }),
-/* 471 */
+/* 472 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12863,7 +12916,7 @@ var Store = (function (_super) {
 //# sourceMappingURL=store.js.map
 
 /***/ }),
-/* 472 */
+/* 473 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12896,9 +12949,9 @@ function combineReducers(reducers) {
 //# sourceMappingURL=utils.js.map
 
 /***/ }),
-/* 473 */,
 /* 474 */,
-/* 475 */
+/* 475 */,
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12944,7 +12997,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/login.component.js.map
 
 /***/ }),
-/* 476 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12998,7 +13051,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/newsletter.component.js.map
 
 /***/ }),
-/* 477 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13027,15 +13080,8 @@ var ResetComponent = (function () {
         // reset login status
     };
     ResetComponent.prototype.reset = function () {
-        this.loading = true;
-        if (this.model.email === "relamrani@soprabanking.com") {
-            this.loading = false;
-            this.success = true;
-        }
-        else {
-            this.error = "Address email not found";
-            this.loading = false;
-        }
+        this.loading = false;
+        this.success = true;
     };
     return ResetComponent;
 }());
@@ -13051,7 +13097,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/reset.component.js.map
 
 /***/ }),
-/* 478 */
+/* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13087,7 +13133,7 @@ var AddressComponent = (function () {
             address: [address.address, forms_1.Validators.required],
             countryOfBirth: [address.countryOfBirth, forms_1.Validators.required],
             codePostal: [address.codePostal, forms_1.Validators.required],
-            phone: [address.phone, [forms_1.Validators.required, forms_1.Validators.pattern(/([0-9]{10})$/)]],
+            phone: [address.phone, [forms_1.Validators.required, forms_1.Validators.pattern(/([0-9])$/)]],
             email: [address.email],
             cityOfBirth: [address.cityOfBirth]
         });
@@ -13097,6 +13143,7 @@ var AddressComponent = (function () {
     };
     AddressComponent.prototype.next = function () {
         this.addressService.updateAddress(this.form.value);
+        localStorage.setItem('address', JSON.stringify({ phone: this.form.value.phone, email: this.form.value.email }));
         this.router.navigateByUrl('beneficiaire');
     };
     return AddressComponent;
@@ -13114,7 +13161,7 @@ var _a, _b, _c, _d;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/address.component.js.map
 
 /***/ }),
-/* 479 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13132,12 +13179,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var forms_1 = __webpack_require__(381);
 var router_1 = __webpack_require__(88);
-var beneficiaire_1 = __webpack_require__(482);
+var beneficiaire_1 = __webpack_require__(483);
 var store_1 = __webpack_require__(383);
 var user_1 = __webpack_require__(410);
 var address_1 = __webpack_require__(409);
+var pipe_account_number_pipe_1 = __webpack_require__(411);
 var BeneficiaireComponent = (function () {
-    function BeneficiaireComponent(store, beneficiaireService, addressService, fb, userService, router) {
+    function BeneficiaireComponent(mycurpipe, store, beneficiaireService, addressService, fb, userService, router) {
+        this.mycurpipe = mycurpipe;
         this.store = store;
         this.beneficiaireService = beneficiaireService;
         this.addressService = addressService;
@@ -13174,20 +13223,18 @@ var BeneficiaireComponent = (function () {
         ];
     }
     BeneficiaireComponent.prototype.ngOnInit = function () {
+        var _this = this;
         this.beneficiaireService.beneficiaire$
             .subscribe(this.initForm.bind(this));
-        // this.addressService.address$
-        //   .subscribe(address => {
-        //     if (address.address.length > 0) {
-        //       this.form.patchValue({ agenceBes: 'laon' })
-        //     }
-        //   });
+        this.user = this.userService.user$.subscribe(function (user) {
+            _this.email = user.email;
+        });
     };
     BeneficiaireComponent.prototype.initForm = function (beneficiaire) {
         this.form = this.fb.group({
             account: [beneficiaire.account, [forms_1.Validators.required, forms_1.Validators.pattern(/([0-9]{21})$/)]],
-            lastname: [beneficiaire.lastname, forms_1.Validators.required, { disabled: false }],
-            firstname: [beneficiaire.firstname, forms_1.Validators.required, { disabled: false }],
+            lastname: [beneficiaire.lastname, forms_1.Validators.required],
+            firstname: [beneficiaire.firstname, forms_1.Validators.required],
             agenceBes: [beneficiaire.agenceBes, forms_1.Validators.required],
             newsletterInscription: [beneficiaire.newsletterInscription],
             agree: [beneficiaire.agree],
@@ -13215,17 +13262,42 @@ var BeneficiaireComponent = (function () {
         }
     };
     BeneficiaireComponent.prototype.back = function () {
+        localStorage.removeItem('beneficiaire');
         this.router.navigateByUrl('address');
     };
     BeneficiaireComponent.prototype.backToHome = function () {
-        this.router.navigateByUrl('dashboard/dashboard');
+        this.router.navigateByUrl('/');
+    };
+    BeneficiaireComponent.prototype.onAmountChange = function (amount) {
+        // explicitly update state (one way data flow)
+        // setTimeout(function () {
+        //   this.form.get('account').patchValue();
+        // }, 500);
+        var _this = this;
+        setTimeout(function () {
+            var v = _this.mycurpipe.transform(amount);
+            _this.form.get('account').patchValue(v);
+        }, 1000);
     };
     BeneficiaireComponent.prototype.next = function () {
         this.beneficiaireService.updateBeneficiaire(this.form.value);
+        localStorage.setItem('beneficiaire', JSON.stringify({ account: this.form.value.account, firstname: this.form.value.firstname, lastname: this.form.value.lastname }));
         this.success = true;
     };
     BeneficiaireComponent.prototype.clickedMarker = function (label, index) {
-        alert('ok');
+        switch (index) {
+            case 0:
+                this.form.get('agenceBes').patchValue('laon');
+                break;
+            case 1:
+                this.form.get('agenceBes').patchValue('dijon');
+                break;
+            case 2:
+                this.form.get('agenceBes').patchValue('strasbourg');
+                break;
+            default:
+                break;
+        }
     };
     return BeneficiaireComponent;
 }());
@@ -13235,14 +13307,14 @@ BeneficiaireComponent = __decorate([
         template: __webpack_require__(551),
         styles: [__webpack_require__(539)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _a || Object, typeof (_b = typeof beneficiaire_1.BeneficiaireService !== "undefined" && beneficiaire_1.BeneficiaireService) === "function" && _b || Object, typeof (_c = typeof address_1.AddressService !== "undefined" && address_1.AddressService) === "function" && _c || Object, typeof (_d = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _d || Object, typeof (_e = typeof user_1.UserService !== "undefined" && user_1.UserService) === "function" && _e || Object, typeof (_f = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _f || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof pipe_account_number_pipe_1.MyAccountNumberPipe !== "undefined" && pipe_account_number_pipe_1.MyAccountNumberPipe) === "function" && _a || Object, typeof (_b = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _b || Object, typeof (_c = typeof beneficiaire_1.BeneficiaireService !== "undefined" && beneficiaire_1.BeneficiaireService) === "function" && _c || Object, typeof (_d = typeof address_1.AddressService !== "undefined" && address_1.AddressService) === "function" && _d || Object, typeof (_e = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _e || Object, typeof (_f = typeof user_1.UserService !== "undefined" && user_1.UserService) === "function" && _f || Object, typeof (_g = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _g || Object])
 ], BeneficiaireComponent);
 exports.BeneficiaireComponent = BeneficiaireComponent;
-var _a, _b, _c, _d, _e, _f;
+var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/beneficiaire.component.js.map
 
 /***/ }),
-/* 480 */
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13260,10 +13332,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var forms_1 = __webpack_require__(381);
 var router_1 = __webpack_require__(88);
-var health_1 = __webpack_require__(483);
+var health_1 = __webpack_require__(484);
 var store_1 = __webpack_require__(383);
 var date_validator_1 = __webpack_require__(517);
-var ng_bootstrap_1 = __webpack_require__(442);
+var ng_bootstrap_1 = __webpack_require__(443);
 var HealthComponent = (function () {
     function HealthComponent(store, healthService, fb, router, config) {
         this.store = store;
@@ -13311,7 +13383,7 @@ var _a, _b, _c, _d, _e;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/health.component.js.map
 
 /***/ }),
-/* 481 */
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13378,6 +13450,7 @@ var UserComponent = (function () {
     };
     UserComponent.prototype.next = function () {
         this.userService.updateUser(this.form.value);
+        localStorage.setItem('user', JSON.stringify({ firstname: this.form.value.firstName, lastname: this.form.value.lastName }));
         this.router.navigateByUrl('health');
     };
     return UserComponent;
@@ -13395,7 +13468,7 @@ var _a, _b, _c;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/user.component.js.map
 
 /***/ }),
-/* 482 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13417,7 +13490,7 @@ var initialState = {
     account: '',
     lastname: '',
     firstname: '',
-    agenceBes: '',
+    agenceBes: 'laon',
     agree: '',
     newsletterInscription: ''
 };
@@ -13449,7 +13522,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/beneficiaire.js.map
 
 /***/ }),
-/* 483 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13505,7 +13578,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/health.js.map
 
 /***/ }),
-/* 484 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13541,60 +13614,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project_v1/src/remote.js.map
 
 /***/ }),
-/* 485 */,
-/* 486 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var PADDING = "000000";
-var MyAccountNumberPipe = (function () {
-    function MyAccountNumberPipe() {
-        // TODO comes from configuration settings
-        this.PREFIX = '';
-        this.DECIMAL_SEPARATOR = ".";
-        this.THOUSANDS_SEPARATOR = " ";
-        this.SUFFIX = '';
-    }
-    MyAccountNumberPipe.prototype.transform = function (value, fractionSize) {
-        if (fractionSize === void 0) { fractionSize = 2; }
-        var _a = (value || "").toString()
-            .split("."), integer = _a[0], _b = _a[1], fraction = _b === void 0 ? "" : _b;
-        integer = integer.replace(/\B(?=(\d{3})+(?!\d))/g, this.THOUSANDS_SEPARATOR);
-        return this.PREFIX + integer;
-    };
-    MyAccountNumberPipe.prototype.parse = function (value, fractionSize) {
-        if (fractionSize === void 0) { fractionSize = 2; }
-        var _a = (value || "").replace(this.PREFIX, "")
-            .replace(this.SUFFIX, "")
-            .split(this.DECIMAL_SEPARATOR), integer = _a[0], _b = _a[1], fraction = _b === void 0 ? "" : _b;
-        integer = integer.replace(new RegExp(this.THOUSANDS_SEPARATOR, "g"), "");
-        fraction = parseInt(fraction, 10) > 0 && fractionSize > 0
-            ? this.DECIMAL_SEPARATOR + (fraction + PADDING).substring(0, fractionSize)
-            : "";
-        return integer;
-    };
-    return MyAccountNumberPipe;
-}());
-MyAccountNumberPipe = __decorate([
-    core_1.Pipe({ name: "myAccountNumber" }),
-    __metadata("design:paramtypes", [])
-], MyAccountNumberPipe);
-exports.MyAccountNumberPipe = MyAccountNumberPipe;
-//# sourceMappingURL=D:/workspace/Bes_project_v1/src/pipe-account-number.pipe.js.map
-
-/***/ }),
+/* 486 */,
 /* 487 */,
 /* 488 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13602,7 +13622,7 @@ exports.MyAccountNumberPipe = MyAccountNumberPipe;
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var circle_manager_1 = __webpack_require__(414);
+var circle_manager_1 = __webpack_require__(415);
 var SebmGoogleMapCircle = (function () {
     function SebmGoogleMapCircle(_manager) {
         this._manager = _manager;
@@ -13805,7 +13825,7 @@ exports.SebmGoogleMapCircle = SebmGoogleMapCircle;
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var kml_layer_manager_1 = __webpack_require__(416);
+var kml_layer_manager_1 = __webpack_require__(417);
 var layerId = 0;
 var SebmGoogleMapKmlLayer = (function () {
     function SebmGoogleMapKmlLayer(_manager) {
@@ -13927,7 +13947,7 @@ exports.SebmGoogleMapKmlLayer = SebmGoogleMapKmlLayer;
 
 var core_1 = __webpack_require__(1);
 var marker_manager_1 = __webpack_require__(390);
-var google_map_info_window_1 = __webpack_require__(412);
+var google_map_info_window_1 = __webpack_require__(413);
 var markerId = 0;
 /**
  * SebmGoogleMapMarker renders a map marker inside a {@link SebmGoogleMap}.
@@ -14106,7 +14126,7 @@ exports.SebmGoogleMapMarker = SebmGoogleMapMarker;
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var polygon_manager_1 = __webpack_require__(417);
+var polygon_manager_1 = __webpack_require__(418);
 /**
  * SebmGoogleMapPolygon renders a polygon on a {@link SebmGoogleMap}
  *
@@ -14339,8 +14359,8 @@ exports.SebmGoogleMapPolygon = SebmGoogleMapPolygon;
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var polyline_manager_1 = __webpack_require__(418);
-var google_map_polyline_point_1 = __webpack_require__(413);
+var polyline_manager_1 = __webpack_require__(419);
+var google_map_polyline_point_1 = __webpack_require__(414);
 var polylineId = 0;
 /**
  * SebmGoogleMapPolyline renders a polyline on a {@link SebmGoogleMap}
@@ -14551,12 +14571,12 @@ exports.SebmGoogleMapPolyline = SebmGoogleMapPolyline;
 
 var core_1 = __webpack_require__(1);
 var google_maps_api_wrapper_1 = __webpack_require__(385);
-var circle_manager_1 = __webpack_require__(414);
-var info_window_manager_1 = __webpack_require__(415);
+var circle_manager_1 = __webpack_require__(415);
+var info_window_manager_1 = __webpack_require__(416);
 var marker_manager_1 = __webpack_require__(390);
-var polygon_manager_1 = __webpack_require__(417);
-var polyline_manager_1 = __webpack_require__(418);
-var kml_layer_manager_1 = __webpack_require__(416);
+var polygon_manager_1 = __webpack_require__(418);
+var polyline_manager_1 = __webpack_require__(419);
+var kml_layer_manager_1 = __webpack_require__(417);
 /**
  * SebMGoogleMap renders a Google Map.
  * **Important note**: To be able see a map in the browser, you have to define a height for the CSS
@@ -15585,11 +15605,11 @@ function select(pathOrMapFn) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reducer__ = __webpack_require__(469);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dispatcher__ = __webpack_require__(468);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(471);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__state__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reducer__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dispatcher__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__state__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(473);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return INITIAL_REDUCER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return INITIAL_STATE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return _INITIAL_REDUCER; });
@@ -15794,7 +15814,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var store_1 = __webpack_require__(383);
 var router_1 = __webpack_require__(88);
-var remote_1 = __webpack_require__(484);
+var remote_1 = __webpack_require__(485);
 var SummaryComponent = (function () {
     function SummaryComponent(store, remoteService, viewContainerRef, router) {
         this.store = store;
@@ -15841,13 +15861,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var router_1 = __webpack_require__(88);
-var reset_component_1 = __webpack_require__(477);
-var newsletter_component_1 = __webpack_require__(476);
-var login_component_1 = __webpack_require__(475);
-var user_component_1 = __webpack_require__(481);
-var health_component_1 = __webpack_require__(480);
-var address_component_1 = __webpack_require__(478);
-var beneficiaire_component_1 = __webpack_require__(479);
+var reset_component_1 = __webpack_require__(478);
+var newsletter_component_1 = __webpack_require__(477);
+var login_component_1 = __webpack_require__(476);
+var user_component_1 = __webpack_require__(482);
+var health_component_1 = __webpack_require__(481);
+var address_component_1 = __webpack_require__(479);
+var beneficiaire_component_1 = __webpack_require__(480);
 var routes = [
     {
         path: '',
@@ -16170,7 +16190,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var pipe_account_number_pipe_1 = __webpack_require__(486);
+var pipe_account_number_pipe_1 = __webpack_require__(411);
 var MyAccountNumberFormatterDirective = (function () {
     function MyAccountNumberFormatterDirective(elementRef, cardNumberPipe) {
         this.elementRef = elementRef;
@@ -16220,13 +16240,13 @@ var core_1 = __webpack_require__(1);
 var google_map_kml_layer_1 = __webpack_require__(489);
 var google_map_1 = __webpack_require__(493);
 var google_map_circle_1 = __webpack_require__(488);
-var google_map_info_window_1 = __webpack_require__(412);
+var google_map_info_window_1 = __webpack_require__(413);
 var google_map_marker_1 = __webpack_require__(490);
 var google_map_polygon_1 = __webpack_require__(491);
 var google_map_polyline_1 = __webpack_require__(492);
-var google_map_polyline_point_1 = __webpack_require__(413);
-var lazy_maps_api_loader_1 = __webpack_require__(419);
-var lazy_maps_api_loader_2 = __webpack_require__(419);
+var google_map_polyline_point_1 = __webpack_require__(414);
+var lazy_maps_api_loader_1 = __webpack_require__(420);
+var lazy_maps_api_loader_2 = __webpack_require__(420);
 var maps_api_loader_1 = __webpack_require__(391);
 var browser_globals_1 = __webpack_require__(494);
 /**
@@ -16279,7 +16299,7 @@ var google_map_1 = __webpack_require__(493);
 exports.SebmGoogleMap = google_map_1.SebmGoogleMap;
 var google_map_circle_1 = __webpack_require__(488);
 exports.SebmGoogleMapCircle = google_map_circle_1.SebmGoogleMapCircle;
-var google_map_info_window_1 = __webpack_require__(412);
+var google_map_info_window_1 = __webpack_require__(413);
 exports.SebmGoogleMapInfoWindow = google_map_info_window_1.SebmGoogleMapInfoWindow;
 var google_map_kml_layer_1 = __webpack_require__(489);
 exports.SebmGoogleMapKmlLayer = google_map_kml_layer_1.SebmGoogleMapKmlLayer;
@@ -16289,7 +16309,7 @@ var google_map_polygon_1 = __webpack_require__(491);
 exports.SebmGoogleMapPolygon = google_map_polygon_1.SebmGoogleMapPolygon;
 var google_map_polyline_1 = __webpack_require__(492);
 exports.SebmGoogleMapPolyline = google_map_polyline_1.SebmGoogleMapPolyline;
-var google_map_polyline_point_1 = __webpack_require__(413);
+var google_map_polyline_point_1 = __webpack_require__(414);
 exports.SebmGoogleMapPolylinePoint = google_map_polyline_point_1.SebmGoogleMapPolylinePoint;
 //# sourceMappingURL=directives.js.map
 
@@ -16321,19 +16341,19 @@ exports.AgmCoreModule = core_module_1.AgmCoreModule;
 
 var google_maps_api_wrapper_1 = __webpack_require__(385);
 exports.GoogleMapsAPIWrapper = google_maps_api_wrapper_1.GoogleMapsAPIWrapper;
-var circle_manager_1 = __webpack_require__(414);
+var circle_manager_1 = __webpack_require__(415);
 exports.CircleManager = circle_manager_1.CircleManager;
-var info_window_manager_1 = __webpack_require__(415);
+var info_window_manager_1 = __webpack_require__(416);
 exports.InfoWindowManager = info_window_manager_1.InfoWindowManager;
 var marker_manager_1 = __webpack_require__(390);
 exports.MarkerManager = marker_manager_1.MarkerManager;
-var polygon_manager_1 = __webpack_require__(417);
+var polygon_manager_1 = __webpack_require__(418);
 exports.PolygonManager = polygon_manager_1.PolygonManager;
-var polyline_manager_1 = __webpack_require__(418);
+var polyline_manager_1 = __webpack_require__(419);
 exports.PolylineManager = polyline_manager_1.PolylineManager;
-var kml_layer_manager_1 = __webpack_require__(416);
+var kml_layer_manager_1 = __webpack_require__(417);
 exports.KmlLayerManager = kml_layer_manager_1.KmlLayerManager;
-var lazy_maps_api_loader_1 = __webpack_require__(419);
+var lazy_maps_api_loader_1 = __webpack_require__(420);
 exports.GoogleMapsScriptProtocol = lazy_maps_api_loader_1.GoogleMapsScriptProtocol;
 exports.LAZY_MAPS_API_CONFIG = lazy_maps_api_loader_1.LAZY_MAPS_API_CONFIG;
 exports.LazyMapsAPILoader = lazy_maps_api_loader_1.LazyMapsAPILoader;
@@ -16532,7 +16552,7 @@ module.exports = module.exports.toString();
 /* 547 */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"app-header navbar without-sidebar\">\n  <a class=\"navbar-brand\" href=\"#\"></a><a class=\"d-md-down-none\" href=\"#\">BMCE Euro Services</a>\n\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Espace client</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Agences</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Services</a>\n    </li>\n    <li class=\"nav-item dropdown\" dropdown>\n      <a href class=\"nav-link dropdown-toggle\" dropdownToggle (click)=\"false\">\n        <span class=\"d-md-down-none lang\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">Francais</span></span>\n      </a>\n      <div class=\"dropdown-menu dropdown-menu-right\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-gb\"></span><span  class=\"languages\">Anglais</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">Espagnol</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">Flamant</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-al\"></span><span  class=\"languages\">Allemand</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-ne\"></span><span  class=\"languages\">Néerlandais</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-it\"></span><span  class=\"languages\">Italien</span></a>\n      </div>\n    </li>\n\n  </ul>\n</header>\n<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-9\">\n        <div class=\"card-group mb-0\">\n          <div class=\"card card-bes bes p-3\">\n            <div class=\"card-block card-bes card-bes-white\">\n              <h2>Espace client</h2>\n              <p class=\"text-muted\">Identifiez-vous pour accéder à votre compte</p>\n\n              <form name=\"form\" (ngSubmit)=\"f.form.valid && login()\" #f=\"ngForm\" novalidate>\n\n                <div class=\"input-group mb-3\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !username.valid }\">\n                  <span class=\"input-group-addon input-group-addon-bes btn-right-icon\"><i class=\"icon-user\"></i></span>\n                  <input type=\"email\" [ngClass]=\"{ 'form-control-danger': f.submitted && !username.valid }\" name=\"username\" [(ngModel)]=\"model.username\"\n                    #username=\"ngModel\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"Email de l'utilisateur\">\n                </div>\n\n                <div *ngIf=\"f.submitted && username.errors && username.errors.required\" class=\"alert alert-danger\">Nom d'utilisateur est requis</div>\n                <div *ngIf=\"f.submitted && username.errors && username.errors.pattern\" class=\"alert alert-danger\">Veuillez saisir une adresse email</div>\n\n                <div class=\"input-group mb-4\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !password.valid }\">\n                  <span class=\"input-group-addon  input-group-addon-bes btn-right-icon\"><i class=\"icon-lock\"></i></span>\n                  <input type=\"password\" name=\"password\" pattern=\"(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$\" [(ngModel)]=\"model.password\"\n                    #password=\"ngModel\" required [ngClass]=\"{ 'form-control-danger': f.submitted && !password.valid }\" class=\"form-control form-bes border-left-none\"\n                    placeholder=\"Mot de passe\">\n                </div>\n\n                <div *ngIf=\"f.submitted   && password.errors && password.errors.required\" class=\"alert alert-danger\">Mot de passe requis</div>\n                <div *ngIf=\"f.submitted   && password.errors && password.errors.pattern\" class=\"alert alert-danger\">\n                  Votre mot de passe est incorrect. Essayez de nouveau\n                </div>\n                <div class=\"row\">\n                  <div class=\"col-6\">\n                    <button type=\"submit\" class=\"btn btn-primary btn-bmce\" [disabled]=\"loading\">Connexion</button>\n\n                    <img *ngIf=\"loading\" class=\"img-gif\" src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n                    />\n                  </div>\n                  <div class=\"col-6 text-right\">\n                    <button type=\"button\" [routerLink]=\"['/reset']\" class=\"btn btn-link btn-forgot px-0\">Mot de passe oublié?</button>\n                  </div>\n                </div>\n                <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n              </form>\n            </div>\n          </div>\n\n          <div class=\"card card-bes  card-inverse card-segond  p-3\">\n            <div class=\"card-block\">\n              <div>\n                <h2 class=\"text-center\">BMCE EUROSERVICES</h2>\n                <!--<p>L’application pour gérer votre espace client BMCE depuis votre ordinateur et téléphone mobile.</p>\n\n                <ul class=\"d-md-down-none\">\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Ouvrir un compte online</span>\n                  </li>\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Transférer votre argent en ligne via une carte bancaire</span>\n                  </li>\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Souscrire en ligne au prélèvement automatique</span>\n                  </li>\n                </ul>-->\n                <br>\n                <br>\n                \n                <p>BMCE EuroServices met à votre disposition un nouveau service en ligne, qui vous permet le transfert par carte\n                  bancaire via Internet.\n                  <br> Avec un seul clic, vous transférez en toute sécurité, votre argent où que vous soyez.\n\n\n                </p>\n                <br>\n                <div class=\"row\">\n                  <div class=\"col-6\">\n                    <button type=\"button\" [routerLink]=\"['/register']\" class=\"btn btn-primary btn-bmce active\">Devenir client</button>\n                  </div>\n                  <div class=\"col-6 text-right\">\n                    <!--<button type=\"button\" [routerLink]=\"['/newsletter']\" class=\"btn btn-link btn-forgot px-0\">S'inscrire au newsletters?</button>-->\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"flex-row  align-items-center\">\n  <div class=\"container container-bes\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">Accédez aux principales rubriques de votre espace client</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/ico_assurance.png\">\n                <div>\n                  <h6>Assurance Salama</h6>\n                  <p>Possibilité à Souscrire en ligne à l'assurance Salama</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-geo.png\">\n\n                <div>\n                  <h6>Géo-localiser</h6>\n                  <p>Votre agence en présentant leur coordonnées</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-newsletter.png\">\n                <div>\n                  <h6>Newsletter</h6>\n                  <p>S'inscrire en ligne à notre système de newsletter </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-bank.ico\">\n                <div>\n                  <h6>Compte Online</h6>\n                  <p>Ouvrez votre compte BMCE online et bénéficiez de différents fonctionnalités</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-card.png\">\n                <div>\n                  <h6>Transférer votre argent</h6>\n                  <p>Ttransférer en ligne via une carte bancaire en toute sécurité</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-prelevement.png\">\n                <div>\n                  <h6>prélèvement automatique</h6>\n                  <p>S'ouscrire en ligne au prélèvement automatique</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<div class=\"flex-row  align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">Quels sont les avantages de votre espace client BMCE ?</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/map.png\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum.. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/bg-2.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n\n                <img src=\"assets/img/bg-3.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
+module.exports = "<header class=\"app-header navbar without-sidebar\">\n  <a class=\"navbar-brand\" href=\"#\"></a><a class=\"d-md-down-none\" href=\"#\">BMCE Euro Services</a>\n\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Espace client</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Agences</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Services</a>\n    </li>\n\n  </ul>\n  <ul class=\"nav navbar-nav pr-1\">\n    <li class=\"nav-item dropdown\" dropdown>\n      <a href class=\"nav-link dropdown-toggle\" dropdownToggle (click)=\"false\">\n        <span class=\" lang\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">Francais</span></span>\n      </a>\n      <div class=\"dropdown-menu dropdown-menu-right\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-gb\"></span><span  class=\"languages\">Anglais</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">Espagnol</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">Flamant</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-al\"></span><span  class=\"languages\">Allemand</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-ne\"></span><span  class=\"languages\">Néerlandais</span></a>\n        <a class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-it\"></span><span  class=\"languages\">Italien</span></a>\n      </div>\n    </li>\n\n  </ul>\n</header>\n<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-9 pt-5\">\n        <div class=\"card-group pt-5 mb-0\">\n          <div class=\"card card-bes bes p-3\">\n            <div class=\"card-block card-bes card-bes-white\">\n              <h2>Espace client</h2>\n              <p class=\"text-muted\">Identifiez-vous pour accéder à votre compte</p>\n\n              <form name=\"form\" (ngSubmit)=\"f.form.valid && login()\" #f=\"ngForm\" novalidate>\n\n                <div class=\"input-group mb-3\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !username.valid }\">\n                  <span class=\"input-group-addon input-group-addon-bes btn-right-icon\"><i class=\"icon-user\"></i></span>\n                  <input type=\"email\" [ngClass]=\"{ 'form-control-danger': f.submitted && !username.valid }\" name=\"username\" [(ngModel)]=\"model.username\"\n                    #username=\"ngModel\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"Email de l'utilisateur\">\n                </div>\n\n                <div *ngIf=\"f.submitted && username.errors && username.errors.required\" class=\"alert alert-danger\">Nom d'utilisateur est requis</div>\n                <div *ngIf=\"f.submitted && username.errors && username.errors.pattern\" class=\"alert alert-danger\">Veuillez saisir une adresse email</div>\n\n                <div class=\"input-group mb-4\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !password.valid }\">\n                  <span class=\"input-group-addon  input-group-addon-bes btn-right-icon\"><i class=\"icon-lock\"></i></span>\n                  <input type=\"password\" name=\"password\"  [(ngModel)]=\"model.password\"\n                    #password=\"ngModel\" required [ngClass]=\"{ 'form-control-danger': f.submitted && !password.valid }\" class=\"form-control form-bes border-left-none\"\n                    placeholder=\"Mot de passe\">\n                </div>\n\n                <div *ngIf=\"f.submitted   && password.errors && password.errors.required\" class=\"alert alert-danger\">Mot de passe requis</div>\n                <div class=\"row\">\n                  <div class=\"col-6\">\n                    <button type=\"submit\" class=\"btn btn-primary btn-bmce\" [disabled]=\"loading\">Connexion</button>\n\n                    <img *ngIf=\"loading\" class=\"img-gif\" src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n                    />\n                  </div>\n                  <div class=\"col-6 text-right\">\n                    <button type=\"button\" [routerLink]=\"['/reset']\" class=\"btn btn-link btn-forgot px-0\">Mot de passe oublié?</button>\n                  </div>\n                </div>\n                <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n              </form>\n            </div>\n          </div>\n\n          <div class=\"card card-bes  card-inverse card-segond  p-3\">\n            <div class=\"card-block\">\n              <div>\n                <h2 class=\"text-center\">BMCE EUROSERVICES</h2>\n                <!--<p>L’application pour gérer votre espace client BMCE depuis votre ordinateur et téléphone mobile.</p>\n\n                <ul class=\"d-md-down-none\">\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Ouvrir un compte online</span>\n                  </li>\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Transférer votre argent en ligne via une carte bancaire</span>\n                  </li>\n                  <li class=\"nav-item px-3\">\n                    <span class=\"nav-link\">Souscrire en ligne au prélèvement automatique</span>\n                  </li>\n                </ul>-->\n                <br>\n                <br>\n\n                <p>BMCE EuroServices met à votre disposition un nouveau service en ligne, qui vous permet le transfert par carte\n                  bancaire via Internet.\n                  <br> Avec un seul clic, vous transférez en toute sécurité, votre argent où que vous soyez.\n\n\n                </p>\n                <br>\n                <div class=\"row\">\n                  <div class=\"col-6\">\n                    <button type=\"button\" [routerLink]=\"['/register']\" class=\"btn btn-primary btn-bmce active\">Devenir client</button>\n                  </div>\n                  <div class=\"col-6 text-right\">\n                    <!--<button type=\"button\" [routerLink]=\"['/newsletter']\" class=\"btn btn-link btn-forgot px-0\">S'inscrire au newsletters?</button>-->\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"flex-row  align-items-center\">\n  <div class=\"container container-bes\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">Accédez aux principales rubriques de votre espace client</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/ico_assurance.png\">\n                <div>\n                  <h6>Assurance Salama</h6>\n                  <p>Possibilité à Souscrire en ligne à l'assurance Salama</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-geo.png\">\n\n                <div>\n                  <h6>Géo-localiser</h6>\n                  <p>Votre agence en présentant leur coordonnées</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-newsletter.png\">\n                <div>\n                  <h6>Newsletter</h6>\n                  <p>S'inscrire en ligne à notre système de newsletter </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-bank.ico\">\n                <div>\n                  <h6>Compte Online</h6>\n                  <p>Ouvrez votre compte BMCE online et bénéficiez de différents fonctionnalités</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-card.png\">\n                <div>\n                  <h6>Transférer votre argent</h6>\n                  <p>Ttransférer en ligne via une carte bancaire en toute sécurité</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-prelevement.png\">\n                <div>\n                  <h6>prélèvement automatique</h6>\n                  <p>S'ouscrire en ligne au prélèvement automatique</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<div class=\"flex-row  align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">Quels sont les avantages de votre espace client BMCE ?</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/map.png\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum.. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/bg-2.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n\n                <img src=\"assets/img/bg-3.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
 
 /***/ }),
 /* 548 */
@@ -16550,13 +16570,13 @@ module.exports = "<header class=\"app-header navbar without-sidebar\">\n  <a cla
 /* 550 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <ul id=\"progressbar\">\n            <li>Information générale</li>\n            <li>Signalitique</li>\n            <li class=\"active\">Contact</li>\n            <li>Bénéficiaire</li>\n          </ul>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Adresse <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"address\" id=\"example-text-input\">\n                <div *ngIf=\"form.get('address').touched && form.get('address').hasError('required')\" class=\"alert alert-danger\">Address requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Code postal <span class=\"required\">*</span></label>\n              <div class=\"col-md-6\">\n                <input type=\"text\" class=\"form-control form-bes\" id=\"inputZip\" formControlName=\"codePostal\">\n                <div *ngIf=\"form.get('codePostal').touched && form.get('codePostal').hasError('required')\" class=\"alert alert-danger\">Code postale requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Pays<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"countryOfBirth\" class=\"form-control form-bes\">Choose\n                   <option value=\"France\" selected=\"selected\">France </option>\n                      <option value=\"Afghanistan\">Afghanistan </option>\n                      <option value=\"Afrique_Centrale\">Afrique_Centrale </option>\n                      <option value=\"Afrique_du_sud\">Afrique_du_Sud </option> \n                      <option value=\"Albanie\">Albanie </option>\n                      <option value=\"Algerie\">Algerie </option>\n                      <option value=\"Allemagne\">Allemagne </option>\n                      <option value=\"Andorre\">Andorre </option>\n                      <option value=\"Angola\">Angola </option>\n                      <option value=\"Anguilla\">Anguilla </option>\n                      <option value=\"Arabie_Saoudite\">Arabie_Saoudite </option>\n                      <option value=\"Argentine\">Argentine </option>\n                      <option value=\"Armenie\">Armenie </option> \n                      <option value=\"Australie\">Australie </option>\n                      <option value=\"Autriche\">Autriche </option>\n                      <option value=\"Azerbaidjan\">Azerbaidjan </option>\n                      <option value=\"Bahamas\">Bahamas </option>\n                      <option value=\"Bangladesh\">Bangladesh </option>\n                      <option value=\"Barbade\">Barbade </option>\n                      <option value=\"Bahrein\">Bahrein </option>\n                      <option value=\"Belgique\">Belgique </option>\n                      <option value=\"Belize\">Belize </option>\n                      <option value=\"Benin\">Benin </option>\n                      <option value=\"Bermudes\">Bermudes </option>\n                      <option value=\"Bielorussie\">Bielorussie </option>\n                      <option value=\"Bolivie\">Bolivie </option>\n                      <option value=\"Botswana\">Botswana </option>\n                      <option value=\"Bhoutan\">Bhoutan </option>\n                      <option value=\"Boznie_Herzegovine\">Boznie_Herzegovine </option>\n                      <option value=\"Bresil\">Bresil </option>\n                      <option value=\"Brunei\">Brunei </option>\n                      <option value=\"Bulgarie\">Bulgarie </option>\n                      <option value=\"Burkina_Faso\">Burkina_Faso </option>\n                      <option value=\"Burundi\">Burundi </option>\n                      <option value=\"Caiman\">Caiman </option>\n                      <option value=\"Cambodge\">Cambodge </option>\n                      <option value=\"Cameroun\">Cameroun </option>\n                      <option value=\"Canada\">Canada </option>\n                      <option value=\"Canaries\">Canaries </option>\n                      <option value=\"Cap_vert\">Cap_Vert </option>\n                      <option value=\"Chili\">Chili </option>\n                      <option value=\"Chine\">Chine </option> \n                      <option value=\"Chypre\">Chypre </option> \n                      <option value=\"Colombie\">Colombie </option>\n                      <option value=\"Comores\">Colombie </option>\n                      <option value=\"Congo\">Congo </option>\n                      <option value=\"Congo_democratique\">Congo_democratique </option>\n                      <option value=\"Cook\">Cook </option>\n                      <option value=\"Coree_du_Nord\">Coree_du_Nord </option>\n                      <option value=\"Coree_du_Sud\">Coree_du_Sud </option>\n                      <option value=\"Costa_Rica\">Costa_Rica </option>\n                      <option value=\"Cote_d_Ivoire\">Côte_d_Ivoire </option>\n                      <option value=\"Croatie\">Croatie </option>\n                      <option value=\"Cuba\">Cuba </option>\n                      <option value=\"Danemark\">Danemark </option>\n                      <option value=\"Djibouti\">Djibouti </option>\n                      <option value=\"Dominique\">Dominique </option>\n                      <option value=\"Egypte\">Egypte </option> \n                      <option value=\"Emirats_Arabes_Unis\">Emirats_Arabes_Unis </option>\n                      <option value=\"Equateur\">Equateur </option>\n                      <option value=\"Erythree\">Erythree </option>\n                      <option value=\"Espagne\">Espagne </option>\n                      <option value=\"Estonie\">Estonie </option>\n                      <option value=\"Etats_Unis\">Etats_Unis </option>\n                      <option value=\"Ethiopie\">Ethiopie </option>\n                      <option value=\"Falkland\">Falkland </option>\n                      <option value=\"Feroe\">Feroe </option>\n                      <option value=\"Fidji\">Fidji </option>\n                      <option value=\"Finlande\">Finlande </option>\n                      <option value=\"France\">France </option>\n                      <option value=\"Gabon\">Gabon </option>\n                      <option value=\"Gambie\">Gambie </option>\n                      <option value=\"Georgie\">Georgie </option>\n                      <option value=\"Ghana\">Ghana </option>\n                      <option value=\"Gibraltar\">Gibraltar </option>\n                      <option value=\"Grece\">Grece </option>\n                      <option value=\"Grenade\">Grenade </option>\n                      <option value=\"Groenland\">Groenland </option>\n                      <option value=\"Guadeloupe\">Guadeloupe </option>\n                      <option value=\"Guam\">Guam </option>\n                      <option value=\"Guatemala\">Guatemala</option>\n                      <option value=\"Guernesey\">Guernesey </option>\n                      <option value=\"Guinee\">Guinee </option>\n                      <option value=\"Guinee_Bissau\">Guinee_Bissau </option>\n                      <option value=\"Guinee equatoriale\">Guinee_Equatoriale </option>\n                      <option value=\"Guyana\">Guyana </option>\n                      <option value=\"Guyane_Francaise \">Guyane_Francaise </option>\n                      <option value=\"Haiti\">Haiti </option>\n                      <option value=\"Hawaii\">Hawaii </option> \n                      <option value=\"Honduras\">Honduras </option>\n                      <option value=\"Hong_Kong\">Hong_Kong </option>\n                      <option value=\"Hongrie\">Hongrie </option>\n                      <option value=\"Inde\">Inde </option>\n                      <option value=\"Indonesie\">Indonesie </option>\n                      <option value=\"Iran\">Iran </option>\n                      <option value=\"Iraq\">Iraq </option>\n                      <option value=\"Irlande\">Irlande </option>\n                      <option value=\"Islande\">Islande </option>\n                      <option value=\"Israel\">Israel </option>\n                      <option value=\"Italie\">italie </option>\n                      <option value=\"Jamaique\">Jamaique </option>\n                      <option value=\"Jan Mayen\">Jan Mayen </option>\n                      <option value=\"Japon\">Japon </option>\n                      <option value=\"Jersey\">Jersey </option>\n                      <option value=\"Jordanie\">Jordanie </option>\n                      <option value=\"Kazakhstan\">Kazakhstan </option>\n                      <option value=\"Kenya\">Kenya </option>\n                      <option value=\"Kirghizstan\">Kirghizistan </option>\n                      <option value=\"Kiribati\">Kiribati </option>\n                      <option value=\"Koweit\">Koweit </option>\n                      <option value=\"Laos\">Laos </option>\n                      <option value=\"Lesotho\">Lesotho </option>\n                      <option value=\"Lettonie\">Lettonie </option>\n                      <option value=\"Liban\">Liban </option>\n                      <option value=\"Liberia\">Liberia </option>\n                      <option value=\"Liechtenstein\">Liechtenstein </option>\n                      <option value=\"Lituanie\">Lituanie </option> \n                      <option value=\"Luxembourg\">Luxembourg </option>\n                      <option value=\"Lybie\">Lybie </option>\n                      <option value=\"Macao\">Macao </option>\n                      <option value=\"Macedoine\">Macedoine </option>\n                      <option value=\"Madagascar\">Madagascar </option>\n                      <option value=\"Madère\">Madère </option>\n                      <option value=\"Malaisie\">Malaisie </option>\n                      <option value=\"Malawi\">Malawi </option>\n                      <option value=\"Maldives\">Maldives </option>\n                      <option value=\"Mali\">Mali </option>\n                      <option value=\"Malte\">Malte </option>\n                      <option value=\"Man\">Man </option>\n                      <option value=\"Mariannes du Nord\">Mariannes du Nord </option>\n                      <option value=\"Maroc\">Maroc </option>\n                      <option value=\"Marshall\">Marshall </option>\n                      <option value=\"Martinique\">Martinique </option>\n                      <option value=\"Maurice\">Maurice </option>\n                      <option value=\"Mauritanie\">Mauritanie </option>\n                      <option value=\"Mayotte\">Mayotte </option>\n                      <option value=\"Mexique\">Mexique </option>\n                      <option value=\"Micronesie\">Micronesie </option>\n                      <option value=\"Midway\">Midway </option>\n                      <option value=\"Moldavie\">Moldavie </option>\n                      <option value=\"Monaco\">Monaco </option>\n                      <option value=\"Mongolie\">Mongolie </option>\n                      <option value=\"Montserrat\">Montserrat </option>\n                      <option value=\"Mozambique\">Mozambique </option>\n                      <option value=\"Namibie\">Namibie </option>\n                      <option value=\"Nauru\">Nauru </option>\n                      <option value=\"Nepal\">Nepal </option>\n                      <option value=\"Nicaragua\">Nicaragua </option>\n                      <option value=\"Niger\">Niger </option>\n                      <option value=\"Nigeria\">Nigeria </option>\n                      <option value=\"Niue\">Niue </option>\n                      <option value=\"Norfolk\">Norfolk </option>\n                      <option value=\"Norvege\">Norvege </option>\n                      <option value=\"Nouvelle_Caledonie\">Nouvelle_Caledonie </option>\n                      <option value=\"Nouvelle_Zelande\">Nouvelle_Zelande </option>\n                      <option value=\"Oman\">Oman </option>\n                      <option value=\"Ouganda\">Ouganda </option>\n                      <option value=\"Ouzbekistan\">Ouzbekistan </option>\n                      <option value=\"Pakistan\">Pakistan </option>\n                      <option value=\"Palau\">Palau </option>\n                      <option value=\"Palestine\">Palestine </option>\n                      <option value=\"Panama\">Panama </option>\n                      <option value=\"Papouasie_Nouvelle_Guinee\">Papouasie_Nouvelle_Guinee </option>\n                      <option value=\"Paraguay\">Paraguay </option>\n                      <option value=\"Pays_Bas\">Pays_Bas </option>\n                      <option value=\"Perou\">Perou </option>\n                      <option value=\"Philippines\">Philippines </option> \n                      <option value=\"Pologne\">Pologne </option>\n                      <option value=\"Polynesie\">Polynesie </option>\n                      <option value=\"Porto_Rico\">Porto_Rico </option>\n                      <option value=\"Portugal\">Portugal </option>\n                      <option value=\"Qatar\">Qatar </option>\n                      <option value=\"Republique_Dominicaine\">Republique_Dominicaine </option>\n                      <option value=\"Republique_Tcheque\">Republique_Tcheque </option>\n                      <option value=\"Reunion\">Reunion </option>\n                      <option value=\"Roumanie\">Roumanie </option>\n                      <option value=\"Royaume_Uni\">Royaume_Uni </option>\n                      <option value=\"Russie\">Russie </option>\n                      <option value=\"Rwanda\">Rwanda </option>\n                      <option value=\"Sahara Occidental\">Sahara Occidental </option>\n                      <option value=\"Sainte_Lucie\">Sainte_Lucie </option>\n                      <option value=\"Saint_Marin\">Saint_Marin </option>\n                      <option value=\"Salomon\">Salomon </option>\n                      <option value=\"Salvador\">Salvador </option>\n                      <option value=\"Samoa_Occidentales\">Samoa_Occidentales</option>\n                      <option value=\"Samoa_Americaine\">Samoa_Americaine </option>\n                      <option value=\"Sao_Tome_et_Principe\">Sao_Tome_et_Principe </option> \n                      <option value=\"Senegal\">Senegal </option> \n                      <option value=\"Seychelles\">Seychelles </option>\n                      <option value=\"Sierra Leone\">Sierra Leone </option>\n                      <option value=\"Singapour\">Singapour </option>\n                      <option value=\"Slovaquie\">Slovaquie </option>\n                      <option value=\"Slovenie\">Slovenie</option>\n                      <option value=\"Somalie\">Somalie </option>\n                      <option value=\"Soudan\">Soudan </option> \n                      <option value=\"Sri_Lanka\">Sri_Lanka </option> \n                      <option value=\"Suede\">Suede </option>\n                      <option value=\"Suisse\">Suisse </option>\n                      <option value=\"Surinam\">Surinam </option>\n                      <option value=\"Swaziland\">Swaziland </option>\n                      <option value=\"Syrie\">Syrie </option>\n                      <option value=\"Tadjikistan\">Tadjikistan </option>\n                      <option value=\"Taiwan\">Taiwan </option>\n                      <option value=\"Tonga\">Tonga </option>\n                      <option value=\"Tanzanie\">Tanzanie </option>\n                      <option value=\"Tchad\">Tchad </option>\n                      <option value=\"Thailande\">Thailande </option>\n                      <option value=\"Tibet\">Tibet </option>\n                      <option value=\"Timor_Oriental\">Timor_Oriental </option>\n                      <option value=\"Togo\">Togo </option> \n                      <option value=\"Trinite_et_Tobago\">Trinite_et_Tobago </option>\n                      <option value=\"Tristan da cunha\">Tristan de cuncha </option>\n                      <option value=\"Tunisie\">Tunisie </option>\n                      <option value=\"Turkmenistan\">Turmenistan </option> \n                      <option value=\"Turquie\">Turquie </option>\n                      <option value=\"Ukraine\">Ukraine </option>\n                      <option value=\"Uruguay\">Uruguay </option>\n                      <option value=\"Vanuatu\">Vanuatu </option>\n                      <option value=\"Vatican\">Vatican </option>\n                      <option value=\"Venezuela\">Venezuela </option>\n                      <option value=\"Vierges_Americaines\">Vierges_Americaines </option>\n                      <option value=\"Vierges_Britanniques\">Vierges_Britanniques </option>\n                      <option value=\"Vietnam\">Vietnam </option>\n                      <option value=\"Wake\">Wake </option>\n                      <option value=\"Wallis et Futuma\">Wallis et Futuma </option>\n                      <option value=\"Yemen\">Yemen </option>\n                      <option value=\"Yougoslavie\">Yougoslavie </option>\n                      <option value=\"Zambie\">Zambie </option>\n                      <option value=\"Zimbabwe\">Zimbabwe </option>\n                  </select>\n                <div *ngIf=\"form.get('countryOfBirth').touched && form.get('countryOfBirth').hasError('required')\" class=\"alert alert-danger\">Pays requis</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Ville<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"cityOfBirth\" class=\"form-control form-bes\">Choose\n                       <option value=\"bourg\">Bour-en-Bresse (01)</option>\n      <option value=\"laon\">Laon (02)</option>\n      <option value=\"moulins\">Moulins (03)</option>\n      <option value=\"digne\">Digne (04)</option>\n      <option value=\"gap\">Gap (05)</option>\n      <option value=\"nice\">Nice (06)</option>\n      <option value=\"privas\">Privas (07)</option>\n      <option value=\"charleville\">Charleville-Mézières (08)</option>\n      <option value=\"foix\">Foix (09)</option>\n      <option value=\"troyes\">Troyes (10)</option>\n      <option value=\"carcassonne\">Carcassonne (11)</option>\n      <option value=\"rodez\">Rodez (12)</option>\n      <option value=\"marseille\">Marseille (13)</option>\n      <option value=\"caen\">Caen (14)</option>\n      <option value=\"aurillac\">Aurilac (15)</option>\n      <option value=\"angouleme\">Angoulême (16)</option>\n      <option value=\"larochelle\">La Rochelle (17)</option>\n      <option value=\"bourges\">Bourges (18)</option>\n      <option value=\"tulle\">Tulle (19)</option>\n      <option value=\"ajaccio\">Ajaccio (2A)</option>\n      <option value=\"bastia\">Bastia (2B)</option>\n      <option value=\"dijon\">Dijon (21)</option>\n      <option value=\"saintbrieuc\">Saint-Brieuc (22)</option>\n      <option value=\"gueret\">Guéret (23)</option>\n      <option value=\"perigueux\">Périgueux (24)</option>\n      <option value=\"besancon\">Besançon (25)</option>\n      <option value=\"lille\">Valence (26)</option>\n      <option value=\"evreux\">Evreux (27)</option>\n      <option value=\"chartres\">Chartres (28)</option>\n      <option value=\"quimper\">Quimper (29)</option>\n      <option value=\"nimes\">Nîmes (30)</option>\n      <option value=\"toulouse\">Toulouse (31)</option>\n      <option value=\"auch\">Auch (32)</option>\n      <option value=\"bordeaux\">Bordeaux (33)</option>\n      <option value=\"montpellier\">Montpellier (34)</option>\n      <option value=\"rennes\">Rennes (35)</option>\n      <option value=\"chateauroux\">chateauroux (36)</option>\n      <option value=\"tours\">Tours (37)</option>\n      <option value=\"grenoble\">Grenoble (38)</option>\n      <option value=\"lons\">Lons-le-Saunier (39)</option>\n      <option value=\"montdemarsan\">Mont-de-Marsan (40)</option>\n      <option value=\"blois\">Blois (41)</option>\n      <option value=\"saintetienne\">Saint-Etienne (42)</option>\n      <option value=\"lepuyenvelay\">Le Puy-en-Velay (43)</option>\n      <option value=\"nantes\">Nantes (44)</option>\n      <option value=\"orleans\">Orléans (45)</option>\n      <option value=\"cahors\">Cahors (46)</option>\n      <option value=\"agen\">Agen (47)</option>\n      <option value=\"mende\">Mende (48)</option>\n      <option value=\"angers\">Angers (49)</option>\n      <option value=\"saintlo\">Saint-Lô (50)</option>\n      <option value=\"chalons\">Châlons-en-Champagne (51)</option>\n      <option value=\"chaumont\">Chaumont (52)</option>\n      <option value=\"laval\">Laval (53)</option>\n      <option value=\"nancy\">Nancy (54)</option>\n      <option value=\"barleduc\">Bar-le-Duc (55)</option>\n      <option value=\"vannes\">Vannes (56)</option>\n      <option value=\"metz\">Metz (57)</option>\n      <option value=\"nevers\">Nevers (58)</option>\n      <option value=\"lille\">Lille (59)</option>\n      <option value=\"beauvais\">Beauvais (60)</option>\n      <option value=\"alencon\">Alençon (61)</option>\n      <option value=\"arras\">Arras (62)</option>\n      <option value=\"clermont\">Clermont-Ferrand (63)</option>\n      <option value=\"pau\">Pau (64)</option>\n      <option value=\"tarbes\">Tarbes (65)</option>\n      <option value=\"perpignan\">Perpignan (66)</option>\n      <option value=\"strasbourg\">Strasbourg (67)</option>\n      <option value=\"colmar\">Colmar (68)</option>\n      <option value=\"lyon\">Lyon (69)</option>\n      <option value=\"vesoul\">Vesoul (70)</option>\n      <option value=\"macon\">Mâcon (71)</option>\n      <option value=\"lemans\">Le Mans (72)</option>\n      <option value=\"chambery\">Chambéry (73)</option>\n      <option value=\"annecy\">Annecy (74)</option>\n      <option value=\"paris\">Paris (75)</option>\n      <option value=\"rouen\">Rouen (76)</option>\n      <option value=\"melun\">Melun (77)</option>\n      <option value=\"versailles\">Versailles (78)</option>\n      <option value=\"niort\">Niort (79)</option>\n      <option value=\"amiens\">Amiens (80)</option>\n      <option value=\"albi\">Albi (81)</option>\n      <option value=\"montauban\">Montauban (82)</option>\n      <option value=\"toulon\">Toulon (83)</option>\n      <option value=\"avignon\">Avignon (84)</option>\n      <option value=\"larochesuryon\">La-Roche-sur-Yon (85)</option>\n      <option value=\"poitiers\">Poitiers (86)</option>\n      <option value=\"limoges\">Limoges (87)</option>\n      <option value=\"epinal\">Epinal (88)</option>\n      <option value=\"auxerre\">Auxerre (89)</option>\n      <option value=\"belfort\">Belfort (90)</option>\n      <option value=\"evry\">Evry (91)</option>\n      <option value=\"nanterre\">Nanterre (92)</option>\n      <option value=\"bobigny\">Bobigny (93)</option>\n      <option value=\"creteil\">Créteil (94)</option>\n      <option value=\"pontoise\">Pontoise (95)</option>\n                  </select>\n                <div *ngIf=\"form.get('cityOfBirth').touched && form.get('cityOfBirth').hasError('required')\" class=\"alert alert-danger\">Ville requis</div>\n              </div>\n            </div>\n\n\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Téléphone <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <div class=\"input-group\">\n                  <div class=\"input-group-btn input-group-addon-bes\">\n                    <li class=\"nav-item dropdown\" dropdown>\n                      <a href class=\"btn  dropdown-toggle\" style=\"background: transparent !important;border: none;\" dropdownToggle (click)=\"false\">\n                        <span class=\"d-md-down-none\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">(+33)</span></span>\n                      </a>\n                      <div class=\"dropdown-menu dropdown-menu-right\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-us\"></span><span  class=\"languages\">(+44)</span></a>\n                        <a class=\"dropdown-item\" href=\"#//address\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">(+34)</span></a>\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">(+32)</span></a>\n                      </div>\n                    </li>\n                  </div>\n                  <input class=\"form-control form-bes\" id=\"input1-group3\" formControlName=\"phone\" name=\"input1-group3\" placeholder=\"Numéro\"\n                    type=\"text\">\n\n                </div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('required')\" class=\"alert alert-danger\">Téléphone requis</div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('pattern')\" class=\"alert alert-danger\">\n                  Email non valide\n                </div>\n              </div>\n            </div>\n\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Email <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"email\" value=\"{{(store | async)?.user.email}}\" id=\"example-date-input\">\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <ul id=\"progressbar\">\n            <li>Info générale</li>\n            <li>Signalitique</li>\n            <li class=\"active\">Contact</li>\n            <li>Bénéficiaire</li>\n          </ul>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Adresse <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"address\" id=\"example-text-input\">\n                <div *ngIf=\"form.get('address').touched && form.get('address').hasError('required')\" class=\"alert alert-danger\">Address requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Code postal <span class=\"required\">*</span></label>\n              <div class=\"col-md-6\">\n                <input type=\"text\" class=\"form-control form-bes\" id=\"inputZip\" formControlName=\"codePostal\">\n                <div *ngIf=\"form.get('codePostal').touched && form.get('codePostal').hasError('required')\" class=\"alert alert-danger\">Code postale requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Pays<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"countryOfBirth\" class=\"form-control form-bes\">Choose\n                   <option value=\"France\" selected=\"selected\">France </option>\n                      <option value=\"Afghanistan\">Afghanistan </option>\n                      <option value=\"Afrique_Centrale\">Afrique_Centrale </option>\n                      <option value=\"Afrique_du_sud\">Afrique_du_Sud </option> \n                      <option value=\"Albanie\">Albanie </option>\n                      <option value=\"Algerie\">Algerie </option>\n                      <option value=\"Allemagne\">Allemagne </option>\n                      <option value=\"Andorre\">Andorre </option>\n                      <option value=\"Angola\">Angola </option>\n                      <option value=\"Anguilla\">Anguilla </option>\n                      <option value=\"Arabie_Saoudite\">Arabie_Saoudite </option>\n                      <option value=\"Argentine\">Argentine </option>\n                      <option value=\"Armenie\">Armenie </option> \n                      <option value=\"Australie\">Australie </option>\n                      <option value=\"Autriche\">Autriche </option>\n                      <option value=\"Azerbaidjan\">Azerbaidjan </option>\n                      <option value=\"Bahamas\">Bahamas </option>\n                      <option value=\"Bangladesh\">Bangladesh </option>\n                      <option value=\"Barbade\">Barbade </option>\n                      <option value=\"Bahrein\">Bahrein </option>\n                      <option value=\"Belgique\">Belgique </option>\n                      <option value=\"Belize\">Belize </option>\n                      <option value=\"Benin\">Benin </option>\n                      <option value=\"Bermudes\">Bermudes </option>\n                      <option value=\"Bielorussie\">Bielorussie </option>\n                      <option value=\"Bolivie\">Bolivie </option>\n                      <option value=\"Botswana\">Botswana </option>\n                      <option value=\"Bhoutan\">Bhoutan </option>\n                      <option value=\"Boznie_Herzegovine\">Boznie_Herzegovine </option>\n                      <option value=\"Bresil\">Bresil </option>\n                      <option value=\"Brunei\">Brunei </option>\n                      <option value=\"Bulgarie\">Bulgarie </option>\n                      <option value=\"Burkina_Faso\">Burkina_Faso </option>\n                      <option value=\"Burundi\">Burundi </option>\n                      <option value=\"Caiman\">Caiman </option>\n                      <option value=\"Cambodge\">Cambodge </option>\n                      <option value=\"Cameroun\">Cameroun </option>\n                      <option value=\"Canada\">Canada </option>\n                      <option value=\"Canaries\">Canaries </option>\n                      <option value=\"Cap_vert\">Cap_Vert </option>\n                      <option value=\"Chili\">Chili </option>\n                      <option value=\"Chine\">Chine </option> \n                      <option value=\"Chypre\">Chypre </option> \n                      <option value=\"Colombie\">Colombie </option>\n                      <option value=\"Comores\">Colombie </option>\n                      <option value=\"Congo\">Congo </option>\n                      <option value=\"Congo_democratique\">Congo_democratique </option>\n                      <option value=\"Cook\">Cook </option>\n                      <option value=\"Coree_du_Nord\">Coree_du_Nord </option>\n                      <option value=\"Coree_du_Sud\">Coree_du_Sud </option>\n                      <option value=\"Costa_Rica\">Costa_Rica </option>\n                      <option value=\"Cote_d_Ivoire\">Côte_d_Ivoire </option>\n                      <option value=\"Croatie\">Croatie </option>\n                      <option value=\"Cuba\">Cuba </option>\n                      <option value=\"Danemark\">Danemark </option>\n                      <option value=\"Djibouti\">Djibouti </option>\n                      <option value=\"Dominique\">Dominique </option>\n                      <option value=\"Egypte\">Egypte </option> \n                      <option value=\"Emirats_Arabes_Unis\">Emirats_Arabes_Unis </option>\n                      <option value=\"Equateur\">Equateur </option>\n                      <option value=\"Erythree\">Erythree </option>\n                      <option value=\"Espagne\">Espagne </option>\n                      <option value=\"Estonie\">Estonie </option>\n                      <option value=\"Etats_Unis\">Etats_Unis </option>\n                      <option value=\"Ethiopie\">Ethiopie </option>\n                      <option value=\"Falkland\">Falkland </option>\n                      <option value=\"Feroe\">Feroe </option>\n                      <option value=\"Fidji\">Fidji </option>\n                      <option value=\"Finlande\">Finlande </option>\n                      <option value=\"France\">France </option>\n                      <option value=\"Gabon\">Gabon </option>\n                      <option value=\"Gambie\">Gambie </option>\n                      <option value=\"Georgie\">Georgie </option>\n                      <option value=\"Ghana\">Ghana </option>\n                      <option value=\"Gibraltar\">Gibraltar </option>\n                      <option value=\"Grece\">Grece </option>\n                      <option value=\"Grenade\">Grenade </option>\n                      <option value=\"Groenland\">Groenland </option>\n                      <option value=\"Guadeloupe\">Guadeloupe </option>\n                      <option value=\"Guam\">Guam </option>\n                      <option value=\"Guatemala\">Guatemala</option>\n                      <option value=\"Guernesey\">Guernesey </option>\n                      <option value=\"Guinee\">Guinee </option>\n                      <option value=\"Guinee_Bissau\">Guinee_Bissau </option>\n                      <option value=\"Guinee equatoriale\">Guinee_Equatoriale </option>\n                      <option value=\"Guyana\">Guyana </option>\n                      <option value=\"Guyane_Francaise \">Guyane_Francaise </option>\n                      <option value=\"Haiti\">Haiti </option>\n                      <option value=\"Hawaii\">Hawaii </option> \n                      <option value=\"Honduras\">Honduras </option>\n                      <option value=\"Hong_Kong\">Hong_Kong </option>\n                      <option value=\"Hongrie\">Hongrie </option>\n                      <option value=\"Inde\">Inde </option>\n                      <option value=\"Indonesie\">Indonesie </option>\n                      <option value=\"Iran\">Iran </option>\n                      <option value=\"Iraq\">Iraq </option>\n                      <option value=\"Irlande\">Irlande </option>\n                      <option value=\"Islande\">Islande </option>\n                      <option value=\"Israel\">Israel </option>\n                      <option value=\"Italie\">italie </option>\n                      <option value=\"Jamaique\">Jamaique </option>\n                      <option value=\"Jan Mayen\">Jan Mayen </option>\n                      <option value=\"Japon\">Japon </option>\n                      <option value=\"Jersey\">Jersey </option>\n                      <option value=\"Jordanie\">Jordanie </option>\n                      <option value=\"Kazakhstan\">Kazakhstan </option>\n                      <option value=\"Kenya\">Kenya </option>\n                      <option value=\"Kirghizstan\">Kirghizistan </option>\n                      <option value=\"Kiribati\">Kiribati </option>\n                      <option value=\"Koweit\">Koweit </option>\n                      <option value=\"Laos\">Laos </option>\n                      <option value=\"Lesotho\">Lesotho </option>\n                      <option value=\"Lettonie\">Lettonie </option>\n                      <option value=\"Liban\">Liban </option>\n                      <option value=\"Liberia\">Liberia </option>\n                      <option value=\"Liechtenstein\">Liechtenstein </option>\n                      <option value=\"Lituanie\">Lituanie </option> \n                      <option value=\"Luxembourg\">Luxembourg </option>\n                      <option value=\"Lybie\">Lybie </option>\n                      <option value=\"Macao\">Macao </option>\n                      <option value=\"Macedoine\">Macedoine </option>\n                      <option value=\"Madagascar\">Madagascar </option>\n                      <option value=\"Madère\">Madère </option>\n                      <option value=\"Malaisie\">Malaisie </option>\n                      <option value=\"Malawi\">Malawi </option>\n                      <option value=\"Maldives\">Maldives </option>\n                      <option value=\"Mali\">Mali </option>\n                      <option value=\"Malte\">Malte </option>\n                      <option value=\"Man\">Man </option>\n                      <option value=\"Mariannes du Nord\">Mariannes du Nord </option>\n                      <option value=\"Maroc\">Maroc </option>\n                      <option value=\"Marshall\">Marshall </option>\n                      <option value=\"Martinique\">Martinique </option>\n                      <option value=\"Maurice\">Maurice </option>\n                      <option value=\"Mauritanie\">Mauritanie </option>\n                      <option value=\"Mayotte\">Mayotte </option>\n                      <option value=\"Mexique\">Mexique </option>\n                      <option value=\"Micronesie\">Micronesie </option>\n                      <option value=\"Midway\">Midway </option>\n                      <option value=\"Moldavie\">Moldavie </option>\n                      <option value=\"Monaco\">Monaco </option>\n                      <option value=\"Mongolie\">Mongolie </option>\n                      <option value=\"Montserrat\">Montserrat </option>\n                      <option value=\"Mozambique\">Mozambique </option>\n                      <option value=\"Namibie\">Namibie </option>\n                      <option value=\"Nauru\">Nauru </option>\n                      <option value=\"Nepal\">Nepal </option>\n                      <option value=\"Nicaragua\">Nicaragua </option>\n                      <option value=\"Niger\">Niger </option>\n                      <option value=\"Nigeria\">Nigeria </option>\n                      <option value=\"Niue\">Niue </option>\n                      <option value=\"Norfolk\">Norfolk </option>\n                      <option value=\"Norvege\">Norvege </option>\n                      <option value=\"Nouvelle_Caledonie\">Nouvelle_Caledonie </option>\n                      <option value=\"Nouvelle_Zelande\">Nouvelle_Zelande </option>\n                      <option value=\"Oman\">Oman </option>\n                      <option value=\"Ouganda\">Ouganda </option>\n                      <option value=\"Ouzbekistan\">Ouzbekistan </option>\n                      <option value=\"Pakistan\">Pakistan </option>\n                      <option value=\"Palau\">Palau </option>\n                      <option value=\"Palestine\">Palestine </option>\n                      <option value=\"Panama\">Panama </option>\n                      <option value=\"Papouasie_Nouvelle_Guinee\">Papouasie_Nouvelle_Guinee </option>\n                      <option value=\"Paraguay\">Paraguay </option>\n                      <option value=\"Pays_Bas\">Pays_Bas </option>\n                      <option value=\"Perou\">Perou </option>\n                      <option value=\"Philippines\">Philippines </option> \n                      <option value=\"Pologne\">Pologne </option>\n                      <option value=\"Polynesie\">Polynesie </option>\n                      <option value=\"Porto_Rico\">Porto_Rico </option>\n                      <option value=\"Portugal\">Portugal </option>\n                      <option value=\"Qatar\">Qatar </option>\n                      <option value=\"Republique_Dominicaine\">Republique_Dominicaine </option>\n                      <option value=\"Republique_Tcheque\">Republique_Tcheque </option>\n                      <option value=\"Reunion\">Reunion </option>\n                      <option value=\"Roumanie\">Roumanie </option>\n                      <option value=\"Royaume_Uni\">Royaume_Uni </option>\n                      <option value=\"Russie\">Russie </option>\n                      <option value=\"Rwanda\">Rwanda </option>\n                      <option value=\"Sahara Occidental\">Sahara Occidental </option>\n                      <option value=\"Sainte_Lucie\">Sainte_Lucie </option>\n                      <option value=\"Saint_Marin\">Saint_Marin </option>\n                      <option value=\"Salomon\">Salomon </option>\n                      <option value=\"Salvador\">Salvador </option>\n                      <option value=\"Samoa_Occidentales\">Samoa_Occidentales</option>\n                      <option value=\"Samoa_Americaine\">Samoa_Americaine </option>\n                      <option value=\"Sao_Tome_et_Principe\">Sao_Tome_et_Principe </option> \n                      <option value=\"Senegal\">Senegal </option> \n                      <option value=\"Seychelles\">Seychelles </option>\n                      <option value=\"Sierra Leone\">Sierra Leone </option>\n                      <option value=\"Singapour\">Singapour </option>\n                      <option value=\"Slovaquie\">Slovaquie </option>\n                      <option value=\"Slovenie\">Slovenie</option>\n                      <option value=\"Somalie\">Somalie </option>\n                      <option value=\"Soudan\">Soudan </option> \n                      <option value=\"Sri_Lanka\">Sri_Lanka </option> \n                      <option value=\"Suede\">Suede </option>\n                      <option value=\"Suisse\">Suisse </option>\n                      <option value=\"Surinam\">Surinam </option>\n                      <option value=\"Swaziland\">Swaziland </option>\n                      <option value=\"Syrie\">Syrie </option>\n                      <option value=\"Tadjikistan\">Tadjikistan </option>\n                      <option value=\"Taiwan\">Taiwan </option>\n                      <option value=\"Tonga\">Tonga </option>\n                      <option value=\"Tanzanie\">Tanzanie </option>\n                      <option value=\"Tchad\">Tchad </option>\n                      <option value=\"Thailande\">Thailande </option>\n                      <option value=\"Tibet\">Tibet </option>\n                      <option value=\"Timor_Oriental\">Timor_Oriental </option>\n                      <option value=\"Togo\">Togo </option> \n                      <option value=\"Trinite_et_Tobago\">Trinite_et_Tobago </option>\n                      <option value=\"Tristan da cunha\">Tristan de cuncha </option>\n                      <option value=\"Tunisie\">Tunisie </option>\n                      <option value=\"Turkmenistan\">Turmenistan </option> \n                      <option value=\"Turquie\">Turquie </option>\n                      <option value=\"Ukraine\">Ukraine </option>\n                      <option value=\"Uruguay\">Uruguay </option>\n                      <option value=\"Vanuatu\">Vanuatu </option>\n                      <option value=\"Vatican\">Vatican </option>\n                      <option value=\"Venezuela\">Venezuela </option>\n                      <option value=\"Vierges_Americaines\">Vierges_Americaines </option>\n                      <option value=\"Vierges_Britanniques\">Vierges_Britanniques </option>\n                      <option value=\"Vietnam\">Vietnam </option>\n                      <option value=\"Wake\">Wake </option>\n                      <option value=\"Wallis et Futuma\">Wallis et Futuma </option>\n                      <option value=\"Yemen\">Yemen </option>\n                      <option value=\"Yougoslavie\">Yougoslavie </option>\n                      <option value=\"Zambie\">Zambie </option>\n                      <option value=\"Zimbabwe\">Zimbabwe </option>\n                  </select>\n                <div *ngIf=\"form.get('countryOfBirth').touched && form.get('countryOfBirth').hasError('required')\" class=\"alert alert-danger\">Pays requis</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Ville<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"cityOfBirth\" class=\"form-control form-bes\">Choose\n                       <option value=\"bourg\">Bour-en-Bresse (01)</option>\n      <option value=\"laon\">Laon (02)</option>\n      <option value=\"moulins\">Moulins (03)</option>\n      <option value=\"digne\">Digne (04)</option>\n      <option value=\"gap\">Gap (05)</option>\n      <option value=\"nice\">Nice (06)</option>\n      <option value=\"privas\">Privas (07)</option>\n      <option value=\"charleville\">Charleville-Mézières (08)</option>\n      <option value=\"foix\">Foix (09)</option>\n      <option value=\"troyes\">Troyes (10)</option>\n      <option value=\"carcassonne\">Carcassonne (11)</option>\n      <option value=\"rodez\">Rodez (12)</option>\n      <option value=\"marseille\">Marseille (13)</option>\n      <option value=\"caen\">Caen (14)</option>\n      <option value=\"aurillac\">Aurilac (15)</option>\n      <option value=\"angouleme\">Angoulême (16)</option>\n      <option value=\"larochelle\">La Rochelle (17)</option>\n      <option value=\"bourges\">Bourges (18)</option>\n      <option value=\"tulle\">Tulle (19)</option>\n      <option value=\"ajaccio\">Ajaccio (2A)</option>\n      <option value=\"bastia\">Bastia (2B)</option>\n      <option value=\"dijon\">Dijon (21)</option>\n      <option value=\"saintbrieuc\">Saint-Brieuc (22)</option>\n      <option value=\"gueret\">Guéret (23)</option>\n      <option value=\"perigueux\">Périgueux (24)</option>\n      <option value=\"besancon\">Besançon (25)</option>\n      <option value=\"lille\">Valence (26)</option>\n      <option value=\"evreux\">Evreux (27)</option>\n      <option value=\"chartres\">Chartres (28)</option>\n      <option value=\"quimper\">Quimper (29)</option>\n      <option value=\"nimes\">Nîmes (30)</option>\n      <option value=\"toulouse\">Toulouse (31)</option>\n      <option value=\"auch\">Auch (32)</option>\n      <option value=\"bordeaux\">Bordeaux (33)</option>\n      <option value=\"montpellier\">Montpellier (34)</option>\n      <option value=\"rennes\">Rennes (35)</option>\n      <option value=\"chateauroux\">chateauroux (36)</option>\n      <option value=\"tours\">Tours (37)</option>\n      <option value=\"grenoble\">Grenoble (38)</option>\n      <option value=\"lons\">Lons-le-Saunier (39)</option>\n      <option value=\"montdemarsan\">Mont-de-Marsan (40)</option>\n      <option value=\"blois\">Blois (41)</option>\n      <option value=\"saintetienne\">Saint-Etienne (42)</option>\n      <option value=\"lepuyenvelay\">Le Puy-en-Velay (43)</option>\n      <option value=\"nantes\">Nantes (44)</option>\n      <option value=\"orleans\">Orléans (45)</option>\n      <option value=\"cahors\">Cahors (46)</option>\n      <option value=\"agen\">Agen (47)</option>\n      <option value=\"mende\">Mende (48)</option>\n      <option value=\"angers\">Angers (49)</option>\n      <option value=\"saintlo\">Saint-Lô (50)</option>\n      <option value=\"chalons\">Châlons-en-Champagne (51)</option>\n      <option value=\"chaumont\">Chaumont (52)</option>\n      <option value=\"laval\">Laval (53)</option>\n      <option value=\"nancy\">Nancy (54)</option>\n      <option value=\"barleduc\">Bar-le-Duc (55)</option>\n      <option value=\"vannes\">Vannes (56)</option>\n      <option value=\"metz\">Metz (57)</option>\n      <option value=\"nevers\">Nevers (58)</option>\n      <option value=\"lille\">Lille (59)</option>\n      <option value=\"beauvais\">Beauvais (60)</option>\n      <option value=\"alencon\">Alençon (61)</option>\n      <option value=\"arras\">Arras (62)</option>\n      <option value=\"clermont\">Clermont-Ferrand (63)</option>\n      <option value=\"pau\">Pau (64)</option>\n      <option value=\"tarbes\">Tarbes (65)</option>\n      <option value=\"perpignan\">Perpignan (66)</option>\n      <option value=\"strasbourg\">Strasbourg (67)</option>\n      <option value=\"colmar\">Colmar (68)</option>\n      <option value=\"lyon\">Lyon (69)</option>\n      <option value=\"vesoul\">Vesoul (70)</option>\n      <option value=\"macon\">Mâcon (71)</option>\n      <option value=\"lemans\">Le Mans (72)</option>\n      <option value=\"chambery\">Chambéry (73)</option>\n      <option value=\"annecy\">Annecy (74)</option>\n      <option value=\"paris\">Paris (75)</option>\n      <option value=\"rouen\">Rouen (76)</option>\n      <option value=\"melun\">Melun (77)</option>\n      <option value=\"versailles\">Versailles (78)</option>\n      <option value=\"niort\">Niort (79)</option>\n      <option value=\"amiens\">Amiens (80)</option>\n      <option value=\"albi\">Albi (81)</option>\n      <option value=\"montauban\">Montauban (82)</option>\n      <option value=\"toulon\">Toulon (83)</option>\n      <option value=\"avignon\">Avignon (84)</option>\n      <option value=\"larochesuryon\">La-Roche-sur-Yon (85)</option>\n      <option value=\"poitiers\">Poitiers (86)</option>\n      <option value=\"limoges\">Limoges (87)</option>\n      <option value=\"epinal\">Epinal (88)</option>\n      <option value=\"auxerre\">Auxerre (89)</option>\n      <option value=\"belfort\">Belfort (90)</option>\n      <option value=\"evry\">Evry (91)</option>\n      <option value=\"nanterre\">Nanterre (92)</option>\n      <option value=\"bobigny\">Bobigny (93)</option>\n      <option value=\"creteil\">Créteil (94)</option>\n      <option value=\"pontoise\">Pontoise (95)</option>\n                  </select>\n                <div *ngIf=\"form.get('cityOfBirth').touched && form.get('cityOfBirth').hasError('required')\" class=\"alert alert-danger\">Ville requis</div>\n              </div>\n            </div>\n\n\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Téléphone <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <div class=\"input-group\">\n                  <div class=\"input-group-btn input-group-addon-bes\">\n                    <li class=\"nav-item dropdown\" dropdown>\n                      <a href class=\"btn  dropdown-toggle\" style=\"background: transparent !important;border: none;\" dropdownToggle (click)=\"false\">\n                        <span class=\"\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">(+33)</span></span>\n                      </a>\n                      <div class=\"dropdown-menu dropdown-menu-left\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-us\"></span><span  class=\"languages\">(+44)</span></a>\n                        <a class=\"dropdown-item\" href=\"#//address\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">(+34)</span></a>\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">(+32)</span></a>\n                      </div>\n                    </li>\n                  </div>\n                  <input class=\"form-control form-bes\" id=\"input1-group3\" formControlName=\"phone\" name=\"input1-group3\" placeholder=\"Numéro\"\n                    type=\"text\">\n\n                </div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('required')\" class=\"alert alert-danger\">Téléphone requis</div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('pattern')\" class=\"alert alert-danger\">\n                  Téléphone non valide\n                </div>\n              </div>\n            </div>\n\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Email <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"email\" value=\"{{(store | async)?.user.email}}\" id=\"example-date-input\">\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
 
 /***/ }),
 /* 551 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block text-center card-bes card-bes-green\" *ngIf=\"success\">\n          <h4 class=\"mb-3\">Opération réussie </h4>\n            <div class=\"form-group row card card-inverse card-success mb-3 text-center\"   name=\"success\">\n              <p> Un message de bienvenue contenant votre mot de passe de connexion vous a été envoyé sur votre boîte email.</p>\n        </div>\n        <div class=\"row justify-content-center\">\n\n          <button type=\"button\" style=\"background: #c1c1c1;\" class=\"btn btn-primary btn-bmce\" (click)=\"backToHome()\">Acceuil</button>\n\n        </div>\n      </div>\n      <div class=\"card-block card-bes card-bes-white\" *ngIf=\"!success\">\n        <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n        <ul id=\"progressbar\">\n          <li>Information générale</li>\n          <li>Signalitique</li>\n          <li>Contact</li>\n          <li class=\"active\">Bénéficiaire</li>\n        </ul>\n\n        <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n          <div class=\"form-group row\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">N° compte bénéficiaire <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <div class=\"input-group mb-3\">\n                <span class=\"input-group-addon  input-group-addon-bes\">011</span>\n                <input maxlength=\"21\" MyAccountNumberFormatter type=\"text\" limit-input=\"21\" class=\"form-control form-bes\" formControlName=\"account\" placeholder=\"000 000 000 000 000 000 000\"\n                  ng-maxlength=\"21\">\n\n              </div>\n              <div *ngIf=\"form.get('account').touched && form.get('account').hasError('required')\" class=\"alert alert-danger\">Numero de compte requis</div>\n              <div *ngIf=\"form.get('account').touched && form.get('account').hasError('pattern')\" class=\"alert alert-danger\">\n                Numero de compte non valide\n              </div>\n            </div>\n          </div>\n          <div>\n            <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n              <input formControlName=\"agree\" (change)=\"hideBeneficiare()\" type=\"checkbox\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">\n                    Je suis le client bénéficiaire</span>\n                    </label>\n          </div>\n\n          <div class=\"beneficiare\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Nom du bénéficiare <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"text\" id=\"disabledTextInput\" formControlName=\"lastname\" class=\"form-control form-bes\" placeholder=\"\">\n                <div *ngIf=\"form.get('lastname').touched && form.get('lastname').hasError('required')\" class=\"alert alert-danger\">Bénéficiaire nom requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Prénom du bénéficiare <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"text\" id=\"disabledTextInput\" formControlName=\"firstname\" class=\"form-control form-bes\" placeholder=\"\">\n                <div *ngIf=\"form.get('firstname').touched && form.get('firstname').hasError('required')\" class=\"alert alert-danger\">Bénéficiaire prénom requis</div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"form-group row\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">Agence BES <span class=\"required\">*</span></label>\n            <div class=\"col-md-4\">\n              <select id=\"inputState\" formControlName=\"agenceBes\" class=\"form-control form-bes\">\n                       <optgroup label=\"France\">\n                      <option value=\"laon\">Clichy- Paris</option>\n                      <option value=\"moulins\">Av. Du Général de Gaulle  – Strasbourg</option>\n                      <option value=\"moulins\">Maréchal JUIN– Mantes la Jolie.</option>\n                      <option value=\"moulins\">Liberté - Lille</option>\n                      <option value=\"moulins\">Rue Carry - Lyon</option>\n                      <option value=\"moulins\">Avenue du Drapeau - Dijon</option>\n                    </optgroup>\n                        <optgroup label=\"Espagne\">\n                      <option value=\"laon\">Avenida del mediteraneo - ALMERIA</option>\n                      <option value=\"moulins\">Tarragona –  Barcelona</option>\n                      <option value=\"moulins\">Plaza Cataluña, Madrid</option>\n                      <option value=\"moulins\">Bolos, bajo MURCIA</option>\n                      <option value=\"moulins\">Rambla Nova bajo TARRAGONA</option>\n                      <option value=\"moulins\">Calle Jorge Comin n°12, Bajo  Valencia</option>\n                      <option value=\"moulins\">Calle La Union</option>\n                      <option value=\"moulins\">Avenida de Europa núm – Lorca</option>\n                      </optgroup>\n                         <optgroup label=\"Belgique\">\n                      <option value=\"laon\">Borgerhout Antwerpen</option>\n                      <option value=\"moulins\">Boulevard Maurice Lemonnier</option>\n                      <option value=\"moulins\">Chaussée de Gand  Molenbeek.BRUXELLES</option>\n                    </optgroup>\n                    <optgroup label=\"Allemagne\">\n                      <option value=\"laon\">Eller, Düsseldorf</option>\n                      <option value=\"moulins\">Baseler SRT, Francfort Am Main</option>\n                    </optgroup>\n              </select>\n              <div *ngIf=\"form.get('agenceBes').touched && form.get('agenceBes').hasError('required')\" class=\"alert alert-danger\">Agence BES prénom requis</div>\n            </div>\n            <div class=\"col-md-4 geo-container\" (click)=\"hideMap()\">\n              <i style=\" color: #43a2d2;font-size:2rem\" class=\"fa fa-map-marker fa-lg m-t-2\"></i>\n              <span class=\"geo\">Géolocaliser</span>\n            </div>\n\n          </div>\n\n          <sebm-google-map [zoom]=\"6\" [latitude]=\"48.161963\" [longitude]=\"4.273682\" >\n            <sebm-google-map-marker *ngFor=\"let m of markers; let i = index\" (markerClick)=\"clickedMarker(m.label, i)\" [latitude]=\"m.lat\"\n              [longitude]=\"m.lng\" [label]=\"m.label\" [iconUrl]=\"m.icon\" [markerDraggable]=\"m.draggable\" (dragEnd)=\"markerDragEnd(m, $event)\">\n            </sebm-google-map-marker>\n          </sebm-google-map>\n\n\n          <div class=\"form-group row mt-3\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">Télécharger pièce d'identité <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <input type=\"file\" name=\"file\" id=\"file\" class=\"inputfile\" />\n              <label class=\"p-3\" for=\"file\">Télécharger votre pièce d'identité</label>\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <div class=\"col-md-12\">\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input formControlName=\"newsletterInscription\" value=\"1\"  type=\"checkbox\" value=\"1\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\"> J'accepte de recevoir des newletters et des offres de produits et services par courrier électronique de\n                    BMCE EuroServices et ses partenaires</span>\n                    </label>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"col-md-12\">\n          <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n            <input formControlName=\"agree\" value=\"1\" type=\"checkbox\"  class=\"custom-control-input\">\n              <span class=\"custom-control-indicator\"></span>\n                <span class=\"custom-control-description\">\n                  J'ai lu et j'accepte les mentions légales</span>\n                  </label>\n        </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-6\">\n        <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n      </div>\n      <div class=\"col-6 text-right\">\n        <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-success btn-bmce\">Valider</button>\n      </div>\n    </div>\n    </form>\n  </div>\n</div>\n</div>\n</div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block text-center card-bes card-bes-green\" *ngIf=\"success\">\n          <h4 class=\"mb-3\">Opération réussie </h4>\n            <div class=\"form-group row card card-inverse card-success mb-3 text-center\"   name=\"success\">\n              <p> Un message de bienvenue contenant votre mot de passe de connexion vous a été envoyé sur votre boîte email {{email}}.</p>\n        </div>\n        <div class=\"row justify-content-center\">\n\n          <button type=\"button\" style=\"background: #c1c1c1;\" class=\"btn btn-primary btn-bmce\" (click)=\"backToHome()\">Ok</button>\n\n        </div>\n      </div>\n      <div class=\"card-block card-bes card-bes-white\" *ngIf=\"!success\">\n        <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n        <ul id=\"progressbar\">\n          <li>Info générale</li>\n          <li>Signalitique</li>\n          <li>Contact</li>\n          <li class=\"active\">Bénéficiaire</li>\n        </ul>\n\n        <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n          <div class=\"form-group row\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">N° compte bénéficiaire <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <div class=\"input-group mb-3\">\n                <span class=\"input-group-addon  input-group-addon-bes\">011</span>\n                <input maxlength=\"21\" #account MyAccountNumberFormatter type=\"text\" limit-input=\"21\" class=\"form-control form-bes\" formControlName=\"account\" placeholder=\"000 000 000 000 000 000 000\"\n                >\n                <span *ngIf=\"form.get('account').dirty\" class=\"twitter-count mt-3 m-1\">{{account.value.length}}/21</span>\n              </div>\n              <div *ngIf=\"form.get('account').touched && form.get('account').hasError('required')\" class=\"alert alert-danger\">Numero de compte requis</div>\n              <div *ngIf=\"form.get('account').touched && form.get('account').hasError('pattern')\" class=\"alert alert-danger\">\n                Numero de compte non valide\n              </div>\n            </div>\n          </div>\n          <div>\n            <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n              <input formControlName=\"agree\" (change)=\"hideBeneficiare()\" type=\"checkbox\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">\n                    Je suis le client bénéficiaire</span>\n                    </label>\n          </div>\n\n          <div class=\"beneficiare\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Nom du bénéficiare <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"text\" id=\"disabledTextInput\" formControlName=\"lastname\" class=\"form-control form-bes\" placeholder=\"\">\n                <div *ngIf=\"form.get('lastname').touched && form.get('lastname').hasError('required')\" class=\"alert alert-danger\">Bénéficiaire nom requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Prénom du bénéficiare <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"text\" id=\"disabledTextInput\" formControlName=\"firstname\" class=\"form-control form-bes\" placeholder=\"\">\n                <div *ngIf=\"form.get('firstname').touched && form.get('firstname').hasError('required')\" class=\"alert alert-danger\">Bénéficiaire prénom requis</div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"form-group row\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">Agence BES <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <select id=\"inputState\" formControlName=\"agenceBes\" class=\"form-control form-bes\">\n                       <optgroup label=\"France\">\n                      <option value=\"laon\">Clichy- Paris</option>\n                      <option value=\"strasbourg\">Av. Du Général de Gaulle  – Strasbourg</option>\n                      <option value=\"moulins\">Maréchal JUIN– Mantes la Jolie.</option>\n                      <option value=\"moulins\">Liberté - Lille</option>\n                      <option value=\"moulins\">Rue Carry - Lyon</option>\n                      <option value=\"dijon\">Avenue du Drapeau - Dijon</option>\n                    </optgroup>\n                        <optgroup label=\"Espagne\">\n                      <option value=\"laon\">Avenida del mediteraneo - ALMERIA</option>\n                      <option value=\"moulins\">Tarragona –  Barcelona</option>\n                      <option value=\"moulins\">Plaza Cataluña, Madrid</option>\n                      <option value=\"moulins\">Bolos, bajo MURCIA</option>\n                      <option value=\"moulins\">Rambla Nova bajo TARRAGONA</option>\n                      <option value=\"moulins\">Calle Jorge Comin n°12, Bajo  Valencia</option>\n                      <option value=\"moulins\">Calle La Union</option>\n                      <option value=\"moulins\">Avenida de Europa núm – Lorca</option>\n                      </optgroup>\n                         <optgroup label=\"Belgique\">\n                      <option value=\"laon\">Borgerhout Antwerpen</option>\n                      <option value=\"moulins\">Boulevard Maurice Lemonnier</option>\n                      <option value=\"moulins\">Chaussée de Gand  Molenbeek.BRUXELLES</option>\n                    </optgroup>\n                    <optgroup label=\"Allemagne\">\n                      <option value=\"laon\">Eller, Düsseldorf</option>\n                      <option value=\"moulins\">Baseler SRT, Francfort Am Main</option>\n                    </optgroup>\n              </select>\n              <div *ngIf=\"form.get('agenceBes').touched && form.get('agenceBes').hasError('required')\" class=\"alert alert-danger\">Agence BES prénom requis</div>\n            </div>\n          </div>\n\n          <sebm-google-map [zoom]=\"15\" [latitude]=\"lat\" [longitude]=\"lng\" [hidden] = \"hidden\">\n            <sebm-google-map-marker *ngFor=\"let m of markers; let i = index\" (markerClick)=\"clickedMarker(m.label, i)\" [latitude]=\"m.lat\"\n              [longitude]=\"m.lng\" [label]=\"m.label\" [iconUrl]=\"m.icon\" >\n            </sebm-google-map-marker>\n          </sebm-google-map>\n\n\n          <div class=\"form-group row mt-3\">\n            <label class=\"col-md-4 form-control-label\" for=\"text-input\">Télécharger pièce d'identité <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <input type=\"file\" name=\"file\" id=\"file\" class=\"inputfile\" />\n              <label class=\"p-3\" for=\"file\">Télécharger votre pièce d'identité</label>\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <div class=\"col-md-12\">\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input formControlName=\"newsletterInscription\" value=\"1\"  type=\"checkbox\" value=\"1\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\"> J'accepte de recevoir des newletters et des offres de produits et services par courrier électronique de\n                    BMCE EuroServices et ses partenaires</span>\n                    </label>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"col-md-12\">\n          <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n            <input formControlName=\"agree\" value=\"1\" type=\"checkbox\"  class=\"custom-control-input\">\n              <span class=\"custom-control-indicator\"></span>\n                <span class=\"custom-control-description\">\n                  J'ai lu et j'accepte les mentions légales</span>\n                  </label>\n        </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-6\">\n        <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n      </div>\n      <div class=\"col-6 text-right\">\n        <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-success btn-bmce\">Valider</button>\n      </div>\n    </div>\n    </form>\n  </div>\n</div>\n</div>\n</div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
 
 /***/ }),
 /* 552 */
@@ -16568,7 +16588,7 @@ module.exports = "<router-outlet></router-outlet>\n\n"
 /* 553 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <ul id=\"progressbar\">\n            <li>Information générale</li>\n            <li class=\"active\">Signalitique</li>\n            <li>Contact</li>\n            <li>Bénéficiaire</li>\n          </ul>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.user.lastName}}\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                </div>\n              </div>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.user.firstName}}\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-form-legend col-sm-4\">Sexe <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                    <input name=\"gender\" formControlName=\"gender\"  type=\"radio\" value=\"Femme\"  class=\"custom-control-input\">\n                      <span class=\"custom-control-indicator\"></span>\n                        <span class=\"custom-control-description\">Femme</span>\n                          </label>\n                          <label class=\"custom-control custom-radio\">\n                            <input  formControlName=\"gender\"  value=\"Homme\" type=\"radio\"  class=\"custom-control-input\">\n                              <span class=\"custom-control-indicator\"></span>\n                                <span class=\"custom-control-description\">Homme</span>\n                                  </label>\n                </div>\n                <div *ngIf=\"form.get('gender').touched && form.get('gender').hasError('required')\" class=\"alert alert-danger\">Sexe requis</div>\n        </div>\n        <!--<ngb-datepicker formControlName=\"birthday\"></ngb-datepicker>-->\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <div class=\"input-group  ab-datepicker\">\n              <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"birthday\" ngbDatepicker #birthdayD=\"ngbDatepicker\">\n              <span class=\"input-group-addon input-group-addon-bes\" (click)=\"birthdayD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n            </div>\n\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('required')\" class=\"alert alert-danger\">Date de naissance requis</div>\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('validateBirthday')\" class=\"alert alert-danger\">Vous étes pas agé de + 18 ans</div>\n\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <input class=\"form-control form-bes\" formControlName=\"birthplace\" type=\"text\" value=\"\" id=\"example-date-input\">\n            <div *ngIf=\"form.get('birthplace').touched && form.get('birthplace').hasError('required')\" class=\"alert alert-danger\">Lieu de naissance requis</div>\n          </div>\n\n        </div>\n        <div class=\"row\">\n          <label class=\"col-form-legend col-sm-4\">Pièce d'identité <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input  formControlName=\"identityDocument\"  value=\"Carte nationale\" type=\"radio\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">Carte nationale</span>\n                      </label>\n                      <label class=\"custom-control custom-radio\">\n                        <input  formControlName=\"identityDocument\" value=\"Passeport\" type=\"radio\"  class=\"custom-control-input\">\n                          <span class=\"custom-control-indicator\"></span>\n                            <span class=\"custom-control-description\">Passeport</span>\n                              </label>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">N° de pièce d'identité <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" formControlName=\"identityNumber\" type=\"text\" value=\"\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('identityNumber').touched && form.get('identityNumber').hasError('required')\" class=\"alert alert-danger\">Numéro de pièced'identité' requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de Délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"dateOfIssue\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #dateOfIssueD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"dateOfIssueD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('dateOfIssue').touched && form.get('dateOfIssue').hasError('required')\" class=\"alert alert-danger\">Date de Délivrance requis</div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" type=\"text\" formControlName=\"placeOfIssue\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('placeOfIssue').touched && form.get('placeOfIssue').hasError('required')\" class=\"alert alert-danger\">Lieu de délivrance requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date d'expiration <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"expirDate\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #expirDateD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"expirDateD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('required')\" class=\"alert alert-danger\">Date d'expiration requis</div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('validateDate')\" class=\"alert alert-danger\">Veuillez saisir une date d'expiration valid</div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n        </div>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <ul id=\"progressbar\">\n            <li>Info générale</li>\n            <li class=\"active\">Signalitique</li>\n            <li>Contact</li>\n            <li>Bénéficiaire</li>\n          </ul>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.user.lastName}}\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                </div>\n              </div>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.user.firstName}}\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-form-legend col-sm-4\">Sexe <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                    <input name=\"gender\" formControlName=\"gender\"  type=\"radio\" value=\"Femme\"  class=\"custom-control-input\">\n                      <span class=\"custom-control-indicator\"></span>\n                        <span class=\"custom-control-description\">Femme</span>\n                          </label>\n                          <label class=\"custom-control custom-radio\">\n                            <input  formControlName=\"gender\"  value=\"Homme\" type=\"radio\"  class=\"custom-control-input\">\n                              <span class=\"custom-control-indicator\"></span>\n                                <span class=\"custom-control-description\">Homme</span>\n                                  </label>\n                </div>\n                <div *ngIf=\"form.get('gender').touched && form.get('gender').hasError('required')\" class=\"alert alert-danger\">Sexe requis</div>\n        </div>\n        <!--<ngb-datepicker formControlName=\"birthday\"></ngb-datepicker>-->\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <div class=\"input-group  ab-datepicker\">\n              <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"birthday\" ngbDatepicker #birthdayD=\"ngbDatepicker\">\n              <span class=\"input-group-addon input-group-addon-bes\" (click)=\"birthdayD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n            </div>\n\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('required')\" class=\"alert alert-danger\">Date de naissance requis</div>\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('validateBirthday')\" class=\"alert alert-danger\">Vous étes pas agé de + 18 ans</div>\n\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <input class=\"form-control form-bes\" formControlName=\"birthplace\" type=\"text\" value=\"\" id=\"example-date-input\">\n            <div *ngIf=\"form.get('birthplace').touched && form.get('birthplace').hasError('required')\" class=\"alert alert-danger\">Lieu de naissance requis</div>\n          </div>\n\n        </div>\n        <div class=\"row\">\n          <label class=\"col-form-legend col-sm-4\">Pièce d'identité <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input  formControlName=\"identityDocument\"  value=\"Carte nationale\" type=\"radio\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">Carte nationale</span>\n                      </label>\n                      <label class=\"custom-control custom-radio\">\n                        <input  formControlName=\"identityDocument\" value=\"Passeport\" type=\"radio\"  class=\"custom-control-input\">\n                          <span class=\"custom-control-indicator\"></span>\n                            <span class=\"custom-control-description\">Passeport</span>\n                              </label>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">N° de pièce d'identité <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" formControlName=\"identityNumber\" type=\"text\" value=\"\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('identityNumber').touched && form.get('identityNumber').hasError('required')\" class=\"alert alert-danger\">Numéro de pièced'identité' requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de Délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"dateOfIssue\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #dateOfIssueD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"dateOfIssueD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('dateOfIssue').touched && form.get('dateOfIssue').hasError('required')\" class=\"alert alert-danger\">Date de Délivrance requis</div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" type=\"text\" formControlName=\"placeOfIssue\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('placeOfIssue').touched && form.get('placeOfIssue').hasError('required')\" class=\"alert alert-danger\">Lieu de délivrance requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date d'expiration <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"expirDate\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #expirDateD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"expirDateD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('required')\" class=\"alert alert-danger\">Date d'expiration requis</div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('validateDate')\" class=\"alert alert-danger\">Veuillez saisir une date d'expiration valid</div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n        </div>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
 
 /***/ }),
 /* 554 */
@@ -16580,7 +16600,7 @@ module.exports = "<!--<md-card>\n  <md-card-subtitle>Step <strong>3</strong> of 
 /* 555 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height  card-bes-white\">\n          <div class=\"card-header card-header-bes\">\n            <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n            <ul id=\"progressbar\">\n              <li class=\"active\">Information générale</li>\n            <li>Signalitique</li>\n            <li>Contact</li>\n            <li>Bénéficiaire</li>\n            </ul>\n          </div>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n              <div class=\"form-group row mb-0 pl-4\">\n                <div class=\"col-sm-6 pl-0 pr-1\">\n                  <div class=\"input-group\">\n                    <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                    <input type=\"text\" formControlName=\"lastName\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                  </div>\n                  <div class=\"alert-container mb-2 mt-2\">\n                    <div *ngIf=\"form.get('lastName').touched && form.get('lastName').hasError('required')\" class=\"alert alert-danger\"><span>name requis</span></div>\n                  </div>\n\n                </div>\n                <div class=\"col-sm-6 pl-0 pr-1\">\n                  <div class=\"input-group\">\n                    <span class=\"input-group-addon  input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                    <input type=\"text\" formControlName=\"firstName\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                  </div>\n                  <div class=\"alert-container mb-2 mt-2\">\n                    <div *ngIf=\"form.get('firstName').touched && form.get('firstName').hasError('required')\" class=\"alert alert-danger\">Prénom requis</div>\n                  </div>\n\n                </div>\n              </div>\n              <div class=\"form-group row mb-0 pl-4 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                  <input type=\"text\" formControlName=\"email\" class=\"form-control form-bes\" placeholder=\"Email\">\n                </div>\n\n              </div>\n              <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n                <div *ngIf=\"form.get('email').touched && form.get('email').hasError('required')\" class=\"alert alert-danger\">\n                  Email requis\n                </div>\n                <div *ngIf=\"form.get('email').touched && form.get('email').hasError('pattern')\" class=\"alert alert-danger\">\n                  Email non valide\n                </div>\n              </div>\n              <div class=\"form-group row pl-4 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                  <input type=\"text\" formControlName=\"confirmEmail\" class=\"form-control form-bes\" placeholder=\"Confirmer votre Email\">\n                </div>\n\n              </div>\n              <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n                <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('required')\" class=\"alert alert-danger\">\n                  Email de confirmation requis\n                </div>\n                <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('pattern')\" class=\"alert  alert-danger\">\n                  Email de confirmation non valide\n                </div>\n                <!--<div *ngIf=\"form.get('confirmEmail').touched && form.hasError('mismatchedPasswords')\" class=\"alert col-sm-6 alert-danger\">\n              Emails not matching\n            </div>-->\n              </div>\n\n              <div class=\"form-group row pl-4 pr-1\">\n                <label>Veuillez prouvez que vous n'êtes pas un robot</label>\n                <re-captcha site_key=\"6LcO0SEUAAAAAGyFwB2n6oqSzUD91uapRI7FPNcm\"></re-captcha>\n              </div>\n\n\n              <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n      \n\n\n            <div class=\"form-group row pl-4\">\n              <div class=\"col-6\">\n              </div>\n              <div class=\"col-6 text-right pr-0\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n\n          </form>\n\n\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6\">\n        <div class=\"card-block card-bes card-height  card-bes-white\">\n          <div class=\"card-header card-header-bes\">\n            <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n            <ul id=\"progressbar\">\n              <li class=\"active\">Info générale</li>\n            <li>Signalitique</li>\n            <li>Contact</li>\n            <li>Bénéficiaire</li>\n            </ul>\n          </div>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n              <div class=\"form-group row mb-0 pl-4\">\n                <div class=\"col-sm-6 pl-0 pr-1\">\n                  <div class=\"input-group\">\n                    <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                    <input type=\"text\" formControlName=\"lastName\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                  </div>\n                  <div class=\"alert-container mb-2 mt-2\">\n                    <div *ngIf=\"form.get('lastName').touched && form.get('lastName').hasError('required')\" class=\"alert alert-danger\"><span>name requis</span></div>\n                  </div>\n\n                </div>\n                <div class=\"col-sm-6 pl-0 pr-1\">\n                  <div class=\"input-group\">\n                    <span class=\"input-group-addon  input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                    <input type=\"text\" formControlName=\"firstName\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                  </div>\n                  <div class=\"alert-container mb-2 mt-2\">\n                    <div *ngIf=\"form.get('firstName').touched && form.get('firstName').hasError('required')\" class=\"alert alert-danger\">Prénom requis</div>\n                  </div>\n\n                </div>\n              </div>\n              <div class=\"form-group row mb-0 pl-4 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                  <input type=\"text\" formControlName=\"email\" class=\"form-control form-bes\" placeholder=\"Email\">\n                </div>\n\n              </div>\n              <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n                <div *ngIf=\"form.get('email').touched && form.get('email').hasError('required')\" class=\"alert alert-danger\">\n                  Email requis\n                </div>\n                <div *ngIf=\"form.get('email').touched && form.get('email').hasError('pattern')\" class=\"alert alert-danger\">\n                  Email non valide\n                </div>\n              </div>\n              <div class=\"form-group row pl-4 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                  <input type=\"text\" formControlName=\"confirmEmail\" class=\"form-control form-bes\" placeholder=\"Confirmer votre Email\">\n                </div>\n\n              </div>\n              <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n                <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('required')\" class=\"alert alert-danger\">\n                  Email de confirmation requis\n                </div>\n                <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('pattern')\" class=\"alert  alert-danger\">\n                  Email de confirmation non valide\n                </div>\n                <!--<div *ngIf=\"form.get('confirmEmail').touched && form.hasError('mismatchedPasswords')\" class=\"alert col-sm-6 alert-danger\">\n              Emails not matching\n            </div>-->\n              </div>\n\n              <div class=\"form-group row pl-4 pr-1\">\n                <label>Veuillez prouvez que vous n'êtes pas un robot</label>\n                <re-captcha site_key=\"6LcO0SEUAAAAAGyFwB2n6oqSzUD91uapRI7FPNcm\"></re-captcha>\n              </div>\n\n\n              <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n      \n\n\n            <div class=\"form-group row pl-4\">\n              <div class=\"col-6\">\n              </div>\n              <div class=\"col-6 text-right pr-0\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n\n          </form>\n\n\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<footer class=\"app-footer \">\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\n</footer>\n"
 
 /***/ }),
 /* 556 */

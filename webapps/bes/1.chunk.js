@@ -15,21 +15,21 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var ng2_charts_1 = __webpack_require__(167);
 var common_1 = __webpack_require__(37);
-var dashboard_component_1 = __webpack_require__(474);
+var dashboard_component_1 = __webpack_require__(475);
 var dashboard_routing_module_1 = __webpack_require__(512);
 var http_1 = __webpack_require__(502);
 var angular2_notifications_1 = __webpack_require__(534);
 var read_more_component_1 = __webpack_require__(515);
 var emitter_service_1 = __webpack_require__(513);
 var forms_1 = __webpack_require__(381);
-var pipe_transform_pipe_1 = __webpack_require__(411);
+var pipe_transform_pipe_1 = __webpack_require__(412);
 var pipe_transform_directive_1 = __webpack_require__(528);
 var pipe_card_number_pipe_1 = __webpack_require__(487);
 var pipe_card_number_directive_1 = __webpack_require__(527);
-var _3d_secure_component_1 = __webpack_require__(473);
+var _3d_secure_component_1 = __webpack_require__(474);
 var pipe_account_number_1_directive_1 = __webpack_require__(525);
 var limit_to_directive_1 = __webpack_require__(514);
-var pipe_account_number_1_pipe_1 = __webpack_require__(485);
+var pipe_account_number_1_pipe_1 = __webpack_require__(486);
 var DashboardModule = (function () {
     function DashboardModule() {
     }
@@ -67,7 +67,7 @@ exports.DashboardModule = DashboardModule;
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(422);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__);
@@ -6234,7 +6234,7 @@ NotificationsService = __decorate([
 
 /***/ }),
 
-/***/ 411:
+/***/ 412:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6291,7 +6291,7 @@ exports.MyCurrencyPipe = MyCurrencyPipe;
 
 /***/ }),
 
-/***/ 420:
+/***/ 421:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6410,18 +6410,18 @@ var ForkJoinSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 421:
+/***/ 422:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ForkJoinObservable_1 = __webpack_require__(420);
+var ForkJoinObservable_1 = __webpack_require__(421);
 exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
 
-/***/ 473:
+/***/ 474:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6461,7 +6461,7 @@ var _a;
 
 /***/ }),
 
-/***/ 474:
+/***/ 475:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6478,12 +6478,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var router_1 = __webpack_require__(88);
-var pipe_transform_pipe_1 = __webpack_require__(411);
+var pipe_transform_pipe_1 = __webpack_require__(412);
 var DashboardComponent = (function () {
     function DashboardComponent(mycurpipe, router) {
         this.mycurpipe = mycurpipe;
         this.router = router;
         this.submitted = false;
+        this.hidden = false;
         this.model = {};
         this.date = new Date();
         this.years = [];
@@ -6492,7 +6493,13 @@ var DashboardComponent = (function () {
         this.d = new Date();
         this.n = this.d.getMonth();
         this.y = this.d.getFullYear();
-        this.model.fullName = "John Doe";
+        this.phone = "";
+        var address = JSON.parse(localStorage.getItem('address'));
+        this.phone = address != null ? address.phone : "";
+        var user = JSON.parse(localStorage.getItem('user'));
+        var firstname = user != null ? user.firstname : "";
+        var lastname = user != null ? user.lastname : "";
+        this.model.fullName = firstname + ' ' + lastname;
         this.years = [
             { value: 2017, display: 2017 },
             { value: 2018, display: 2018 },
@@ -6510,10 +6517,10 @@ var DashboardComponent = (function () {
             { value: 2030, display: 2030 }
         ];
         this.months = [
-            { value: 1, display: "01" },
-            { value: 2, display: "02" },
-            { value: 3, display: "03" },
-            { value: 4, display: "04" },
+            // { value: 1, display: "01" },
+            // { value: 2, display: "02" },
+            // { value: 3, display: "03" },
+            // { value: 4, display: "04" },
             { value: 5, display: "05" },
             { value: 6, display: "06" },
             { value: 7, display: "07" },
@@ -6532,6 +6539,12 @@ var DashboardComponent = (function () {
         this.model.cardYear = this.y;
         this.model.cardType = "master-card";
     }
+    DashboardComponent.prototype.ngOnInit = function () {
+        var ben = JSON.parse(localStorage.getItem('beneficiaire'));
+        this.account = ben != null ? ben.account : "";
+        this.firstname = ben != null ? ben.firstname : "";
+        this.lastname = ben != null ? ben.lastname : "";
+    };
     DashboardComponent.prototype.reset = function () {
         this.router.navigate(['dashboard/dashboard']);
     };
@@ -6541,6 +6554,10 @@ var DashboardComponent = (function () {
     };
     DashboardComponent.prototype.prev = function () {
         this.submitted = false;
+        this.model = {};
+    };
+    DashboardComponent.prototype.hideBeneficiaire = function () {
+        this.hidden = !this.hidden;
     };
     DashboardComponent.prototype.transfer = function () {
         this.secureCardNumber = this.model.cardNumber.substr(-4);
@@ -6562,7 +6579,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 485:
+/***/ 486:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9408,8 +9425,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var router_1 = __webpack_require__(88);
-var _3d_secure_component_1 = __webpack_require__(473);
-var dashboard_component_1 = __webpack_require__(474);
+var _3d_secure_component_1 = __webpack_require__(474);
+var dashboard_component_1 = __webpack_require__(475);
 var routes = [
     {
         path: '',
@@ -9608,7 +9625,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var pipe_account_number_1_pipe_1 = __webpack_require__(485);
+var pipe_account_number_1_pipe_1 = __webpack_require__(486);
 var AccountNumberFormatterDirective = (function () {
     function AccountNumberFormatterDirective(elementRef, cardNumberPipe) {
         this.elementRef = elementRef;
@@ -9720,7 +9737,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var pipe_transform_pipe_1 = __webpack_require__(411);
+var pipe_transform_pipe_1 = __webpack_require__(412);
 var MyCurrencyFormatterDirective = (function () {
     function MyCurrencyFormatterDirective(elementRef, currencyPipe) {
         this.elementRef = elementRef;
@@ -9888,7 +9905,7 @@ module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row justify-co
 /***/ 546:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"animated fadeIn\" *ngIf=\"!submitted\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-9 p-0\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-block card-bes\">\n          <h2 class=\"mb-4\">Transfert d'argent</h2>\n          <form name=\"form\" (ngSubmit)=\"f.form.valid && transfer()\" #f=\"ngForm\" novalidate>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Montant <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\">\n                <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': amount.touched  && !amount.valid }\">\n                  <input type=\"text\" pattern=\"^(0|[1-9][0-9]*)$\" [ngClass]=\"{ 'form-control-danger': amount.touched  && !amount.valid }\" name=\"amount\"\n                    [(ngModel)]=\"model.amount\" #amount=\"ngModel\" myCurrencyFormatter required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"\">\n                </div>\n                <div *ngIf=\"amount.touched  && amount.errors && amount.errors.required\" class=\"alert alert-danger\">Montant requis</div>\n                <div *ngIf=\"amount.touched    && amount.errors && amount.errors.pattern\" class=\"alert alert-danger\">Montant non valid</div>\n              </div>\n            </div>\n\n            <hr />\n            <div class=\"paymentCont\">\n              <div class=\"paymentWrap\">\n                <div class=\"form-group row\">\n                  <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Moyen de paiement <span class=\"required\">*</span></label>\n                  <div>\n                    <div class=\"btn-group paymentBtnGroup btn-group-justified\" data-toggle=\"buttons\">\n                      <label *ngFor=\"let card of cards\" class=\"btn paymentMethod \" [ngClass]=\"{ 'active': card.value == model.cardType }\">\n\t\t\t\t\t            \t    <div class=\"method {{card.display}}\"></div>\n\t\t\t\t\t                  <input type=\"radio\" name=\"cardType\"  [(ngModel)]=\"model.cardType\" #cardType=\"ngModel\" [value]=\"card.value\" required checked> \n\t\t\t\t\t                </label>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Numéro de carte <span class=\"required\">*</span></label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': cardNumber.touched  && !cardNumber.valid }\">\n                  <input type=\"tel\" limit-to=\"16\" [maxlength]=\"16\" pattern=\"([0-9]{16})$\" [ngClass]=\"{ 'form-control-danger': cardNumber.touched  && !cardNumber.valid }\"\n                    name=\"cardNumber\" [(ngModel)]=\"model.cardNumber\" MyCardNumberFormatter #cardNumber=\"ngModel\" required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"xxxx xxxx xxxx xxxx\">\n                </div>\n                <div *ngIf=\"cardNumber.touched   && cardNumber.errors && cardNumber.errors.required\" class=\"alert alert-danger\">Numero de la carte requis</div>\n                <div *ngIf=\"cardNumber.touched   && cardNumber.errors && cardNumber.errors.pattern\" class=\"alert alert-danger\">Numero de la carte non valid</div>\n              </div>\n            </div>\n       \n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Date d'expiration <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\">\n                <select name=\"cardMonth\" class=\"form-control form-bes\" #cardMonth=\"ngModel\" [(ngModel)]=\"model.cardMonth\">\n                  <option *ngFor=\"let month of months\"  [value]=\"month.value\">{{month.display}}</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <select name=\"cardYear\" class=\"form-control form-bes\" #cardYear=\"ngModel\" [(ngModel)]=\"model.cardYear\">\n                  <option *ngFor=\"let year of years\" [value]=\"year.value\">{{year.display}}</option>\n                </select>\n              </div>\n              <div *ngIf=\"cardYear.touched  && cardYear.errors && cardYear.errors.required\" class=\"alert alert-danger\">carte expiration requis</div>\n              <div *ngIf=\"cardMonth.touched   && cardMonth.errors && cardMonth.errors.required\" class=\"alert alert-danger\">carte expiration requis</div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4  form-control-label\" for=\"input-small\">Code de vérification <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\" [ngClass]=\"{ 'has-danger has-feedback': cardCode.touched  && !cardCode.valid }\">\n                <input type=\"tel\" maxlength=\"3\" pattern=\"[0-9]{3}\" [ngClass]=\"{ 'form-control-danger': cardCode.touched  && !cardCode.valid }\"\n                  name=\"cardCode\" [(ngModel)]=\"model.cardCode\" #cardCode=\"ngModel\" required class=\"form-control form-bes\" placeholder=\"_ _ _\">\n                <div *ngIf=\"cardCode.touched  && cardCode.errors && cardCode.errors.required\" class=\"alert alert-danger\">code de la carte requis</div>\n                <div *ngIf=\"cardCode.touched    && cardCode.errors && cardCode.errors.pattern\" class=\"alert alert-danger\">code de la carte non valid</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Nom et prénom <span class=\"required\">*</span></label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group\" [ngClass]=\"{ 'has-danger has-feedback': fullName.touched  && !fullName.valid }\">\n                  <input type=\"text\" [ngClass]=\"{ 'form-control-danger': fullName.touched  && !fullName.valid }\" name=\"fullName\" [(ngModel)]=\"model.fullName\"\n                    #fullName=\"ngModel\" required class=\"form-control form-bes border-left-none\" placeholder=\"\">\n                    <div *ngIf=\"fullName.touched  && fullName.errors && fullName.errors.required\" class=\"alert alert-danger\">Nom et prénom requis</div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Bénéficiaire</label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon  input-group-addon-bes\">011</span>\n                  <input maxlength=\"21\" MyAccountNumberFormatter type=\"text\"  limit-to=\"21\" class=\"form-control form-bes\" name=\"beneficiaire\" [(ngModel)]=\"model.beneficiaire\" #beneficiaire=\"ngModel\"  placeholder=\"000 000 000 000 000 000 000\"\n                  >\n\n                </div>\n                <!--<div *ngIf=\"form.get('account').touched && form.get('account').hasError('required')\" class=\"alert alert-danger\">Numero de compte requis</div>\n                <div *ngIf=\"form.get('account').touched && form.get('account').hasError('pattern')\" class=\"alert alert-danger\">\n                  Numero de compte non valide\n                </div>-->\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\"  (click) = \"reset()\"class=\"btn btn-primary btn-bmce\">Annuler</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" class=\"btn btn-primary btn-bmce\" [disabled]=\"f.invalid\">Valider</button>\n              </div>\n            </div>\n            <!--<div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>-->\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n<div class=\"animated fadeIn\" *ngIf=\"submitted\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-6\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-header mb-3\" style=\"background-color:#dadde2\">\n          <img *ngIf=\"model.cardType === 'master-card'\" src=\"assets/img/mastercard-securecode.png\"   style=\"width:20%\">\n            <img *ngIf=\"model.cardType === 'visa'\" src=\"assets/img/visa.png\"   style=\"width:20%\">\n            <img *ngIf=\"model.cardType === 'amex'\" src=\"assets/img/maestro.png\"   style=\"width:20%\">        \n                    <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\n                </div>\n       \n        <h5 class=\"esecure-title text-center\">Entrer le code d'authentification</h5>\n        <p>Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions de bien\n          vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM</p>\n\n        <span class=\"mb-2\">Marchant : BMCE Euro service</span>\n        <span class=\"mb-2\">Montant : {{model.amount |myCurrency}}</span>\n        <span>Date : {{date | date:'yMdjm'}}</span>\n        <span class=\"mb-2\">Numéro de carte : xxxx-xxxx-xxxx-xxxx-{{secureCardNumber}}</span>\n        <span class=\"mb-2\">Numéro de téléphone : +33 2 47 51 62 32</span>\n        <div class=\"mb-2\">\n          <form name=\"form\" novalidate>\n            <div>\n              <label for=\"nf-email\">Veuillez saisir votre code 3D Secure</label>\n              <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\n            </div>\n            <p>Si vous n'avez pas recu votre code par SMS <a href=\"#\">cliquez ici</a> ? Votre code vous sera communiqué par\n              appel téléphonique sur votre GSM</p>\n            <div class=\"row justify-content-center\">\n              <div class=\"text-center\">\n                <button type=\"button\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">Anuuler</button>\n                <button type=\"submit\" (click)=\"prev()\"  class=\"btn btn-primary btn-bmce\">Valider</button>\n              </div>\n            </div>\n\n\n            <div class=\"row \">\n              <div class=\"col-6\">\n                <a href=\"#\">Sécurité privée</a>\n              </div>\n              <div class=\"col-6 text-right\">\n                <a href=\"#\">Conditions générales</a>\n              </div>\n            </div>\n            <p> Cette authentification est obligatoire pour conclure votre transfère. En cas de problème merci de nous contacter\n              au +33 4 68 29 46 69.\n          </form>\n        </div>\n        <div class=\"card-footer\"></div>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n"
+module.exports = "<div class=\"animated fadeIn\" *ngIf=\"!submitted\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-9 p-0\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-block card-bes\">\n          <h2 class=\"mb-4\">Transfert d'argent</h2>\n          <form name=\"form\" (ngSubmit)=\"f.form.valid && transfer()\" #f=\"ngForm\" novalidate>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Montant <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\">\n                <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': amount.touched  && !amount.valid }\">\n                  <input type=\"text\" pattern=\"^(0|[1-9][0-9]*)$\" [ngClass]=\"{ 'form-control-danger': amount.touched  && !amount.valid }\" name=\"amount\"\n                    [(ngModel)]=\"model.amount\" #amount=\"ngModel\" myCurrencyFormatter required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"\">\n                </div>\n                <div *ngIf=\"amount.touched  && amount.errors && amount.errors.required\" class=\"alert alert-danger\">Montant requis</div>\n                <div *ngIf=\"amount.touched    && amount.errors && amount.errors.pattern\" class=\"alert alert-danger\">Montant non valid</div>\n              </div>\n            </div>\n\n            <hr />\n            <div class=\"paymentCont\">\n              <div class=\"paymentWrap\">\n                <div class=\"form-group row\">\n                  <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Moyen de paiement <span class=\"required\">*</span></label>\n                  <div>\n                    <div class=\"btn-group paymentBtnGroup btn-group-justified\" data-toggle=\"buttons\">\n                      <label *ngFor=\"let card of cards\" class=\"btn paymentMethod \" [ngClass]=\"{ 'active': card.value == model.cardType }\">\n\t\t\t\t\t            \t    <div class=\"method {{card.display}}\"></div>\n\t\t\t\t\t                  <input type=\"radio\" name=\"cardType\"  [(ngModel)]=\"model.cardType\" #cardType=\"ngModel\" [value]=\"card.value\" required checked> \n\t\t\t\t\t                </label>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Numéro de carte <span class=\"required\">*</span></label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': cardNumber.touched  && !cardNumber.valid }\">\n                  <input type=\"tel\" limit-to=\"16\" [maxlength]=\"16\" pattern=\"([0-9]{16})$\" [ngClass]=\"{ 'form-control-danger': cardNumber.touched  && !cardNumber.valid }\"\n                    name=\"cardNumber\" [(ngModel)]=\"model.cardNumber\" MyCardNumberFormatter #cardNumber=\"ngModel\" required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"xxxx xxxx xxxx xxxx\">\n                  <span *ngIf=\"cardNumber.dirty\" class=\"twitter-count mt-3 m-1\">{{model.cardNumber.length}}/16</span>\n                </div>\n                <div *ngIf=\"cardNumber.touched   && cardNumber.errors && cardNumber.errors.required\" class=\"alert alert-danger\">Numero de la carte requis</div>\n                <div *ngIf=\"cardNumber.touched   && cardNumber.errors && cardNumber.errors.pattern\" class=\"alert alert-danger\">Numero de la carte non valid</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Date d'expiration (MM/YY) <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\">\n                <select name=\"cardMonth\" class=\"form-control form-bes\" #cardMonth=\"ngModel\" [(ngModel)]=\"model.cardMonth\">\n                  <option *ngFor=\"let month of months\"  [value]=\"month.value\">{{month.display}}</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <select name=\"cardYear\" class=\"form-control form-bes\" #cardYear=\"ngModel\" [(ngModel)]=\"model.cardYear\">\n                  <option *ngFor=\"let year of years\" [value]=\"year.value\">{{year.display}}</option>\n                </select>\n              </div>\n              <div *ngIf=\"cardYear.touched  && cardYear.errors && cardYear.errors.required\" class=\"alert alert-danger\">carte expiration requis</div>\n              <div *ngIf=\"cardMonth.touched   && cardMonth.errors && cardMonth.errors.required\" class=\"alert alert-danger\">carte expiration requis</div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4  form-control-label\" for=\"input-small\">Code de vérification <span class=\"required\">*</span></label>\n              <div class=\"col-sm-3\" [ngClass]=\"{ 'has-danger has-feedback': cardCode.touched  && !cardCode.valid }\">\n                <input type=\"tel\" maxlength=\"3\" pattern=\"[0-9]{3}\" [ngClass]=\"{ 'form-control-danger': cardCode.touched  && !cardCode.valid }\"\n                  name=\"cardCode\" [(ngModel)]=\"model.cardCode\" #cardCode=\"ngModel\" required class=\"form-control form-bes\" placeholder=\"_ _ _\">\n                <div *ngIf=\"cardCode.touched  && cardCode.errors && cardCode.errors.required\" class=\"alert alert-danger\">code de la carte requis</div>\n                <div *ngIf=\"cardCode.touched    && cardCode.errors && cardCode.errors.pattern\" class=\"alert alert-danger\">code de la carte non valid</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Nom et prénom <span class=\"required\">*</span></label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group\" [ngClass]=\"{ 'has-danger has-feedback': fullName.touched  && !fullName.valid }\">\n                  <input type=\"text\" [ngClass]=\"{ 'form-control-danger': fullName.touched  && !fullName.valid }\" name=\"fullName\" [(ngModel)]=\"model.fullName\"\n                    #fullName=\"ngModel\" required class=\"form-control form-bes border-left-none\" placeholder=\"\">\n                  <div *ngIf=\"fullName.touched  && fullName.errors && fullName.errors.required\" class=\"alert alert-danger\">Nom et prénom requis</div>\n                </div>\n              </div>\n            </div>\n            <div>\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input  type=\"checkbox\" (change)=\"hideBeneficiaire()\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">\n                      Nouveau bénéficiaire</span>\n                      </label>\n            </div>\n            <div class=\"form-group row\"  [hidden]=\"hidden\">\n              <div class=\"col-sm-12\">\n                  N° de compte : {{account}}\n              </div>\n            \n              \n            </div>\n            <div class=\"form-group row\" style=\"height: 60px;\" [hidden]=\"!hidden\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Bénéficiaire</label>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon  input-group-addon-bes\">011</span>\n                  <input maxlength=\"21\" MyAccountNumberFormatter type=\"text\" limit-to=\"21\" class=\"form-control form-bes\" name=\"beneficiaire\"\n                    [(ngModel)]=\"model.beneficiaire\" pattern=\"([0-9]{21})$\" #beneficiaire=\"ngModel\" placeholder=\"000 000 000 000 000 000 000\">\n                  <span *ngIf=\"beneficiaire.dirty\" class=\"twitter-count mt-3 m-1\">{{model.beneficiaire.length}}/21</span>\n                  <div *ngIf=\"beneficiaire.touched   && beneficiaire.errors && beneficiaire.errors.pattern\" class=\"alert alert-danger\">Numero de compte non valid</div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\" (click)=\"reset()\" class=\"btn btn-primary btn-bmce\">Annuler</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" class=\"btn btn-primary btn-bmce\" [disabled]=\"f.invalid\">Valider</button>\n              </div>\n            </div>\n            <!--<div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>-->\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n<div class=\"animated fadeIn\" *ngIf=\"submitted\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-6\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-header mb-3\" style=\"background-color:#dadde2\">\n          <img *ngIf=\"model.cardType === 'master-card'\" src=\"assets/img/mastercard-securecode.png\" style=\"width:20%\">\n          <img *ngIf=\"model.cardType === 'visa'\" src=\"assets/img/visa.png\" style=\"width:20%\">\n          <img *ngIf=\"model.cardType === 'amex'\" src=\"assets/img/maestro.png\" style=\"width:20%\">\n          <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\n        </div>\n\n        <h5 class=\"esecure-title text-center\">Entrer le code d'authentification</h5>\n        <p>Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions de bien\n          vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM</p>\n\n        <span class=\"mb-2\">Marchant : BMCE Euro service</span>\n        <span class=\"mb-2\">Montant : {{model.amount |myCurrency}}</span>\n        <span>Date : {{date | date:'yMdjm'}}</span>\n        <span class=\"mb-2\">Numéro de carte : xxxx-xxxx-xxxx-xxxx-{{secureCardNumber}}</span>\n        <span class=\"mb-2\">Numéro de téléphone : +33 {{phone}}</span>\n        <div class=\"mb-2\">\n          <form name=\"form\" novalidate>\n            <div>\n              <label for=\"nf-email\">Veuillez saisir votre code 3D Secure</label>\n              <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\n            </div>\n            <p>Si vous n'avez pas recu votre code par SMS <a href=\"#\">cliquez ici</a> ? Votre code vous sera communiqué par\n              appel téléphonique sur votre GSM</p>\n            <div class=\"row justify-content-center\">\n              <div class=\"text-center\">\n                <button type=\"button\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">Anuuler</button>\n                <button type=\"submit\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">Valider</button>\n              </div>\n            </div>\n\n\n            <div class=\"row \">\n              <div class=\"col-6\">\n                <a href=\"#\">Sécurité privée</a>\n              </div>\n              <div class=\"col-6 text-right\">\n                <a href=\"#\">Conditions générales</a>\n              </div>\n            </div>\n            <p> Cette authentification est obligatoire pour conclure votre transfère. En cas de problème merci de nous contacter\n              au +33 4 68 29 46 69.\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ })
 
