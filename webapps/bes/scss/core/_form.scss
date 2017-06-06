@@ -1,0 +1,46 @@
+select.form-control.customers-search {
+  border-right: none;
+  color: chocolate;
+  padding-right: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, .12);
+}
+
+label {
+  font-size: $label-size;
+  font-weight: $label-font-weight;
+  color: $label-color;
+}
+
+select.form-control.customers-search:focus {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+input.form-control.customers-search:focus {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+input.form-control.customers-search {
+  border-left: none;
+  color: chocolate;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+span.input-group-btn.customers-search {
+  margin-left: 20px;
+}
+
+.search-btn {
+  border-radius: 5px;
+  color: chocolate;
+}
+
+/////////////Forms/////////////
+.btn-submit-ab {
+  float: right;
+}

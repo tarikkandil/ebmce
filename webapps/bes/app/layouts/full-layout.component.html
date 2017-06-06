@@ -1,0 +1,68 @@
+<header class="app-header navbar ab">
+  <!--
+  -->
+  <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">&#9776;</button>
+
+  <ul class="nav navbar-nav d-md-down-none">
+    <li class="nav-item">
+      <a class="nav-link navbar-toggler sidebar-toggler" href="#">&#9776;</a>
+    </li>
+    <ol class="breadcrumb hidden-md-down">
+      <breadcrumbs></breadcrumbs>
+    </ol>
+
+  </ul>
+  <ul class="nav navbar-nav ml-auto d-md-down-none">
+    <li class="nav-item" dropdown (onToggle)="toggled($event)">
+      <a class="nav-link navbar-toggler dropdown-toggle" dropdownToggle (click)="false"><i class="fa fa-ellipsis-v"></i></a>
+      <div class="dropdown-menu dropdown-menu-right" *dropdownMenu aria-labelledby="simple-dropdown">
+        <!--<a class="dropdown-item" href="#"><i class="fa fa-shield"></i> Lock account</a>-->
+        <a class="dropdown-item" [routerLink]="['/login']"><i class="fa fa-lock"></i> Déconnexion</a>
+      </div>
+
+    </li>
+
+  </ul>
+</header>
+
+
+<div class="app-body">
+  <div class="sidebar mobile-sidebar-toggler sidebar-ab">
+    <div class="bg-primary-dark-op">
+      <nav class="sidebar-nav">
+        <div class="block">
+          <div class="block-content text-center overflow-hidden">
+            <div class="push-30-t push animated fadeInDown">
+              <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/img/avatars/avatar-badr.jpg" alt="">
+            </div>
+            <div class="push-30 animated fadeInUp">
+              <h2 class="h5 font-w600 text-white push-5">Argane Badr</h2>
+              <h3 class="h6 text-gray">Manager</h3>
+            </div>
+          </div>
+        </div>
+
+        <ul class="nav">
+
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-tag"></i>Déclarations </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Breadcrumb -->
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+    <!-- /.conainer-fluid -->
+  </main>
+</div>
+
+<footer class="app-footer">
+  <a href="http://www.soprabanking.com">Sopra banking software</a> &copy; 2017 .
+</footer>

@@ -1,0 +1,10 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let item of declarationList">
+      <item  *ngIf="declarationList.length > 0" [item]="item"></item>
+     
+    </div>
+     <div class="no-items" *ngIf="declarationList && declarationList.length === 0"><h4>La liste des déclarations est vide</h4></div>
+  </div>
+</div>
+<simple-notifications [options]="options"></simple-notifications>

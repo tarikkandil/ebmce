@@ -1,0 +1,121 @@
+#container {
+  display: block;
+  width: 100%;
+  background: transparent;
+}
+
+
+/* comments area */
+
+#comments {
+  display: block;
+}
+
+#comments .cmmnt,
+ul .cmmnt,
+ul ul .cmmnt {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  border-top: 1px solid #ddd;
+}
+
+#comments .cmmnt .avatar {
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+#comments .cmmnt .avatar img {
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#comments .cmmnt .avatar a:hover img {
+  opacity: 0.77;
+}
+
+#comments .cmmnt .cmmnt-content {
+  padding-top: 6px;
+  p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 0.78rem;
+    font-weight: normal;
+    line-height: 1.3;
+  }
+}
+
+#comments .cmmnt .cmmnt-content header {
+  font-size: 1em;
+  text-align: left;
+  display: block;
+}
+
+#comments .cmmnt .cmmnt-content header .pubdate {
+  color: #777;
+  font-size: 0.78rem;
+}
+
+#comments .cmmnt .cmmnt-content header .userlink {
+  font-weight: bold;
+}
+
+#comments .cmmnt .replies {
+  margin-bottom: 7px;
+}
+
+.comment-txt {
+  font-size: 12px;
+  line-height: 16px;
+  min-height: 32px;
+  border: 1px solid #dddfe2;
+  padding: 8px 40px 0px 5px;
+}
+
+.comment-group {
+  position: relative;
+}
+
+.btn-comment-send {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  border: 1px solid rgba(149, 151, 152, 0.14);
+  padding: 3px 4px 3px 4px;
+  color: rgba(149, 151, 152, 0.54);
+  border-radius: 50%;
+  background: rgba(222, 225, 226, 0.68);
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #636363;
+    color: #636363;
+    background: #cccccc;
+  }
+  .icon-submit-comment {
+    vertical-align: initial;
+  }
+}
+
+.not-read-notifs {
+  font-size: 0.78rem;
+  /* margin-bottom: 2px; */
+  /* margin-top: 10px; */
+  vertical-align: top !important;
+  position: relative;
+}
+
+.comment-container {
+  margin-top: -10px;
+}
