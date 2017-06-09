@@ -1,0 +1,18 @@
+{
+  "HOME": {
+    "TITLE": "Hello Angular 2 with ng2-translate!",
+    "SELECT": "Change language",
+    "ESPACE": "Espace client"
+  },
+   "HEADER": {
+    "SERVICES": "Services",
+    "AGENCES": "Agences",
+    "ESPACE": "Espace client"
+  },
+  "TRANSFER": {
+    "TITLE": "Money transfer"
+  },
+  "REGISTER": {
+    "TITLE": "Devenir Client"
+  }
+}
