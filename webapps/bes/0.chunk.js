@@ -301,32 +301,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var store_1 = __webpack_require__(416);
-var angular2_recaptcha_1 = __webpack_require__(578);
+var angular2_recaptcha_1 = __webpack_require__(582);
 var common_1 = __webpack_require__(38);
 var forms_1 = __webpack_require__(177);
-var register_routing_module_1 = __webpack_require__(570);
+var register_routing_module_1 = __webpack_require__(574);
 var dropdown_1 = __webpack_require__(182);
 var ng_bootstrap_1 = __webpack_require__(457);
-var core_2 = __webpack_require__(575);
-var angular2_text_mask_1 = __webpack_require__(579);
+var core_2 = __webpack_require__(579);
+var angular2_text_mask_1 = __webpack_require__(583);
 var shared_lazy_module_1 = __webpack_require__(484);
 //components
-var forms_component_1 = __webpack_require__(567);
-var general_component_1 = __webpack_require__(526);
-var signalitique_component_1 = __webpack_require__(527);
-var contact_component_1 = __webpack_require__(525);
-var beneficiaire_component_1 = __webpack_require__(524);
-var result_component_1 = __webpack_require__(528);
-var navbar_form_step_component_1 = __webpack_require__(569);
-var rib_input_component_1 = __webpack_require__(572);
+var forms_component_1 = __webpack_require__(571);
+var general_component_1 = __webpack_require__(530);
+var signalitique_component_1 = __webpack_require__(531);
+var contact_component_1 = __webpack_require__(529);
+var beneficiaire_component_1 = __webpack_require__(528);
+var result_component_1 = __webpack_require__(532);
+var navbar_form_step_component_1 = __webpack_require__(573);
+var rib_input_component_1 = __webpack_require__(576);
 //Directives & pipes
-var rib_account_number_pipe_1 = __webpack_require__(529);
-var rib_card_number_directive_1 = __webpack_require__(571);
+var rib_account_number_pipe_1 = __webpack_require__(533);
+var rib_card_number_directive_1 = __webpack_require__(575);
 // Services & others
 var index_1 = __webpack_require__(436);
-var customer_1 = __webpack_require__(515);
-var parametrage_service_1 = __webpack_require__(514);
-var store_devtools_1 = __webpack_require__(546);
+var customer_1 = __webpack_require__(519);
+var parametrage_service_1 = __webpack_require__(488);
+var store_devtools_1 = __webpack_require__(550);
 var RegisterModule = (function () {
     function RegisterModule() {
     }
@@ -642,9 +642,9 @@ NgbDatepickerI18nDefault.ctorParameters = function () { return []; };
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__ = __webpack_require__(513);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Dispatcher", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dispatcher__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ng2__ = __webpack_require__(549);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ng2__ = __webpack_require__(553);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "INITIAL_REDUCER", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "INITIAL_STATE", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "_INITIAL_REDUCER", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["c"]; });
@@ -656,13 +656,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "_reducerFactory", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "provideStore", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["j"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "StoreModule", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ng2__["k"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_reducer__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_reducer__ = __webpack_require__(514);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Reducer", function() { return __WEBPACK_IMPORTED_MODULE_2__src_reducer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_state__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_state__ = __webpack_require__(515);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "State", function() { return __WEBPACK_IMPORTED_MODULE_3__src_state__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_store__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_store__ = __webpack_require__(516);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return __WEBPACK_IMPORTED_MODULE_4__src_store__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_utils__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_utils__ = __webpack_require__(517);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "combineReducers", function() { return __WEBPACK_IMPORTED_MODULE_5__src_utils__["a"]; });
 
 
@@ -882,7 +882,7 @@ function positionElements(hostElement, targetElement, placement, appendToBody) {
 
 var core_1 = __webpack_require__(1);
 var Observable_1 = __webpack_require__(3);
-var maps_api_loader_1 = __webpack_require__(486);
+var maps_api_loader_1 = __webpack_require__(490);
 /**
  * Wrapper class that handles the communication with the Google Maps Javascript
  * API v3
@@ -1749,12 +1749,12 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(553));
-__export(__webpack_require__(551));
-__export(__webpack_require__(515));
-__export(__webpack_require__(552));
+__export(__webpack_require__(557));
 __export(__webpack_require__(555));
-__export(__webpack_require__(554));
+__export(__webpack_require__(519));
+__export(__webpack_require__(556));
+__export(__webpack_require__(559));
+__export(__webpack_require__(558));
 //# sourceMappingURL=D:/workspace/Bes_project/src/index.js.map
 
 /***/ }),
@@ -3139,7 +3139,7 @@ var NavigationEvent;
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__datepicker__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__datepicker_input__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_9__ngb_calendar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__ = __webpack_require__(492);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__["a"]; });
 /* unused harmony reexport NgbDatepickerMonthView */
 /* unused harmony reexport NgbDatepickerDayView */
@@ -4787,7 +4787,7 @@ NgbTabsetModule.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_time__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_time__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__timepicker_config__ = __webpack_require__(432);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbTimepicker; });
 
@@ -5196,11 +5196,11 @@ NgbHighlight.propDecorators = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__ = __webpack_require__(507);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_positioning__ = __webpack_require__(418);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__typeahead_window__ = __webpack_require__(435);
@@ -5573,6 +5573,7 @@ var core_1 = __webpack_require__(1);
 var http_1 = __webpack_require__(98);
 var common_1 = __webpack_require__(38);
 var core_2 = __webpack_require__(99);
+var angular2_loaders_css_1 = __webpack_require__(485);
 var SharedLazyModule = (function () {
     function SharedLazyModule() {
     }
@@ -5583,11 +5584,14 @@ SharedLazyModule = __decorate([
         imports: [
             http_1.HttpModule,
             common_1.CommonModule,
+            angular2_loaders_css_1.LoadersCssModule,
             core_2.TranslateModule.forChild({}),
         ],
+        declarations: [],
         exports: [
             common_1.CommonModule,
-            core_2.TranslateModule
+            core_2.TranslateModule,
+            angular2_loaders_css_1.LoadersCssModule
         ]
     })
 ], SharedLazyModule);
@@ -5596,6 +5600,164 @@ exports.SharedLazyModule = SharedLazyModule;
 
 /***/ }),
 /* 485 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__(487));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 486 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var LoadersCssComponent = (function () {
+    function LoadersCssComponent() {
+        this.nodes = [];
+        this._loaders = {
+            "ball-pulse": 3,
+            "ball-grid-pulse": 9,
+            "ball-clip-rotate": 1,
+            "ball-clip-rotate-pulse": 2,
+            "square-spin": 1,
+            "ball-clip-rotate-multiple": 2,
+            "ball-pulse-rise": 5,
+            "ball-rotate": 1,
+            "cube-transition": 2,
+            "ball-zig-zag": 2,
+            "ball-zig-zag-deflect": 2,
+            "ball-triangle-path": 3,
+            "ball-scale": 1,
+            "line-scale": 5,
+            "line-scale-party": 4,
+            "ball-scale-multiple": 3,
+            "ball-pulse-sync": 3,
+            "ball-beat": 3,
+            "line-scale-pulse-out": 5,
+            "line-scale-pulse-out-rapid": 5,
+            "ball-scale-ripple": 1,
+            "ball-scale-ripple-multiple": 3,
+            "ball-spin-fade-loader": 8,
+            "line-spin-fade-loader": 8,
+            "triangle-skew-spin": 1,
+            "pacman": 5,
+            "ball-grid-beat": 9,
+            "semi-circle-spin": 1
+        };
+    }
+    LoadersCssComponent.prototype.ngOnInit = function () {
+        for (var i = 0; i < this._loaders[this.loader]; i++) {
+            this.nodes.push(i);
+        }
+    };
+    return LoadersCssComponent;
+}());
+LoadersCssComponent.decorators = [
+    { type: core_1.Component, args: [{
+                selector: 'loaders-css',
+                template: "\n        <div class=\"loader\">\n            <div class=\"loader-inner {{loader}}\">\n                <div *ngFor=\"let node of nodes\" class=\"{{loaderClass}}\"></div>\n            </div>\n        </div>\n    "
+            },] },
+];
+/** @nocollapse */
+LoadersCssComponent.ctorParameters = function () { return []; };
+LoadersCssComponent.propDecorators = {
+    'loader': [{ type: core_1.Input },],
+    'loaderClass': [{ type: core_1.Input },],
+};
+exports.LoadersCssComponent = LoadersCssComponent;
+//# sourceMappingURL=loaders-css.component.js.map
+
+/***/ }),
+/* 487 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var common_1 = __webpack_require__(38);
+var loaders_css_component_1 = __webpack_require__(486);
+var LoadersCssModule = (function () {
+    function LoadersCssModule() {
+    }
+    return LoadersCssModule;
+}());
+LoadersCssModule.decorators = [
+    { type: core_1.NgModule, args: [{
+                imports: [common_1.CommonModule],
+                declarations: [loaders_css_component_1.LoadersCssComponent],
+                exports: [loaders_css_component_1.LoadersCssComponent],
+                providers: []
+            },] },
+];
+/** @nocollapse */
+LoadersCssModule.ctorParameters = function () { return []; };
+exports.LoadersCssModule = LoadersCssModule;
+//# sourceMappingURL=module.js.map
+
+/***/ }),
+/* 488 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var mock_parametrage_1 = __webpack_require__(554);
+var ParametrageService = (function () {
+    function ParametrageService() {
+    }
+    ParametrageService.prototype.getMockCitiesOfFrance = function () {
+        return mock_parametrage_1.CitiesOfFrance;
+    };
+    ParametrageService.prototype.getMockCitiesOfAllemagne = function () {
+        return mock_parametrage_1.CitiesOfAllemagne;
+    };
+    ParametrageService.prototype.getMockCitiesOfChine = function () {
+        return mock_parametrage_1.CitiesOfCHINE;
+    };
+    ParametrageService.prototype.getMockCitiesOfEmiratsArabesUni = function () {
+        return mock_parametrage_1.CitiesOfEmiratsArabesUni;
+    };
+    ParametrageService.prototype.getMockCitiesOfEspagne = function () {
+        return mock_parametrage_1.CitiesOfEspagne;
+    };
+    ParametrageService.prototype.getMockCitiesOfItalie = function () {
+        return mock_parametrage_1.CitiesOfItalie;
+    };
+    ParametrageService.prototype.getIds = function () {
+        return mock_parametrage_1.IDS;
+    };
+    ParametrageService.prototype.getGbIds = function () {
+        return mock_parametrage_1.IDSFR;
+    };
+    ParametrageService.prototype.getAgencesBes = function () {
+        return mock_parametrage_1.AgencesBES;
+    };
+    return ParametrageService;
+}());
+ParametrageService = __decorate([
+    core_1.Injectable()
+], ParametrageService);
+exports.ParametrageService = ParametrageService;
+//# sourceMappingURL=D:/workspace/Bes_project/src/parametrage.service.js.map
+
+/***/ }),
+/* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5685,7 +5847,7 @@ exports.MarkerManager = MarkerManager;
 //# sourceMappingURL=marker-manager.js.map
 
 /***/ }),
-/* 486 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5705,7 +5867,7 @@ exports.MapsAPILoader = MapsAPILoader;
 //# sourceMappingURL=maps-api-loader.js.map
 
 /***/ }),
-/* 487 */
+/* 491 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5788,11 +5950,11 @@ NgbCalendarHijri.ctorParameters = function () { return []; };
 //# sourceMappingURL=ngb-calendar-hijri.js.map
 
 /***/ }),
-/* 488 */
+/* 492 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngb_calendar_hijri__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngb_calendar_hijri__ = __webpack_require__(491);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngb_date__ = __webpack_require__(414);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbCalendarIslamicCivil; });
@@ -5941,7 +6103,7 @@ NgbCalendarIslamicCivil.ctorParameters = function () { return []; };
 //# sourceMappingURL=ngb-calendar-islamic-civil.js.map
 
 /***/ }),
-/* 489 */
+/* 493 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6003,7 +6165,7 @@ var NgbTime = (function () {
 //# sourceMappingURL=ngb-time.js.map
 
 /***/ }),
-/* 490 */
+/* 494 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6060,11 +6222,11 @@ var StoreDevtoolActions = {
 //# sourceMappingURL=actions.js.map
 
 /***/ }),
-/* 491 */
+/* 495 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__actions__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__actions__ = __webpack_require__(494);
 /* harmony export (immutable) */ __webpack_exports__["d"] = difference;
 /* harmony export (immutable) */ __webpack_exports__["c"] = unliftState;
 /* unused harmony export unliftAction */
@@ -6100,13 +6262,13 @@ function applyOperators(input$, operators) {
 //# sourceMappingURL=utils.js.map
 
 /***/ }),
-/* 492 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var info_window_manager_1 = __webpack_require__(495);
+var info_window_manager_1 = __webpack_require__(499);
 var infoWindowId = 0;
 /**
  * SebmGoogleMapInfoWindow renders a info window inside a {@link SebmGoogleMapMarker} or standalone.
@@ -6229,7 +6391,7 @@ exports.SebmGoogleMapInfoWindow = SebmGoogleMapInfoWindow;
 //# sourceMappingURL=google-map-info-window.js.map
 
 /***/ }),
-/* 493 */
+/* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6271,7 +6433,7 @@ exports.SebmGoogleMapPolylinePoint = SebmGoogleMapPolylinePoint;
 //# sourceMappingURL=google-map-polyline-point.js.map
 
 /***/ }),
-/* 494 */
+/* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6376,7 +6538,7 @@ exports.CircleManager = CircleManager;
 //# sourceMappingURL=circle-manager.js.map
 
 /***/ }),
-/* 495 */
+/* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6384,7 +6546,7 @@ exports.CircleManager = CircleManager;
 var Observable_1 = __webpack_require__(3);
 var core_1 = __webpack_require__(1);
 var google_maps_api_wrapper_1 = __webpack_require__(419);
-var marker_manager_1 = __webpack_require__(485);
+var marker_manager_1 = __webpack_require__(489);
 var InfoWindowManager = (function () {
     function InfoWindowManager(_mapsWrapper, _zone, _markerManager) {
         this._mapsWrapper = _mapsWrapper;
@@ -6471,7 +6633,7 @@ exports.InfoWindowManager = InfoWindowManager;
 //# sourceMappingURL=info-window-manager.js.map
 
 /***/ }),
-/* 496 */
+/* 500 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6540,7 +6702,7 @@ exports.KmlLayerManager = KmlLayerManager;
 //# sourceMappingURL=kml-layer-manager.js.map
 
 /***/ }),
-/* 497 */
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6617,7 +6779,7 @@ exports.PolygonManager = PolygonManager;
 //# sourceMappingURL=polygon-manager.js.map
 
 /***/ }),
-/* 498 */
+/* 502 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6700,7 +6862,7 @@ exports.PolylineManager = PolylineManager;
 //# sourceMappingURL=polyline-manager.js.map
 
 /***/ }),
-/* 499 */
+/* 503 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6711,8 +6873,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var core_1 = __webpack_require__(1);
-var browser_globals_1 = __webpack_require__(536);
-var maps_api_loader_1 = __webpack_require__(486);
+var browser_globals_1 = __webpack_require__(540);
+var maps_api_loader_1 = __webpack_require__(490);
 (function (GoogleMapsScriptProtocol) {
     GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTP"] = 1] = "HTTP";
     GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTPS"] = 2] = "HTTPS";
@@ -6809,7 +6971,7 @@ exports.LazyMapsAPILoader = LazyMapsAPILoader;
 //# sourceMappingURL=lazy-maps-api-loader.js.map
 
 /***/ }),
-/* 500 */
+/* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6955,17 +7117,17 @@ exports.FromEventObservable = FromEventObservable;
 //# sourceMappingURL=FromEventObservable.js.map
 
 /***/ }),
-/* 501 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventObservable_1 = __webpack_require__(500);
+var FromEventObservable_1 = __webpack_require__(504);
 exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
-/* 502 */
+/* 506 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7084,7 +7246,7 @@ var DoSubscriber = (function (_super) {
 //# sourceMappingURL=do.js.map
 
 /***/ }),
-/* 503 */
+/* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7102,13 +7264,13 @@ exports.letProto = letProto;
 //# sourceMappingURL=let.js.map
 
 /***/ }),
-/* 504 */
+/* 508 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var QueueAction_1 = __webpack_require__(620);
-var QueueScheduler_1 = __webpack_require__(621);
+var QueueAction_1 = __webpack_require__(624);
+var QueueScheduler_1 = __webpack_require__(625);
 /**
  *
  * Queue Scheduler
@@ -7174,20 +7336,20 @@ exports.queue = new QueueScheduler_1.QueueScheduler(QueueAction_1.QueueAction);
 //# sourceMappingURL=queue.js.map
 
 /***/ }),
-/* 505 */
+/* 509 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_operator_enterZone__ = __webpack_require__(543);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_operator_enterZone__ = __webpack_require__(547);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "enterZone", function() { return __WEBPACK_IMPORTED_MODULE_0__src_operator_enterZone__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "EnterZoneOperator", function() { return __WEBPACK_IMPORTED_MODULE_0__src_operator_enterZone__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_operator_leaveZone__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_operator_leaveZone__ = __webpack_require__(548);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "leaveZone", function() { return __WEBPACK_IMPORTED_MODULE_1__src_operator_leaveZone__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "LeaveZoneOperator", function() { return __WEBPACK_IMPORTED_MODULE_1__src_operator_leaveZone__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_operator_select__ = __webpack_require__(545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_operator_select__ = __webpack_require__(549);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "select", function() { return __WEBPACK_IMPORTED_MODULE_2__src_operator_select__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_compose__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_compose__ = __webpack_require__(546);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "compose", function() { return __WEBPACK_IMPORTED_MODULE_3__src_compose__["a"]; });
 
 
@@ -7196,7 +7358,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 506 */
+/* 510 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7209,13 +7371,13 @@ var INITIAL_OPTIONS = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["OpaqueTok
 //# sourceMappingURL=config.js.map
 
 /***/ }),
-/* 507 */
+/* 511 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(416);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_ReplaySubject__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_ReplaySubject__ = __webpack_require__(613);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_ReplaySubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_ReplaySubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__);
@@ -7223,19 +7385,19 @@ var INITIAL_OPTIONS = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["OpaqueTok
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_merge__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_observeOn__ = __webpack_require__(180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_observeOn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_observeOn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_scan__ = __webpack_require__(539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_scan__ = __webpack_require__(543);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_scan___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_scan__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_skip__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_skip__ = __webpack_require__(619);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_skip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_skip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_withLatestFrom__ = __webpack_require__(540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_withLatestFrom__ = __webpack_require__(544);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_withLatestFrom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_withLatestFrom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_scheduler_queue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_scheduler_queue__ = __webpack_require__(508);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_scheduler_queue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_scheduler_queue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__extension__ = __webpack_require__(508);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils__ = __webpack_require__(491);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__reducer__ = __webpack_require__(548);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__actions__ = __webpack_require__(490);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__config__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__extension__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__reducer__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__actions__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__config__ = __webpack_require__(510);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return DevtoolsDispatcher; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StoreDevtools; });
 var __extends = (this && this.__extends) || (function () {
@@ -7357,14 +7519,14 @@ StoreDevtools.ctorParameters = function () { return [
 //# sourceMappingURL=devtools.js.map
 
 /***/ }),
-/* 508 */
+/* 512 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_empty__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_empty__ = __webpack_require__(616);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_empty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_empty__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_filter__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_filter__);
@@ -7374,9 +7536,9 @@ StoreDevtools.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_share__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_switchMap__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_takeUntil__ = __webpack_require__(616);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_takeUntil__ = __webpack_require__(620);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_takeUntil___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_takeUntil__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(495);
 /* unused harmony export ExtensionActionTypes */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return REDUX_DEVTOOLS_EXTENSION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DevtoolsExtension; });
@@ -7459,7 +7621,7 @@ DevtoolsExtension.ctorParameters = function () { return [
 //# sourceMappingURL=extension.js.map
 
 /***/ }),
-/* 509 */
+/* 513 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7495,7 +7657,7 @@ Dispatcher.INIT = '@ngrx/store/init';
 //# sourceMappingURL=dispatcher.js.map
 
 /***/ }),
-/* 510 */
+/* 514 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7534,17 +7696,17 @@ Reducer.REPLACE = '@ngrx/store/replace-reducer';
 //# sourceMappingURL=reducer.js.map
 
 /***/ }),
-/* 511 */
+/* 515 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_withLatestFrom__ = __webpack_require__(540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_withLatestFrom__ = __webpack_require__(544);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_withLatestFrom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_operator_withLatestFrom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_scan__ = __webpack_require__(539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_scan__ = __webpack_require__(543);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_scan___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_operator_scan__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_observeOn__ = __webpack_require__(180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_observeOn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_observeOn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_scheduler_queue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_scheduler_queue__ = __webpack_require__(508);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_scheduler_queue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_scheduler_queue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_BehaviorSubject__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_BehaviorSubject__);
@@ -7583,11 +7745,11 @@ var State = (function (_super) {
 //# sourceMappingURL=state.js.map
 
 /***/ }),
-/* 512 */
+/* 516 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_core__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_core__ = __webpack_require__(509);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Store; });
@@ -7639,7 +7801,7 @@ var Store = (function (_super) {
 //# sourceMappingURL=store.js.map
 
 /***/ }),
-/* 513 */
+/* 517 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7672,48 +7834,8 @@ function combineReducers(reducers) {
 //# sourceMappingURL=utils.js.map
 
 /***/ }),
-/* 514 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var mock_parametrage_1 = __webpack_require__(550);
-var ParametrageService = (function () {
-    function ParametrageService() {
-    }
-    ParametrageService.prototype.getMockCitiesOfFrance = function () {
-        return mock_parametrage_1.CitiesOfFrance;
-    };
-    ParametrageService.prototype.getMockCitiesOfAllemagne = function () {
-        return mock_parametrage_1.CitiesOfAllemagne;
-    };
-    ParametrageService.prototype.getMockCitiesOfChine = function () {
-        return mock_parametrage_1.CitiesOfCHINE;
-    };
-    ParametrageService.prototype.getMockCitiesOfEmiratsArabesUni = function () {
-        return mock_parametrage_1.CitiesOfEmiratsArabesUni;
-    };
-    ParametrageService.prototype.getAgencesBes = function () {
-        return mock_parametrage_1.AgencesBES;
-    };
-    return ParametrageService;
-}());
-ParametrageService = __decorate([
-    core_1.Injectable()
-], ParametrageService);
-exports.ParametrageService = ParametrageService;
-//# sourceMappingURL=D:/workspace/Bes_project/src/parametrage.service.js.map
-
-/***/ }),
-/* 515 */
+/* 518 */,
+/* 519 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7730,19 +7852,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var store_1 = __webpack_require__(416);
-var core_2 = __webpack_require__(505);
+var core_2 = __webpack_require__(509);
 __webpack_require__(102);
-__webpack_require__(611);
+__webpack_require__(615);
 var UPDATE_CUSTOMER = 'UPDATE_CUSTOMER';
 var initialState = {
     firstName: '',
-    lastName: 'qsdqsd',
+    lastName: '',
     email: '',
     confirmEmail: '',
 };
 function customer(state, action) {
     if (state === void 0) { state = initialState; }
-    console.log('customerprofile reducer');
     switch (action.type) {
         case UPDATE_CUSTOMER:
             return action.payload;
@@ -7780,15 +7901,15 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/customer.js.map
 
 /***/ }),
-/* 516 */,
-/* 517 */,
-/* 518 */,
-/* 519 */,
 /* 520 */,
 /* 521 */,
 /* 522 */,
 /* 523 */,
-/* 524 */
+/* 524 */,
+/* 525 */,
+/* 526 */,
+/* 527 */,
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7808,7 +7929,7 @@ var forms_1 = __webpack_require__(177);
 var router_1 = __webpack_require__(97);
 var index_1 = __webpack_require__(436);
 var store_1 = __webpack_require__(416);
-var parametrage_service_1 = __webpack_require__(514);
+var parametrage_service_1 = __webpack_require__(488);
 var BeneficiaireComponent = (function () {
     function BeneficiaireComponent(store, beneficiaireService, contactService, fb, customerService, router, parametrageService) {
         this.store = store;
@@ -7821,6 +7942,7 @@ var BeneficiaireComponent = (function () {
         this.hidden = false;
         this.hiddenBen = false;
         this.success = false;
+        this.loading = false;
         this.step = 4;
         this.label = "RIB bénéficiaire";
         this.markers = [];
@@ -7829,13 +7951,15 @@ var BeneficiaireComponent = (function () {
         var _this = this;
         this.agences = this.parametrageService.getAgencesBes();
         this.agences.forEach(function (element) {
-            _this.markers.push({
-                title: element.key,
-                lat: element.lat,
-                lng: element.lng,
-                label: "",
-                icon: "assets/img/marker.png",
-                draggable: true
+            element.agences.forEach(function (element) {
+                _this.markers.push({
+                    title: element.key,
+                    lat: element.lat,
+                    lng: element.lng,
+                    label: "",
+                    icon: "assets/img/marker.png",
+                    draggable: true
+                });
             });
         });
         this.beneficiaireService.beneficiaire$
@@ -7844,7 +7968,6 @@ var BeneficiaireComponent = (function () {
             _this.email = customer.email;
         });
         this.contactService.contact$.subscribe(function (contact) {
-            console.log(contact);
             _this.initializeMap(contact.cityOfBirth);
         });
     };
@@ -7853,11 +7976,17 @@ var BeneficiaireComponent = (function () {
         city = this.noAccent(city);
         city = city.toLowerCase();
         this.agences.forEach(function (element) {
-            var value = element.value.toLowerCase();
-            if (value === city) {
-                _this.lat = element.lat;
-                _this.lng = element.lng;
-            }
+            element.agences.forEach(function (element) {
+                var value = element.value.toLowerCase();
+                if (value === city) {
+                    _this.form.get('agenceBes').patchValue(element.key);
+                    // let LatLngList = [];
+                    // LatLngList.push(new google.maps.LatLng (element.lat,element.lng));
+                    // console.log(LatLngList);
+                    _this.lat = element.lat;
+                    _this.lng = element.lng;
+                }
+            });
         });
     };
     BeneficiaireComponent.prototype.initForm = function (beneficiaire) {
@@ -7906,8 +8035,11 @@ var BeneficiaireComponent = (function () {
             });
         }
         this.beneficiaireService.updateBeneficiaire(this.form.value);
+        this.loading = true;
         localStorage.setItem('beneficiaire', JSON.stringify([{ account: this.form.value.account, firstname: this.form.value.firstname, lastname: this.form.value.lastname }]));
-        this.router.navigateByUrl('register/result');
+        setTimeout(function () {
+            _this.router.navigateByUrl('register/result');
+        }, 2000);
     };
     BeneficiaireComponent.prototype.noAccent = function (text) {
         var accent = [
@@ -7926,12 +8058,16 @@ var BeneficiaireComponent = (function () {
         return text;
     };
     BeneficiaireComponent.prototype.clickedMarker = function (label, index) {
+        this.setAgenceBes(index);
+    };
+    BeneficiaireComponent.prototype.setAgenceBes = function (index) {
         var _this = this;
-        console.log(index);
         this.agences.forEach(function (element) {
-            if (element.key === index) {
-                _this.form.get('agenceBes').patchValue(element.key);
-            }
+            element.agences.forEach(function (element) {
+                if (element.key === index) {
+                    _this.form.get('agenceBes').patchValue(element.key);
+                }
+            });
         });
     };
     return BeneficiaireComponent;
@@ -7939,8 +8075,8 @@ var BeneficiaireComponent = (function () {
 BeneficiaireComponent = __decorate([
     core_1.Component({
         selector: 'app-beneficiaire',
-        template: __webpack_require__(602),
-        styles: [__webpack_require__(584)]
+        template: __webpack_require__(606),
+        styles: [__webpack_require__(588)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _a || Object, typeof (_b = typeof index_1.BeneficiaireService !== "undefined" && index_1.BeneficiaireService) === "function" && _b || Object, typeof (_c = typeof index_1.ContactService !== "undefined" && index_1.ContactService) === "function" && _c || Object, typeof (_d = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _d || Object, typeof (_e = typeof index_1.CustomerService !== "undefined" && index_1.CustomerService) === "function" && _e || Object, typeof (_f = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _f || Object, typeof (_g = typeof parametrage_service_1.ParametrageService !== "undefined" && parametrage_service_1.ParametrageService) === "function" && _g || Object])
 ], BeneficiaireComponent);
@@ -7949,7 +8085,7 @@ var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=D:/workspace/Bes_project/src/beneficiaire.component.js.map
 
 /***/ }),
-/* 525 */
+/* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7969,18 +8105,55 @@ var forms_1 = __webpack_require__(177);
 var router_1 = __webpack_require__(97);
 var index_1 = __webpack_require__(436);
 var store_1 = __webpack_require__(416);
+var parametrage_service_1 = __webpack_require__(488);
 var ContactComponent = (function () {
-    function ContactComponent(store, contactService, fb, router) {
+    function ContactComponent(parametrageService, store, contactService, fb, router) {
+        this.parametrageService = parametrageService;
         this.store = store;
         this.contactService = contactService;
         this.fb = fb;
         this.router = router;
         this.step = 3;
         this.citiesOfFrance = [];
+        this.cityInput = false;
     }
     ContactComponent.prototype.ngOnInit = function () {
         this.contactService.contact$
             .subscribe(this.initForm.bind(this));
+        var city = this.form.get('countryOfBirth').value;
+        if (city === 'France') {
+            this.cities = this.parametrageService.getMockCitiesOfFrance();
+        }
+        else if (city === 'Espagne') {
+            this.cities = this.parametrageService.getMockCitiesOfEspagne();
+        }
+        else if (city === "Italie") {
+            this.cities = this.parametrageService.getMockCitiesOfItalie();
+        }
+    };
+    ContactComponent.prototype.getCitiesOfCountry = function (city) {
+        this.cityInput = false;
+        if (city === 'France') {
+            this.cities = this.parametrageService.getMockCitiesOfFrance();
+            this.form.get('cityOfBirth').patchValue('paris');
+        }
+        else if (city === 'Espagne') {
+            this.cities = this.parametrageService.getMockCitiesOfEspagne();
+            this.form.get('cityOfBirth').patchValue('madrid');
+        }
+        else if (city === "Italie") {
+            this.cities = this.parametrageService.getMockCitiesOfItalie();
+            this.form.get('cityOfBirth').patchValue('milan');
+        }
+    };
+    ContactComponent.prototype.chooseOthers = function (others) {
+        if (others === 'others') {
+            this.cityInput = true;
+            this.form.get('cityOfBirth').patchValue('');
+        }
+        else {
+            this.cityInput = false;
+        }
     };
     ContactComponent.prototype.initForm = function (contact) {
         this.form = this.fb.group({
@@ -8005,17 +8178,17 @@ var ContactComponent = (function () {
 ContactComponent = __decorate([
     core_1.Component({
         selector: 'app-address',
-        template: __webpack_require__(603),
-        styles: [__webpack_require__(585)]
+        template: __webpack_require__(607),
+        styles: [__webpack_require__(589)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _a || Object, typeof (_b = typeof index_1.ContactService !== "undefined" && index_1.ContactService) === "function" && _b || Object, typeof (_c = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _c || Object, typeof (_d = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _d || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof parametrage_service_1.ParametrageService !== "undefined" && parametrage_service_1.ParametrageService) === "function" && _a || Object, typeof (_b = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _b || Object, typeof (_c = typeof index_1.ContactService !== "undefined" && index_1.ContactService) === "function" && _c || Object, typeof (_d = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _d || Object, typeof (_e = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _e || Object])
 ], ContactComponent);
 exports.ContactComponent = ContactComponent;
-var _a, _b, _c, _d;
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=D:/workspace/Bes_project/src/contact.component.js.map
 
 /***/ }),
-/* 526 */
+/* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8046,31 +8219,13 @@ var GeneralInfoComponent = (function () {
         this.success = false;
         this.submitted = 0;
         this.error = '';
-        this.customer = customerService.customer;
     }
     GeneralInfoComponent.prototype.ngOnDestroy = function () {
         // this.subscription.unsubscribe();
     };
     GeneralInfoComponent.prototype.ngOnInit = function () {
-        this.initForm({
-            firstName: '',
-            lastName: '',
-            email: '',
-            confirmEmail: '',
-        });
-        this.subscription = this.customer
-            .subscribe(function (campaigns) {
-            console.log(campaigns);
-        });
-        //     this.store.select<CustomerProfile>(store => store.customer).subscribe(customer => {
-        //      console.log(customer);
-        //         this.form.patchValue(customer, { emitEvent: false })
-        // });
-        // this.subscription = this.customerService.customer$.subscribe(
-        //   customer => {
-        //     console.log("aloo");
-        //     this.form.patchValue({ "lastName": customer.lastName }, { emitEvent: false })
-        //   });
+        this.customerService.customer$
+            .subscribe(this.initForm.bind(this));
     };
     GeneralInfoComponent.prototype.ngAfterContentInit = function () {
     };
@@ -8105,8 +8260,8 @@ var GeneralInfoComponent = (function () {
 GeneralInfoComponent = __decorate([
     core_1.Component({
         selector: 'app-user',
-        template: __webpack_require__(605),
-        styles: [__webpack_require__(587)]
+        template: __webpack_require__(609),
+        styles: [__webpack_require__(591)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _a || Object, typeof (_b = typeof index_1.CustomerService !== "undefined" && index_1.CustomerService) === "function" && _b || Object, typeof (_c = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _c || Object, typeof (_d = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _d || Object])
 ], GeneralInfoComponent);
@@ -8115,7 +8270,7 @@ var _a, _b, _c, _d;
 //# sourceMappingURL=D:/workspace/Bes_project/src/general.component.js.map
 
 /***/ }),
-/* 527 */
+/* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8135,18 +8290,38 @@ var forms_1 = __webpack_require__(177);
 var router_1 = __webpack_require__(97);
 var index_1 = __webpack_require__(436);
 var store_1 = __webpack_require__(416);
-var date_validator_1 = __webpack_require__(568);
+var date_validator_1 = __webpack_require__(572);
 var ng_bootstrap_1 = __webpack_require__(457);
+var parametrage_service_1 = __webpack_require__(488);
+var core_2 = __webpack_require__(99);
 var SignalitiqueComponent = (function () {
-    function SignalitiqueComponent(store, signalitiqueService, fb, router, config) {
+    function SignalitiqueComponent(translate, store, signalitiqueService, fb, router, config, parametrageService) {
+        var _this = this;
+        this.translate = translate;
         this.store = store;
         this.signalitiqueService = signalitiqueService;
         this.fb = fb;
         this.router = router;
+        this.parametrageService = parametrageService;
         this.step = 2;
         config.minDate = { year: 1920, month: 1, day: 1 };
+        this.translate.onLangChange.subscribe(function (event) {
+            if (_this.translate.currentLang === 'fr') {
+                _this.ids = _this.parametrageService.getIds();
+            }
+            else {
+                _this.ids = _this.parametrageService.getGbIds();
+            }
+        });
     }
     SignalitiqueComponent.prototype.ngOnInit = function () {
+        console.log(this.translate.currentLang);
+        if (this.translate.currentLang === 'fr') {
+            this.ids = this.parametrageService.getIds();
+        }
+        else {
+            this.ids = this.parametrageService.getGbIds();
+        }
         this.signalitiqueService.signalitique$
             .subscribe(this.initForm.bind(this));
     };
@@ -8174,18 +8349,18 @@ var SignalitiqueComponent = (function () {
 SignalitiqueComponent = __decorate([
     core_1.Component({
         selector: 'app-health',
-        template: __webpack_require__(606),
-        styles: [__webpack_require__(588)],
+        template: __webpack_require__(610),
+        styles: [__webpack_require__(592)],
         providers: [ng_bootstrap_1.NgbDatepickerConfig]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _a || Object, typeof (_b = typeof index_1.SignalitiqueService !== "undefined" && index_1.SignalitiqueService) === "function" && _b || Object, typeof (_c = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _c || Object, typeof (_d = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _d || Object, typeof (_e = typeof ng_bootstrap_1.NgbDatepickerConfig !== "undefined" && ng_bootstrap_1.NgbDatepickerConfig) === "function" && _e || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof core_2.TranslateService !== "undefined" && core_2.TranslateService) === "function" && _a || Object, typeof (_b = typeof store_1.Store !== "undefined" && store_1.Store) === "function" && _b || Object, typeof (_c = typeof index_1.SignalitiqueService !== "undefined" && index_1.SignalitiqueService) === "function" && _c || Object, typeof (_d = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _d || Object, typeof (_e = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _e || Object, typeof (_f = typeof ng_bootstrap_1.NgbDatepickerConfig !== "undefined" && ng_bootstrap_1.NgbDatepickerConfig) === "function" && _f || Object, typeof (_g = typeof parametrage_service_1.ParametrageService !== "undefined" && parametrage_service_1.ParametrageService) === "function" && _g || Object])
 ], SignalitiqueComponent);
 exports.SignalitiqueComponent = SignalitiqueComponent;
-var _a, _b, _c, _d, _e;
+var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=D:/workspace/Bes_project/src/signalitique.component.js.map
 
 /***/ }),
-/* 528 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8223,7 +8398,7 @@ var ResultComponent = (function () {
 ResultComponent = __decorate([
     core_1.Component({
         selector: 'app-result',
-        template: __webpack_require__(607)
+        template: __webpack_require__(611)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof index_1.CustomerService !== "undefined" && index_1.CustomerService) === "function" && _a || Object, typeof (_b = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _b || Object])
 ], ResultComponent);
@@ -8232,7 +8407,7 @@ var _a, _b;
 //# sourceMappingURL=D:/workspace/Bes_project/src/result.component.js.map
 
 /***/ }),
-/* 529 */
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8285,13 +8460,13 @@ exports.RibNumberPipe = RibNumberPipe;
 //# sourceMappingURL=D:/workspace/Bes_project/src/rib-account-number.pipe.js.map
 
 /***/ }),
-/* 530 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var circle_manager_1 = __webpack_require__(494);
+var circle_manager_1 = __webpack_require__(498);
 var SebmGoogleMapCircle = (function () {
     function SebmGoogleMapCircle(_manager) {
         this._manager = _manager;
@@ -8488,13 +8663,13 @@ exports.SebmGoogleMapCircle = SebmGoogleMapCircle;
 //# sourceMappingURL=google-map-circle.js.map
 
 /***/ }),
-/* 531 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var kml_layer_manager_1 = __webpack_require__(496);
+var kml_layer_manager_1 = __webpack_require__(500);
 var layerId = 0;
 var SebmGoogleMapKmlLayer = (function () {
     function SebmGoogleMapKmlLayer(_manager) {
@@ -8609,14 +8784,14 @@ exports.SebmGoogleMapKmlLayer = SebmGoogleMapKmlLayer;
 //# sourceMappingURL=google-map-kml-layer.js.map
 
 /***/ }),
-/* 532 */
+/* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var marker_manager_1 = __webpack_require__(485);
-var google_map_info_window_1 = __webpack_require__(492);
+var marker_manager_1 = __webpack_require__(489);
+var google_map_info_window_1 = __webpack_require__(496);
 var markerId = 0;
 /**
  * SebmGoogleMapMarker renders a map marker inside a {@link SebmGoogleMap}.
@@ -8789,13 +8964,13 @@ exports.SebmGoogleMapMarker = SebmGoogleMapMarker;
 //# sourceMappingURL=google-map-marker.js.map
 
 /***/ }),
-/* 533 */
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var polygon_manager_1 = __webpack_require__(497);
+var polygon_manager_1 = __webpack_require__(501);
 /**
  * SebmGoogleMapPolygon renders a polygon on a {@link SebmGoogleMap}
  *
@@ -9022,14 +9197,14 @@ exports.SebmGoogleMapPolygon = SebmGoogleMapPolygon;
 //# sourceMappingURL=google-map-polygon.js.map
 
 /***/ }),
-/* 534 */
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var polyline_manager_1 = __webpack_require__(498);
-var google_map_polyline_point_1 = __webpack_require__(493);
+var polyline_manager_1 = __webpack_require__(502);
+var google_map_polyline_point_1 = __webpack_require__(497);
 var polylineId = 0;
 /**
  * SebmGoogleMapPolyline renders a polyline on a {@link SebmGoogleMap}
@@ -9233,19 +9408,19 @@ exports.SebmGoogleMapPolyline = SebmGoogleMapPolyline;
 //# sourceMappingURL=google-map-polyline.js.map
 
 /***/ }),
-/* 535 */
+/* 539 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
 var google_maps_api_wrapper_1 = __webpack_require__(419);
-var circle_manager_1 = __webpack_require__(494);
-var info_window_manager_1 = __webpack_require__(495);
-var marker_manager_1 = __webpack_require__(485);
-var polygon_manager_1 = __webpack_require__(497);
-var polyline_manager_1 = __webpack_require__(498);
-var kml_layer_manager_1 = __webpack_require__(496);
+var circle_manager_1 = __webpack_require__(498);
+var info_window_manager_1 = __webpack_require__(499);
+var marker_manager_1 = __webpack_require__(489);
+var polygon_manager_1 = __webpack_require__(501);
+var polyline_manager_1 = __webpack_require__(502);
+var kml_layer_manager_1 = __webpack_require__(500);
 /**
  * SebMGoogleMap renders a Google Map.
  * **Important note**: To be able see a map in the browser, you have to define a height for the CSS
@@ -9554,7 +9729,7 @@ exports.SebmGoogleMap = SebmGoogleMap;
 //# sourceMappingURL=google-map.js.map
 
 /***/ }),
-/* 536 */
+/* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9577,7 +9752,7 @@ exports.BROWSER_GLOBALS_PROVIDERS = [WindowRef, DocumentRef];
 //# sourceMappingURL=browser-globals.js.map
 
 /***/ }),
-/* 537 */
+/* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9594,7 +9769,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var forms_1 = __webpack_require__(177);
-var captcha_service_1 = __webpack_require__(538);
+var captcha_service_1 = __webpack_require__(542);
 var ReCaptchaComponent = ReCaptchaComponent_1 = (function () {
     function ReCaptchaComponent(_zone, _captchaService) {
         this._zone = _zone;
@@ -9734,7 +9909,7 @@ var ReCaptchaComponent_1;
 
 
 /***/ }),
-/* 538 */
+/* 542 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9807,7 +9982,7 @@ exports.RECAPTCHA_SERVICE_PROVIDER = {
 
 
 /***/ }),
-/* 539 */
+/* 543 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9932,7 +10107,7 @@ var ScanSubscriber = (function (_super) {
 //# sourceMappingURL=scan.js.map
 
 /***/ }),
-/* 540 */
+/* 544 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10068,13 +10243,13 @@ var WithLatestFromSubscriber = (function (_super) {
 //# sourceMappingURL=withLatestFrom.js.map
 
 /***/ }),
-/* 541 */
+/* 545 */
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,r){ true?module.exports=r():"function"==typeof define&&define.amd?define([],r):"object"==typeof exports?exports.textMaskCore=r():e.textMaskCore=r()}(this,function(){return function(e){function r(n){if(t[n])return t[n].exports;var o=t[n]={exports:{},id:n,loaded:!1};return e[n].call(o.exports,o,o.exports,r),o.loaded=!0,o.exports}var t={};return r.m=e,r.c=t,r.p="",r(0)}([function(e,r,t){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(r,"__esModule",{value:!0});var o=t(3);Object.defineProperty(r,"conformToMask",{enumerable:!0,get:function(){return n(o).default}});var i=t(2);Object.defineProperty(r,"adjustCaretPosition",{enumerable:!0,get:function(){return n(i).default}});var a=t(5);Object.defineProperty(r,"createTextMaskInputElement",{enumerable:!0,get:function(){return n(a).default}})},function(e,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.placeholderChar="_"},function(e,r){"use strict";function t(e){var r=e.previousConformedValue,t=void 0===r?o:r,i=e.previousPlaceholder,a=void 0===i?o:i,u=e.currentCaretPosition,l=void 0===u?0:u,s=e.conformedValue,f=e.rawValue,d=e.placeholderChar,c=e.placeholder,v=e.indexesOfPipedChars,p=void 0===v?n:v,h=e.caretTrapIndexes,g=void 0===h?n:h;if(0===l)return 0;var m=f.length,y=t.length,b=c.length,C=s.length,P=m-y,x=P>0,O=0===y,k=P>1&&!x&&!O;if(k)return l;var j=x&&(t===s||s===c),M=0,T=void 0,w=void 0;if(j)M=l-P;else{var _=s.toLowerCase(),V=f.toLowerCase(),S=V.substr(0,l).split(o),N=S.filter(function(e){return _.indexOf(e)!==-1});w=N[N.length-1];var E=a.substr(0,N.length).split(o).filter(function(e){return e!==d}).length,A=c.substr(0,N.length).split(o).filter(function(e){return e!==d}).length,R=A!==E,I=void 0!==a[N.length-1]&&void 0!==c[N.length-2]&&a[N.length-1]!==d&&a[N.length-1]!==c[N.length-1]&&a[N.length-1]===c[N.length-2];!x&&(R||I)&&E>0&&c.indexOf(w)>-1&&void 0!==f[l]&&(T=!0,w=f[l]);for(var J=p.map(function(e){return _[e]}),q=J.filter(function(e){return e===w}).length,F=N.filter(function(e){return e===w}).length,L=c.substr(0,c.indexOf(d)).split(o).filter(function(e,r){return e===w&&f[r]!==e}).length,W=L+F+q+(T?1:0),z=0,B=0;B<C;B++){var D=_[B];if(M=B+1,D===w&&z++,z>=W)break}}if(x){for(var G=M,H=M;H<=b;H++)if(c[H]===d&&(G=H),c[H]===d||g.indexOf(H)!==-1||H===b)return G}else if(T){for(var K=M-1;K>=0;K--)if(s[K]===w||g.indexOf(K)!==-1||0===K)return K}else for(var Q=M;Q>=0;Q--)if(c[Q-1]===d||g.indexOf(Q)!==-1||0===Q)return Q}Object.defineProperty(r,"__esModule",{value:!0}),r.default=t;var n=[],o=""},function(e,r,t){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:a,r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:a,t=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},n=t.guide,u=void 0===n||n,l=t.previousConformedValue,s=void 0===l?a:l,f=t.placeholderChar,d=void 0===f?i.placeholderChar:f,c=t.placeholder,v=void 0===c?(0,o.convertMaskToPlaceholder)(r,d):c,p=t.currentCaretPosition,h=t.keepCharPositions,g=u===!1&&void 0!==s,m=e.length,y=s.length,b=v.length,C=r.length,P=m-y,x=P>0,O=p+(x?-P:0),k=O+Math.abs(P);if(h===!0&&!x){for(var j=a,M=O;M<k;M++)v[M]===d&&(j+=d);e=e.slice(0,O)+j+e.slice(O,m)}for(var T=e.split(a).map(function(e,r){return{char:e,isNew:r>=O&&r<k}}),w=m-1;w>=0;w--){var _=T[w].char;if(_!==d){var V=w>=O&&y===C;_===v[V?w-P:w]&&T.splice(w,1)}}var S=a,N=!1;e:for(var E=0;E<b;E++){var A=v[E];if(A===d){if(T.length>0)for(;T.length>0;){var R=T.shift(),I=R.char,J=R.isNew;if(I===d&&g!==!0){S+=d;continue e}if(r[E].test(I)){if(h===!0&&J!==!1&&s!==a&&u!==!1&&x){for(var q=T.length,F=null,L=0;L<q;L++){var W=T[L];if(W.char!==d&&W.isNew===!1)break;if(W.char===d){F=L;break}}null!==F?(S+=I,T.splice(F,1)):E--}else S+=I;continue e}N=!0}g===!1&&(S+=v.substr(E,b));break}S+=A}if(g&&x===!1){for(var z=null,B=0;B<S.length;B++)v[B]===d&&(z=B);S=null!==z?S.substr(0,z+1):a}return{conformedValue:S,meta:{someCharsRejected:N}}}Object.defineProperty(r,"__esModule",{value:!0}),r.default=n;var o=t(4),i=t(1),a=""},function(e,r,t){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:l,r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:u.placeholderChar;if(e.indexOf(r)!==-1)throw new Error("Placeholder character must not be used as part of the mask. Please specify a character that is not present in your mask as your placeholder character.\n\n"+("The placeholder character that was received is: "+JSON.stringify(r)+"\n\n")+("The mask that was received is: "+JSON.stringify(e)));return e.map(function(e){return e instanceof RegExp?r:e}).join("")}function o(e){return"string"==typeof e||e instanceof String}function i(e){return"number"==typeof e&&void 0===e.length&&!isNaN(e)}function a(e){for(var r=[],t=void 0;t=e.indexOf(s),t!==-1;)r.push(t),e.splice(t,1);return{maskWithoutCaretTraps:e,indexes:r}}Object.defineProperty(r,"__esModule",{value:!0}),r.convertMaskToPlaceholder=n,r.isString=o,r.isNumber=i,r.processCaretTraps=a;var u=t(1),l=[],s="[]"},function(e,r,t){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function o(e){var r={previousConformedValue:void 0,previousPlaceholder:void 0};return{state:r,update:function(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:e,o=n.inputElement,s=n.mask,d=n.guide,m=n.pipe,b=n.placeholderChar,C=void 0===b?p.placeholderChar:b,P=n.keepCharPositions,x=void 0!==P&&P,O=n.showMask,k=void 0!==O&&O;if("undefined"==typeof t&&(t=o.value),t!==r.previousConformedValue){("undefined"==typeof s?"undefined":l(s))===y&&void 0!==s.pipe&&void 0!==s.mask&&(m=s.pipe,s=s.mask);var j=void 0,M=void 0;if(s instanceof Array&&(j=(0,v.convertMaskToPlaceholder)(s,C)),s!==!1){var T=a(t),w=o.selectionEnd,_=r.previousConformedValue,V=r.previousPlaceholder,S=void 0;if(("undefined"==typeof s?"undefined":l(s))===h){if(M=s(T,{currentCaretPosition:w,previousConformedValue:_,placeholderChar:C}),M===!1)return;var N=(0,v.processCaretTraps)(M),E=N.maskWithoutCaretTraps,A=N.indexes;M=E,S=A,j=(0,v.convertMaskToPlaceholder)(M,C)}else M=s;var R={previousConformedValue:_,guide:d,placeholderChar:C,pipe:m,placeholder:j,currentCaretPosition:w,keepCharPositions:x},I=(0,c.default)(T,M,R),J=I.conformedValue,q=("undefined"==typeof m?"undefined":l(m))===h,F={};q&&(F=m(J,u({rawValue:T},R)),F===!1?F={value:_,rejected:!0}:(0,v.isString)(F)&&(F={value:F}));var L=q?F.value:J,W=(0,f.default)({previousConformedValue:_,previousPlaceholder:V,conformedValue:L,placeholder:j,rawValue:T,currentCaretPosition:w,placeholderChar:C,indexesOfPipedChars:F.indexesOfPipedChars,caretTrapIndexes:S}),z=L===j&&0===W,B=k?j:g,D=z?B:L;r.previousConformedValue=D,r.previousPlaceholder=j,o.value!==D&&(o.value=D,i(o,W))}}}}}function i(e,r){document.activeElement===e&&(b?C(function(){return e.setSelectionRange(r,r,m)},0):e.setSelectionRange(r,r,m))}function a(e){if((0,v.isString)(e))return e;if((0,v.isNumber)(e))return String(e);if(void 0===e||null===e)return g;throw new Error("The 'value' provided to Text Mask needs to be a string or a number. The value received was:\n\n "+JSON.stringify(e))}Object.defineProperty(r,"__esModule",{value:!0});var u=Object.assign||function(e){for(var r=1;r<arguments.length;r++){var t=arguments[r];for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(e[n]=t[n])}return e},l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};r.default=o;var s=t(2),f=n(s),d=t(3),c=n(d),v=t(4),p=t(1),h="function",g="",m="none",y="object",b="undefined"!=typeof navigator&&/Android/i.test(navigator.userAgent),C="undefined"!=typeof requestAnimationFrame?requestAnimationFrame:setTimeout}])});
 
 /***/ }),
-/* 542 */
+/* 546 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10096,7 +10271,7 @@ var compose = function () {
 //# sourceMappingURL=compose.js.map
 
 /***/ }),
-/* 543 */
+/* 547 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10137,7 +10312,7 @@ var EnterZoneSubscriber = (function (_super) {
 //# sourceMappingURL=enterZone.js.map
 
 /***/ }),
-/* 544 */
+/* 548 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10178,15 +10353,15 @@ var LeaveZoneSubscriber = (function (_super) {
 //# sourceMappingURL=leaveZone.js.map
 
 /***/ }),
-/* 545 */
+/* 549 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_pluck__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_pluck__ = __webpack_require__(618);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operator_pluck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_operator_pluck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_map__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_distinctUntilChanged__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_distinctUntilChanged__ = __webpack_require__(617);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_distinctUntilChanged___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_distinctUntilChanged__);
 /* harmony export (immutable) */ __webpack_exports__["a"] = select;
 
@@ -10213,29 +10388,29 @@ function select(pathOrMapFn) {
 //# sourceMappingURL=select.js.map
 
 /***/ }),
-/* 546 */
+/* 550 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_instrument__ = __webpack_require__(547);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_instrument__ = __webpack_require__(551);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StoreDevtoolsModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_instrument__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_devtools__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_devtools__ = __webpack_require__(511);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StoreDevtools", function() { return __WEBPACK_IMPORTED_MODULE_1__src_devtools__["a"]; });
 
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 547 */
+/* 551 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(416);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__devtools__ = __webpack_require__(507);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(506);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__extension__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__devtools__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__extension__ = __webpack_require__(512);
 /* unused harmony export _createReduxDevtoolsExtension */
 /* unused harmony export _createState */
 /* unused harmony export _createReducer */
@@ -10382,13 +10557,13 @@ StoreDevtoolsModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=instrument.js.map
 
 /***/ }),
-/* 548 */
+/* 552 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__(416);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(491);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(494);
 /* unused harmony export INIT_ACTION */
 /* harmony export (immutable) */ __webpack_exports__["a"] = liftInitialState;
 /* harmony export (immutable) */ __webpack_exports__["b"] = liftReducerWith;
@@ -10640,16 +10815,16 @@ function liftReducerWith(initialCommittedState, initialLiftedState, monitorReduc
 //# sourceMappingURL=reducer.js.map
 
 /***/ }),
-/* 549 */
+/* 553 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reducer__ = __webpack_require__(510);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dispatcher__ = __webpack_require__(509);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(512);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__state__ = __webpack_require__(511);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reducer__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dispatcher__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(516);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__state__ = __webpack_require__(515);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(517);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return INITIAL_REDUCER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return INITIAL_STATE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return _INITIAL_REDUCER; });
@@ -10733,7 +10908,7 @@ var StoreModule_1;
 //# sourceMappingURL=ng2.js.map
 
 /***/ }),
-/* 550 */
+/* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10767,18 +10942,6 @@ exports.CitiesOfFrance = [
     {
         "key": "toulouse",
         "value": "Toulouse"
-    },
-    {
-        "key": "orleans",
-        "value": "Orléans"
-    },
-    {
-        "key": "Asnières",
-        "value": "asnieres"
-    },
-    {
-        "key": "mantes",
-        "value": "Mantes-la-jolie"
     },
     {
         "key": "dijon",
@@ -10873,188 +11036,204 @@ exports.CitiesOfCHINE = [
         "value": "Pekin"
     }
 ];
+exports.IDS = [
+    {
+        "key": "passport",
+        "value": "Passeport"
+    },
+    {
+        "key": "card-national",
+        "value": "Carte nationale"
+    }
+];
+exports.IDSFR = [
+    {
+        "key": "passport",
+        "value": "Passport"
+    },
+    {
+        "key": "card-national",
+        "value": "ID card"
+    }
+];
 exports.AgencesBES = [
     {
-        key: "marseille",
-        value: "Marseille",
-        address: "20, Bd. Dugommier - 13 001 - Marseille",
         pays: "France",
-        lat: 43.298799,
-        lng: 5.381092
-    },
-    {
-        key: "montpellier",
-        value: "Montpellier",
-        address: "59, Cours Gambetta 34 000 - Montpellier",
-        pays: "France",
-        lat: 43.608506,
-        lng: 3.867618
-    },
-    {
-        key: "lille",
-        value: "Lille",
-        address: "48, Bd. De la liberté - 59 800 - Lille",
-        pays: "France",
-        lat: 50.635232,
-        lng: 3.054868
-    },
-    {
-        key: "lyon",
-        value: "Lyon",
-        address: "1, Rue Carry - 69 003 - Lyon",
-        pays: "France",
-        lat: 45.754538,
-        lng: 4.872238
-    },
-    {
-        key: "strasbourg",
-        value: "Strasbourg",
-        address: "13, Av. Du Général de Gaulle 67 000 - Strasbourg",
-        pays: "France",
-        lat: 48.580245,
-        lng: 7.770395
-    },
-    {
-        key: "bordeaux",
-        value: "Bordeaux",
-        address: "35, Av. Charles de Gaulle 33 200 - Bordeaux",
-        pays: "France",
-        lat: 44.848828,
-        lng: -0.598848
-    },
-    {
-        key: "toulouse",
-        value: "Toulouse",
-        address: "64, Bis avenue Jean Rieux - 31500 Toulouse",
-        pays: "France",
-        lat: 43.596163,
-        lng: 1.462520
-    },
-    {
-        key: "orleans",
-        value: "Orléans",
-        address: "6-8 Place de l’indien 45 100 - Orléans la source",
-        pays: "France",
-        lat: 47.839472,
-        lng: 1.934850
-    },
-    {
-        key: "asnieres",
-        value: "Asnières",
-        address: "43, Rue pierre brossolette 92 600 - Asnières",
-        pays: "France",
-        lat: 48.912133,
-        lng: 2.294978
-    },
-    {
-        key: "mantes",
-        value: "Mantes-la-jolie",
-        address: "34, Bd du Maréchal Juin 78 200 - Mantes-la-jolie.",
-        pays: "France",
-        lat: 48.990973,
-        lng: 1.708865
-    },
-    {
-        key: "dijon",
-        value: "Dijon",
-        address: "64 Bis, Avenue du Drapeau 21 000 - Dijon",
-        pays: "France",
-        lat: 47.336907,
-        lng: 5.044692
-    },
-    {
-        key: "paris",
-        value: "Paris",
-        address: "64 Bis, Avenue du Drapeau 21 000 - Dijon",
-        pays: "France",
-        lat: 48.892572,
-        lng: 2.316232
-    },
-    {
-        key: "madrid",
-        value: "Madrid",
-        address: "Plaza Cataluña, n°.1 - 28002 - Madrid",
+        agences: [
+            {
+                key: "marseille",
+                value: "Marseille",
+                address: "20, Bd. Dugommier - 13 001 - Marseille",
+                lat: 43.298799,
+                lng: 5.381092
+            },
+            {
+                key: "montpellier",
+                value: "Montpellier",
+                address: "59, Cours Gambetta 34 000 - Montpellier",
+                lat: 43.608506,
+                lng: 3.867618
+            },
+            {
+                key: "lille",
+                value: "Lille",
+                address: "48, Bd. De la liberté - 59 800 - Lille",
+                lat: 50.635232,
+                lng: 3.054868
+            },
+            {
+                key: "lyon",
+                value: "Lyon",
+                address: "1, Rue Carry - 69 003 - Lyon",
+                lat: 45.754538,
+                lng: 4.872238
+            },
+            {
+                key: "strasbourg",
+                value: "Strasbourg",
+                address: "13, Av. Du Général de Gaulle 67 000 - Strasbourg",
+                lat: 48.580245,
+                lng: 7.770395
+            },
+            {
+                key: "bordeaux",
+                value: "Bordeaux",
+                address: "35, Av. Charles de Gaulle 33 200 - Bordeaux",
+                lat: 44.848828,
+                lng: -0.598848
+            },
+            {
+                key: "toulouse",
+                value: "Toulouse",
+                address: "64, Bis avenue Jean Rieux - 31500 Toulouse",
+                lat: 43.596163,
+                lng: 1.462520
+            },
+            {
+                key: "orleans",
+                value: "Orléans",
+                address: "6-8 Place de l’indien 45 100 - Orléans la source",
+                lat: 47.839472,
+                lng: 1.934850
+            },
+            {
+                key: "asnieres",
+                value: "Asnières",
+                address: "43, Rue pierre brossolette 92 600 - Asnières",
+                lat: 48.912133,
+                lng: 2.294978
+            },
+            {
+                key: "mantes",
+                value: "Mantes-la-jolie",
+                address: "34, Bd du Maréchal Juin 78 200 - Mantes-la-jolie.",
+                lat: 48.990973,
+                lng: 1.708865
+            },
+            {
+                key: "dijon",
+                value: "Dijon",
+                address: "64 Bis, Avenue du Drapeau 21 000 - Dijon",
+                lat: 47.336907,
+                lng: 5.044692
+            },
+            {
+                key: "paris",
+                value: "Paris",
+                address: "6 Rue Cambacérès, 75008 - Paris",
+                lat: 48.872418,
+                lng: 2.318366
+            }
+        ]
+    }, {
         pays: "Espagne",
-        lat: 40.449243,
-        lng: -3.678368
+        agences: [
+            {
+                key: "madrid",
+                value: "Madrid",
+                address: "Plaza Cataluña, n°.1 - 28002 - Madrid",
+                lat: 40.449243,
+                lng: -3.678368
+            },
+            {
+                key: "barcelone",
+                value: "Barcelone",
+                address: "Calle Tarragona , 129 08014 - Barcelona",
+                lat: 41.377461,
+                lng: 2.146019
+            },
+            {
+                key: "valence",
+                value: "Valence",
+                address: "Calle Alfonso Magnanima nº3 46003 - Valencia",
+                lat: 39.472799,
+                lng: -0.370719
+            },
+            {
+                key: "almeria",
+                value: "Alméria",
+                address: "Calle José Artes de Arcos - Alméria",
+                lat: 36.835878,
+                lng: -2.459020
+            },
+            {
+                key: "murcia",
+                value: "Murcia",
+                address: "Calle Bolos, b bajo 2 30 005 - Murcia",
+                lat: 37.985630,
+                lng: -1.138049
+            }
+        ]
     },
     {
-        key: "barcelone",
-        value: "Barcelone",
-        address: "Calle Tarragona , 129 08014 - Barcelona",
-        pays: "Espagne",
-        lat: 41.377461,
-        lng: 2.146019
-    },
-    {
-        key: "valence",
-        value: "Valence",
-        address: "Calle Alfonso Magnanima nº3 46003 - Valencia",
-        pays: "Espagne",
-        lat: 39.472799,
-        lng: -0.370719
-    },
-    {
-        key: "almeria",
-        value: "Alméria",
-        address: "Calle José Artes de Arcos - Alméria",
-        pays: "Espagne",
-        lat: 36.835878,
-        lng: -2.459020
-    },
-    {
-        key: "murcia",
-        value: "Murcia",
-        address: "Calle Bolos, b bajo 2 30 005 - Murcia",
-        pays: "Espagne",
-        lat: 37.985630,
-        lng: -1.138049
-    },
-    {
-        key: "milan",
-        value: "Milan",
-        address: "Viale Nazario Sauro,5 - cap 20124 Milano",
         pays: "Italie",
-        lat: 45.491426,
-        lng: 9.196570
-    },
-    {
-        key: "bologne",
-        value: "Bologne",
-        address: "Bologne",
-        pays: "Italie",
-        lat: 44.494887,
-        lng: 11.342616
-    },
-    {
-        key: "turin",
-        value: "Turin",
-        address: "Turin",
-        pays: "Italie",
-        lat: 45.070312,
-        lng: 7.686856
-    },
-    {
-        key: "padova",
-        value: "Padova",
-        address: "Padova",
-        pays: "Italie",
-        lat: 45.406435,
-        lng: 11.876761
-    },
-    {
-        key: "rome",
-        value: "Rome",
-        address: "Rome",
-        pays: "Italie",
-        lat: 41.902783,
-        lng: 12.496366
+        agences: [
+            {
+                key: "milan",
+                value: "Milan",
+                address: "Viale Nazario Sauro,5 - cap 20124 Milano",
+                lat: 45.491426,
+                lng: 9.196570
+            },
+            {
+                key: "bologne",
+                value: "Bologne",
+                address: "Bologne",
+                pays: "Italie",
+                lat: 44.494887,
+                lng: 11.342616
+            },
+            {
+                key: "turin",
+                value: "Turin",
+                address: "Turin",
+                pays: "Italie",
+                lat: 45.070312,
+                lng: 7.686856
+            },
+            {
+                key: "padova",
+                value: "Padova",
+                address: "Padova",
+                pays: "Italie",
+                lat: 45.406435,
+                lng: 11.876761
+            },
+            {
+                key: "rome",
+                value: "Rome",
+                address: "Rome",
+                pays: "Italie",
+                lat: 41.902783,
+                lng: 12.496366
+            }
+        ]
     }
 ];
 //# sourceMappingURL=D:/workspace/Bes_project/src/mock-parametrage.js.map
 
 /***/ }),
-/* 551 */
+/* 555 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11063,7 +11242,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //# sourceMappingURL=D:/workspace/Bes_project/src/app-store.js.map
 
 /***/ }),
-/* 552 */
+/* 556 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11117,7 +11296,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/beneficiaire.js.map
 
 /***/ }),
-/* 553 */
+/* 557 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11171,7 +11350,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/contact.js.map
 
 /***/ }),
-/* 554 */
+/* 558 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11207,7 +11386,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/remote.js.map
 
 /***/ }),
-/* 555 */
+/* 559 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11263,10 +11442,6 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/signalitique.js.map
 
 /***/ }),
-/* 556 */,
-/* 557 */,
-/* 558 */,
-/* 559 */,
 /* 560 */,
 /* 561 */,
 /* 562 */,
@@ -11274,7 +11449,11 @@ var _a;
 /* 564 */,
 /* 565 */,
 /* 566 */,
-/* 567 */
+/* 567 */,
+/* 568 */,
+/* 569 */,
+/* 570 */,
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11301,8 +11480,8 @@ var FormsComponent = (function () {
 FormsComponent = __decorate([
     core_1.Component({
         selector: 'app-forms',
-        template: __webpack_require__(604),
-        styles: [__webpack_require__(586)]
+        template: __webpack_require__(608),
+        styles: [__webpack_require__(590)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof core_1.ViewContainerRef !== "undefined" && core_1.ViewContainerRef) === "function" && _a || Object])
 ], FormsComponent);
@@ -11311,7 +11490,7 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/forms.component.js.map
 
 /***/ }),
-/* 568 */
+/* 572 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11343,7 +11522,7 @@ exports.validateDate = validateDate;
 //# sourceMappingURL=D:/workspace/Bes_project/src/date-validator.js.map
 
 /***/ }),
-/* 569 */
+/* 573 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11373,7 +11552,7 @@ __decorate([
 NavbarFormStepComponent = __decorate([
     core_1.Component({
         selector: 'navbar-step-form',
-        template: "<ul id=\"progressbar\">\n          <li [class.active]=\"step == '1'\">Infos G\u00E9n\u00E9rales</li>\n          <li [class.active]=\"step == '2'\">Signalitique</li>\n          <li [class.active]=\"step == '3'\">Contact</li>\n          <li [class.active]=\"step == '4'\">Beneficiaire</li>\n        </ul>"
+        template: "<ul id=\"progressbar\">\n          <li [class.active]=\"step == '1'\">{{'FORMSTEPS.INFOS' | translate}}</li>\n          <li [class.active]=\"step == '2'\">{{'FORMSTEPS.SIGNALITIQUE' | translate}}</li>\n          <li [class.active]=\"step == '3'\">{{'FORMSTEPS.CONTACT' | translate}}</li>\n          <li [class.active]=\"step == '4'\">{{'FORMSTEPS.BENEFICIAIRE' | translate}}</li>\n        </ul>"
     }),
     __metadata("design:paramtypes", [])
 ], NavbarFormStepComponent);
@@ -11381,7 +11560,7 @@ exports.NavbarFormStepComponent = NavbarFormStepComponent;
 //# sourceMappingURL=D:/workspace/Bes_project/src/navbar-form-step.component.js.map
 
 /***/ }),
-/* 570 */
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11395,11 +11574,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var router_1 = __webpack_require__(97);
-var general_component_1 = __webpack_require__(526);
-var signalitique_component_1 = __webpack_require__(527);
-var contact_component_1 = __webpack_require__(525);
-var beneficiaire_component_1 = __webpack_require__(524);
-var result_component_1 = __webpack_require__(528);
+var general_component_1 = __webpack_require__(530);
+var signalitique_component_1 = __webpack_require__(531);
+var contact_component_1 = __webpack_require__(529);
+var beneficiaire_component_1 = __webpack_require__(528);
+var result_component_1 = __webpack_require__(532);
 var routes = [
     {
         path: '',
@@ -11460,7 +11639,7 @@ exports.RegisterRoutingModule = RegisterRoutingModule;
 //# sourceMappingURL=D:/workspace/Bes_project/src/register-routing.module.js.map
 
 /***/ }),
-/* 571 */
+/* 575 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11476,7 +11655,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var rib_account_number_pipe_1 = __webpack_require__(529);
+var rib_account_number_pipe_1 = __webpack_require__(533);
 var RibNumberFormatterDirective = (function () {
     function RibNumberFormatterDirective(elementRef, cardNumberPipe) {
         this.elementRef = elementRef;
@@ -11515,7 +11694,7 @@ var _a, _b;
 //# sourceMappingURL=D:/workspace/Bes_project/src/rib-card-number.directive.js.map
 
 /***/ }),
-/* 572 */
+/* 576 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11543,7 +11722,14 @@ var RibInputComponent = (function () {
         //   this.selectedItem = Object.assign({}, value);
         // }
         this.mask = [/[1-9]/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/];
+        this.cardLength = true;
     }
+    RibInputComponent.prototype.onKey = function (event) {
+        this.cardLength = false;
+    };
+    RibInputComponent.prototype.onPress = function (event) {
+        this.cardLength = true;
+    };
     return RibInputComponent;
 }());
 __decorate([
@@ -11557,7 +11743,7 @@ __decorate([
 RibInputComponent = __decorate([
     core_1.Component({
         selector: 'rib-input',
-        template: __webpack_require__(608),
+        template: __webpack_require__(612),
         providers: []
     }),
     __metadata("design:paramtypes", [])
@@ -11567,24 +11753,24 @@ var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/rib-input.component.js.map
 
 /***/ }),
-/* 573 */
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(1);
-var google_map_kml_layer_1 = __webpack_require__(531);
-var google_map_1 = __webpack_require__(535);
-var google_map_circle_1 = __webpack_require__(530);
-var google_map_info_window_1 = __webpack_require__(492);
-var google_map_marker_1 = __webpack_require__(532);
-var google_map_polygon_1 = __webpack_require__(533);
-var google_map_polyline_1 = __webpack_require__(534);
-var google_map_polyline_point_1 = __webpack_require__(493);
-var lazy_maps_api_loader_1 = __webpack_require__(499);
-var lazy_maps_api_loader_2 = __webpack_require__(499);
-var maps_api_loader_1 = __webpack_require__(486);
-var browser_globals_1 = __webpack_require__(536);
+var google_map_kml_layer_1 = __webpack_require__(535);
+var google_map_1 = __webpack_require__(539);
+var google_map_circle_1 = __webpack_require__(534);
+var google_map_info_window_1 = __webpack_require__(496);
+var google_map_marker_1 = __webpack_require__(536);
+var google_map_polygon_1 = __webpack_require__(537);
+var google_map_polyline_1 = __webpack_require__(538);
+var google_map_polyline_point_1 = __webpack_require__(497);
+var lazy_maps_api_loader_1 = __webpack_require__(503);
+var lazy_maps_api_loader_2 = __webpack_require__(503);
+var maps_api_loader_1 = __webpack_require__(490);
+var browser_globals_1 = __webpack_require__(540);
 /**
  * @internal
  */
@@ -11626,31 +11812,31 @@ exports.AgmCoreModule = AgmCoreModule;
 //# sourceMappingURL=core-module.js.map
 
 /***/ }),
-/* 574 */
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var google_map_1 = __webpack_require__(535);
+var google_map_1 = __webpack_require__(539);
 exports.SebmGoogleMap = google_map_1.SebmGoogleMap;
-var google_map_circle_1 = __webpack_require__(530);
+var google_map_circle_1 = __webpack_require__(534);
 exports.SebmGoogleMapCircle = google_map_circle_1.SebmGoogleMapCircle;
-var google_map_info_window_1 = __webpack_require__(492);
+var google_map_info_window_1 = __webpack_require__(496);
 exports.SebmGoogleMapInfoWindow = google_map_info_window_1.SebmGoogleMapInfoWindow;
-var google_map_kml_layer_1 = __webpack_require__(531);
+var google_map_kml_layer_1 = __webpack_require__(535);
 exports.SebmGoogleMapKmlLayer = google_map_kml_layer_1.SebmGoogleMapKmlLayer;
-var google_map_marker_1 = __webpack_require__(532);
+var google_map_marker_1 = __webpack_require__(536);
 exports.SebmGoogleMapMarker = google_map_marker_1.SebmGoogleMapMarker;
-var google_map_polygon_1 = __webpack_require__(533);
+var google_map_polygon_1 = __webpack_require__(537);
 exports.SebmGoogleMapPolygon = google_map_polygon_1.SebmGoogleMapPolygon;
-var google_map_polyline_1 = __webpack_require__(534);
+var google_map_polyline_1 = __webpack_require__(538);
 exports.SebmGoogleMapPolyline = google_map_polyline_1.SebmGoogleMapPolyline;
-var google_map_polyline_point_1 = __webpack_require__(493);
+var google_map_polyline_point_1 = __webpack_require__(497);
 exports.SebmGoogleMapPolylinePoint = google_map_polyline_point_1.SebmGoogleMapPolylinePoint;
 //# sourceMappingURL=directives.js.map
 
 /***/ }),
-/* 575 */
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11659,48 +11845,48 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 // main modules
-__export(__webpack_require__(574));
-__export(__webpack_require__(576));
+__export(__webpack_require__(578));
+__export(__webpack_require__(580));
 // Google Maps types
 // core module
 // we explicitly export the module here to prevent this Ionic 2 bug:
 // http://stevemichelotti.com/integrate-angular-2-google-maps-into-ionic-2/
-var core_module_1 = __webpack_require__(573);
+var core_module_1 = __webpack_require__(577);
 exports.AgmCoreModule = core_module_1.AgmCoreModule;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 576 */
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var google_maps_api_wrapper_1 = __webpack_require__(419);
 exports.GoogleMapsAPIWrapper = google_maps_api_wrapper_1.GoogleMapsAPIWrapper;
-var circle_manager_1 = __webpack_require__(494);
+var circle_manager_1 = __webpack_require__(498);
 exports.CircleManager = circle_manager_1.CircleManager;
-var info_window_manager_1 = __webpack_require__(495);
+var info_window_manager_1 = __webpack_require__(499);
 exports.InfoWindowManager = info_window_manager_1.InfoWindowManager;
-var marker_manager_1 = __webpack_require__(485);
+var marker_manager_1 = __webpack_require__(489);
 exports.MarkerManager = marker_manager_1.MarkerManager;
-var polygon_manager_1 = __webpack_require__(497);
+var polygon_manager_1 = __webpack_require__(501);
 exports.PolygonManager = polygon_manager_1.PolygonManager;
-var polyline_manager_1 = __webpack_require__(498);
+var polyline_manager_1 = __webpack_require__(502);
 exports.PolylineManager = polyline_manager_1.PolylineManager;
-var kml_layer_manager_1 = __webpack_require__(496);
+var kml_layer_manager_1 = __webpack_require__(500);
 exports.KmlLayerManager = kml_layer_manager_1.KmlLayerManager;
-var lazy_maps_api_loader_1 = __webpack_require__(499);
+var lazy_maps_api_loader_1 = __webpack_require__(503);
 exports.GoogleMapsScriptProtocol = lazy_maps_api_loader_1.GoogleMapsScriptProtocol;
 exports.LAZY_MAPS_API_CONFIG = lazy_maps_api_loader_1.LAZY_MAPS_API_CONFIG;
 exports.LazyMapsAPILoader = lazy_maps_api_loader_1.LazyMapsAPILoader;
-var maps_api_loader_1 = __webpack_require__(486);
+var maps_api_loader_1 = __webpack_require__(490);
 exports.MapsAPILoader = maps_api_loader_1.MapsAPILoader;
-var noop_maps_api_loader_1 = __webpack_require__(577);
+var noop_maps_api_loader_1 = __webpack_require__(581);
 exports.NoOpMapsAPILoader = noop_maps_api_loader_1.NoOpMapsAPILoader;
 //# sourceMappingURL=services.js.map
 
 /***/ }),
-/* 577 */
+/* 581 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11726,7 +11912,7 @@ exports.NoOpMapsAPILoader = NoOpMapsAPILoader;
 //# sourceMappingURL=noop-maps-api-loader.js.map
 
 /***/ }),
-/* 578 */
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11742,8 +11928,8 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var captcha_component_1 = __webpack_require__(537);
-var captcha_service_1 = __webpack_require__(538);
+var captcha_component_1 = __webpack_require__(541);
+var captcha_service_1 = __webpack_require__(542);
 var ReCaptchaModule = (function () {
     function ReCaptchaModule() {
     }
@@ -11757,11 +11943,11 @@ ReCaptchaModule = __decorate([
     })
 ], ReCaptchaModule);
 exports.ReCaptchaModule = ReCaptchaModule;
-__export(__webpack_require__(537));
+__export(__webpack_require__(541));
 
 
 /***/ }),
-/* 579 */
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11781,7 +11967,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var forms_1 = __webpack_require__(177);
-var textMaskCore_1 = __webpack_require__(541);
+var textMaskCore_1 = __webpack_require__(545);
 exports.MASKEDINPUT_VALUE_ACCESSOR = {
     provide: forms_1.NG_VALUE_ACCESSOR,
     useExisting: core_1.forwardRef(function () { return MaskedInputDirective; }),
@@ -11882,83 +12068,15 @@ TextMaskModule = __decorate([
     })
 ], TextMaskModule);
 exports.TextMaskModule = TextMaskModule;
-var textMaskCore_2 = __webpack_require__(541);
+var textMaskCore_2 = __webpack_require__(545);
 exports.conformToMask = textMaskCore_2.conformToMask;
 //# sourceMappingURL=angular2TextMask.js.map
 
 /***/ }),
-/* 580 */,
-/* 581 */,
-/* 582 */,
-/* 583 */,
-/* 584 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(178)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 585 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(178)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 586 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(178)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 587 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(178)();
-// imports
-
-
-// module
-exports.push([module.i, "md-card-content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\nmd-input {\n  width: 100%;\n}\nmd-card-actions {\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n\n.error {\n  font-size: 13px;\n  color: #c7254e;\n  background: #f9f2f4;\n  border-radius: 3px;\n  padding: 15px;\n  margin-top: 5px;\n  margin-bottom: 5px;\n}\n\n.form-group {\n  width: 100%;\n}\n\n.space {\n  margin-bottom: 15px;\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
+/* 584 */,
+/* 585 */,
+/* 586 */,
+/* 587 */,
 /* 588 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11976,10 +12094,74 @@ exports.push([module.i, "", ""]);
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 589 */,
-/* 590 */,
-/* 591 */,
-/* 592 */,
+/* 589 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(178)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 590 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(178)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 591 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(178)();
+// imports
+
+
+// module
+exports.push([module.i, "md-card-content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\nmd-input {\n  width: 100%;\n}\nmd-card-actions {\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n\n.error {\n  font-size: 13px;\n  color: #c7254e;\n  background: #f9f2f4;\n  border-radius: 3px;\n  padding: 15px;\n  margin-top: 5px;\n  margin-bottom: 5px;\n}\n\n.form-group {\n  width: 100%;\n}\n\n.space {\n  margin-bottom: 15px;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 592 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(178)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
 /* 593 */,
 /* 594 */,
 /* 595 */,
@@ -11989,49 +12171,53 @@ module.exports = module.exports.toString();
 /* 599 */,
 /* 600 */,
 /* 601 */,
-/* 602 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">{{'REGISTER.TITLE' | translate}}</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <rib-input [group]=\"form\" [label]=\"label\"></rib-input>\n            <div>\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input formControlName=\"agree\" (change)=\"hideBeneficiare()\" type=\"checkbox\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">Je suis le client bénéficiaire</span>\n                      </label>\n            </div>\n\n            <div class=\"beneficiare\">\n              <div class=\"form-group row\">\n                <label class=\"col-md-4 form-control-label\" for=\"text-input\">Nom du bénéficiare <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <input type=\"text\" id=\"disabledTextInput\" formControlName=\"lastname\" class=\"form-control form-bes\" placeholder=\"\">\n                  <div *ngIf=\"form.get('lastname').touched && form.get('lastname').hasError('required')\" class=\"alert alert-danger\">Nom de bénéficiaire requis</div>\n                </div>\n              </div>\n              <div class=\"form-group row\">\n                <label class=\"col-md-4 form-control-label\" for=\"text-input\">Prénom du bénéficiare <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <input type=\"text\" id=\"disabledTextInput\" formControlName=\"firstname\" class=\"form-control form-bes\" placeholder=\"\">\n                  <div *ngIf=\"form.get('firstname').touched && form.get('firstname').hasError('required')\" class=\"alert alert-danger\">Prénom de bénéficiaire requis</div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Agence BES <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"agenceBes\" class=\"form-control form-bes\">\n                    <optgroup  *ngFor=\"let agence of agences\" label=\"{{agence.pays}}\">\n                      <option [value]=\"agence.key\">{{agence.address}}</option>\n                    </optgroup>  \n              </select>\n                <div *ngIf=\"form.get('agenceBes').touched && form.get('agenceBes').hasError('required')\" class=\"alert alert-danger\">Agence BES requise</div>\n              </div>\n            </div>\n\n            <sebm-google-map [zoom]=\"15\" [latitude]=\"lat\" [longitude]=\"lng\" [hidden]=\"hidden\">\n              <sebm-google-map-marker *ngFor=\"let m of markers; let i = index\" (markerClick)=\"clickedMarker(m.label, m.title)\" [latitude]=\"m.lat\"\n                [longitude]=\"m.lng\" [label]=\"m.label\" [iconUrl]=\"m.icon\">\n              </sebm-google-map-marker>\n            </sebm-google-map>\n\n\n            <div class=\"form-group row mt-3\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Télécharger pièce d'identité <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"file\" name=\"file\" id=\"file\" class=\"inputfile\" />\n                <label class=\"p-3\" for=\"file\">Télécharger votre pièce d'identité</label>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <div class=\"col-md-12\">\n                <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                  <input formControlName=\"newsletterInscription\" value=\"1\"  type=\"checkbox\" value=\"1\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\"> J'accepte de recevoir des newletters et des offres de produits et services par courrier électronique\n                      de BMCE EuroServices et ses partenaires</span>\n                      </label>\n              </div>\n        </div>\n        <div class=\"form-group row\">\n          <div class=\"col-md-12\">\n            <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n              <input formControlName=\"agree\" value=\"1\" type=\"checkbox\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">\n                    J'ai lu et j'accepte les mentions légales</span>\n                    </label>\n          </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-success btn-bmce\">Valider</button>\n        </div>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>"
-
-/***/ }),
-/* 603 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Adresse <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"address\" id=\"example-text-input\">\n                <div *ngIf=\"form.get('address').touched && form.get('address').hasError('required')\" class=\"alert alert-danger\">Adresse requise</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Code postal <span class=\"required\">*</span></label>\n              <div class=\"col-md-6\">\n                <input type=\"text\" class=\"form-control form-bes\" id=\"inputZip\" formControlName=\"codePostal\">\n                <div *ngIf=\"form.get('codePostal').touched && form.get('codePostal').hasError('required')\" class=\"alert alert-danger\">Code postale requis</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Pays<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"countryOfBirth\" class=\"form-control form-bes\">Choose\n                   <option value=\"France\" selected=\"selected\">France </option>\n                      <option value=\"Afghanistan\">Afghanistan </option>\n                      <option value=\"Afrique_Centrale\">Afrique_Centrale </option>\n                      <option value=\"Afrique_du_sud\">Afrique_du_Sud </option> \n                      <option value=\"Albanie\">Albanie </option>\n                      <option value=\"Algerie\">Algerie </option>\n                      <option value=\"Allemagne\">Allemagne </option>\n                      <option value=\"Andorre\">Andorre </option>\n                      <option value=\"Angola\">Angola </option>\n                      <option value=\"Anguilla\">Anguilla </option>\n                      <option value=\"Arabie_Saoudite\">Arabie_Saoudite </option>\n                      <option value=\"Argentine\">Argentine </option>\n                      <option value=\"Armenie\">Armenie </option> \n                      <option value=\"Australie\">Australie </option>\n                      <option value=\"Autriche\">Autriche </option>\n                      <option value=\"Azerbaidjan\">Azerbaidjan </option>\n                      <option value=\"Bahamas\">Bahamas </option>\n                      <option value=\"Bangladesh\">Bangladesh </option>\n                      <option value=\"Barbade\">Barbade </option>\n                      <option value=\"Bahrein\">Bahrein </option>\n                      <option value=\"Belgique\">Belgique </option>\n                      <option value=\"Belize\">Belize </option>\n                      <option value=\"Benin\">Benin </option>\n                      <option value=\"Bermudes\">Bermudes </option>\n                      <option value=\"Bielorussie\">Bielorussie </option>\n                      <option value=\"Bolivie\">Bolivie </option>\n                      <option value=\"Botswana\">Botswana </option>\n                      <option value=\"Bhoutan\">Bhoutan </option>\n                      <option value=\"Boznie_Herzegovine\">Boznie_Herzegovine </option>\n                      <option value=\"Bresil\">Bresil </option>\n                      <option value=\"Brunei\">Brunei </option>\n                      <option value=\"Bulgarie\">Bulgarie </option>\n                      <option value=\"Burkina_Faso\">Burkina_Faso </option>\n                      <option value=\"Burundi\">Burundi </option>\n                      <option value=\"Caiman\">Caiman </option>\n                      <option value=\"Cambodge\">Cambodge </option>\n                      <option value=\"Cameroun\">Cameroun </option>\n                      <option value=\"Canada\">Canada </option>\n                      <option value=\"Canaries\">Canaries </option>\n                      <option value=\"Cap_vert\">Cap_Vert </option>\n                      <option value=\"Chili\">Chili </option>\n                      <option value=\"Chine\">Chine </option> \n                      <option value=\"Chypre\">Chypre </option> \n                      <option value=\"Colombie\">Colombie </option>\n                      <option value=\"Comores\">Colombie </option>\n                      <option value=\"Congo\">Congo </option>\n                      <option value=\"Congo_democratique\">Congo_democratique </option>\n                      <option value=\"Cook\">Cook </option>\n                      <option value=\"Coree_du_Nord\">Coree_du_Nord </option>\n                      <option value=\"Coree_du_Sud\">Coree_du_Sud </option>\n                      <option value=\"Costa_Rica\">Costa_Rica </option>\n                      <option value=\"Cote_d_Ivoire\">Côte_d_Ivoire </option>\n                      <option value=\"Croatie\">Croatie </option>\n                      <option value=\"Cuba\">Cuba </option>\n                      <option value=\"Danemark\">Danemark </option>\n                      <option value=\"Djibouti\">Djibouti </option>\n                      <option value=\"Dominique\">Dominique </option>\n                      <option value=\"Egypte\">Egypte </option> \n                      <option value=\"Emirats_Arabes_Unis\">Emirats_Arabes_Unis </option>\n                      <option value=\"Equateur\">Equateur </option>\n                      <option value=\"Erythree\">Erythree </option>\n                      <option value=\"Espagne\">Espagne </option>\n                      <option value=\"Estonie\">Estonie </option>\n                      <option value=\"Etats_Unis\">Etats_Unis </option>\n                      <option value=\"Ethiopie\">Ethiopie </option>\n                      <option value=\"Falkland\">Falkland </option>\n                      <option value=\"Feroe\">Feroe </option>\n                      <option value=\"Fidji\">Fidji </option>\n                      <option value=\"Finlande\">Finlande </option>\n                      <option value=\"France\">France </option>\n                      <option value=\"Gabon\">Gabon </option>\n                      <option value=\"Gambie\">Gambie </option>\n                      <option value=\"Georgie\">Georgie </option>\n                      <option value=\"Ghana\">Ghana </option>\n                      <option value=\"Gibraltar\">Gibraltar </option>\n                      <option value=\"Grece\">Grece </option>\n                      <option value=\"Grenade\">Grenade </option>\n                      <option value=\"Groenland\">Groenland </option>\n                      <option value=\"Guadeloupe\">Guadeloupe </option>\n                      <option value=\"Guam\">Guam </option>\n                      <option value=\"Guatemala\">Guatemala</option>\n                      <option value=\"Guernesey\">Guernesey </option>\n                      <option value=\"Guinee\">Guinee </option>\n                      <option value=\"Guinee_Bissau\">Guinee_Bissau </option>\n                      <option value=\"Guinee equatoriale\">Guinee_Equatoriale </option>\n                      <option value=\"Guyana\">Guyana </option>\n                      <option value=\"Guyane_Francaise \">Guyane_Francaise </option>\n                      <option value=\"Haiti\">Haiti </option>\n                      <option value=\"Hawaii\">Hawaii </option> \n                      <option value=\"Honduras\">Honduras </option>\n                      <option value=\"Hong_Kong\">Hong_Kong </option>\n                      <option value=\"Hongrie\">Hongrie </option>\n                      <option value=\"Inde\">Inde </option>\n                      <option value=\"Indonesie\">Indonesie </option>\n                      <option value=\"Iran\">Iran </option>\n                      <option value=\"Iraq\">Iraq </option>\n                      <option value=\"Irlande\">Irlande </option>\n                      <option value=\"Islande\">Islande </option>\n                      <option value=\"Israel\">Israel </option>\n                      <option value=\"Italie\">italie </option>\n                      <option value=\"Jamaique\">Jamaique </option>\n                      <option value=\"Jan Mayen\">Jan Mayen </option>\n                      <option value=\"Japon\">Japon </option>\n                      <option value=\"Jersey\">Jersey </option>\n                      <option value=\"Jordanie\">Jordanie </option>\n                      <option value=\"Kazakhstan\">Kazakhstan </option>\n                      <option value=\"Kenya\">Kenya </option>\n                      <option value=\"Kirghizstan\">Kirghizistan </option>\n                      <option value=\"Kiribati\">Kiribati </option>\n                      <option value=\"Koweit\">Koweit </option>\n                      <option value=\"Laos\">Laos </option>\n                      <option value=\"Lesotho\">Lesotho </option>\n                      <option value=\"Lettonie\">Lettonie </option>\n                      <option value=\"Liban\">Liban </option>\n                      <option value=\"Liberia\">Liberia </option>\n                      <option value=\"Liechtenstein\">Liechtenstein </option>\n                      <option value=\"Lituanie\">Lituanie </option> \n                      <option value=\"Luxembourg\">Luxembourg </option>\n                      <option value=\"Lybie\">Lybie </option>\n                      <option value=\"Macao\">Macao </option>\n                      <option value=\"Macedoine\">Macedoine </option>\n                      <option value=\"Madagascar\">Madagascar </option>\n                      <option value=\"Madère\">Madère </option>\n                      <option value=\"Malaisie\">Malaisie </option>\n                      <option value=\"Malawi\">Malawi </option>\n                      <option value=\"Maldives\">Maldives </option>\n                      <option value=\"Mali\">Mali </option>\n                      <option value=\"Malte\">Malte </option>\n                      <option value=\"Man\">Man </option>\n                      <option value=\"Mariannes du Nord\">Mariannes du Nord </option>\n                      <option value=\"Maroc\">Maroc </option>\n                      <option value=\"Marshall\">Marshall </option>\n                      <option value=\"Martinique\">Martinique </option>\n                      <option value=\"Maurice\">Maurice </option>\n                      <option value=\"Mauritanie\">Mauritanie </option>\n                      <option value=\"Mayotte\">Mayotte </option>\n                      <option value=\"Mexique\">Mexique </option>\n                      <option value=\"Micronesie\">Micronesie </option>\n                      <option value=\"Midway\">Midway </option>\n                      <option value=\"Moldavie\">Moldavie </option>\n                      <option value=\"Monaco\">Monaco </option>\n                      <option value=\"Mongolie\">Mongolie </option>\n                      <option value=\"Montserrat\">Montserrat </option>\n                      <option value=\"Mozambique\">Mozambique </option>\n                      <option value=\"Namibie\">Namibie </option>\n                      <option value=\"Nauru\">Nauru </option>\n                      <option value=\"Nepal\">Nepal </option>\n                      <option value=\"Nicaragua\">Nicaragua </option>\n                      <option value=\"Niger\">Niger </option>\n                      <option value=\"Nigeria\">Nigeria </option>\n                      <option value=\"Niue\">Niue </option>\n                      <option value=\"Norfolk\">Norfolk </option>\n                      <option value=\"Norvege\">Norvege </option>\n                      <option value=\"Nouvelle_Caledonie\">Nouvelle_Caledonie </option>\n                      <option value=\"Nouvelle_Zelande\">Nouvelle_Zelande </option>\n                      <option value=\"Oman\">Oman </option>\n                      <option value=\"Ouganda\">Ouganda </option>\n                      <option value=\"Ouzbekistan\">Ouzbekistan </option>\n                      <option value=\"Pakistan\">Pakistan </option>\n                      <option value=\"Palau\">Palau </option>\n                      <option value=\"Palestine\">Palestine </option>\n                      <option value=\"Panama\">Panama </option>\n                      <option value=\"Papouasie_Nouvelle_Guinee\">Papouasie_Nouvelle_Guinee </option>\n                      <option value=\"Paraguay\">Paraguay </option>\n                      <option value=\"Pays_Bas\">Pays_Bas </option>\n                      <option value=\"Perou\">Perou </option>\n                      <option value=\"Philippines\">Philippines </option> \n                      <option value=\"Pologne\">Pologne </option>\n                      <option value=\"Polynesie\">Polynesie </option>\n                      <option value=\"Porto_Rico\">Porto_Rico </option>\n                      <option value=\"Portugal\">Portugal </option>\n                      <option value=\"Qatar\">Qatar </option>\n                      <option value=\"Republique_Dominicaine\">Republique_Dominicaine </option>\n                      <option value=\"Republique_Tcheque\">Republique_Tcheque </option>\n                      <option value=\"Reunion\">Reunion </option>\n                      <option value=\"Roumanie\">Roumanie </option>\n                      <option value=\"Royaume_Uni\">Royaume_Uni </option>\n                      <option value=\"Russie\">Russie </option>\n                      <option value=\"Rwanda\">Rwanda </option>\n                      <option value=\"Sahara Occidental\">Sahara Occidental </option>\n                      <option value=\"Sainte_Lucie\">Sainte_Lucie </option>\n                      <option value=\"Saint_Marin\">Saint_Marin </option>\n                      <option value=\"Salomon\">Salomon </option>\n                      <option value=\"Salvador\">Salvador </option>\n                      <option value=\"Samoa_Occidentales\">Samoa_Occidentales</option>\n                      <option value=\"Samoa_Americaine\">Samoa_Americaine </option>\n                      <option value=\"Sao_Tome_et_Principe\">Sao_Tome_et_Principe </option> \n                      <option value=\"Senegal\">Senegal </option> \n                      <option value=\"Seychelles\">Seychelles </option>\n                      <option value=\"Sierra Leone\">Sierra Leone </option>\n                      <option value=\"Singapour\">Singapour </option>\n                      <option value=\"Slovaquie\">Slovaquie </option>\n                      <option value=\"Slovenie\">Slovenie</option>\n                      <option value=\"Somalie\">Somalie </option>\n                      <option value=\"Soudan\">Soudan </option> \n                      <option value=\"Sri_Lanka\">Sri_Lanka </option> \n                      <option value=\"Suede\">Suede </option>\n                      <option value=\"Suisse\">Suisse </option>\n                      <option value=\"Surinam\">Surinam </option>\n                      <option value=\"Swaziland\">Swaziland </option>\n                      <option value=\"Syrie\">Syrie </option>\n                      <option value=\"Tadjikistan\">Tadjikistan </option>\n                      <option value=\"Taiwan\">Taiwan </option>\n                      <option value=\"Tonga\">Tonga </option>\n                      <option value=\"Tanzanie\">Tanzanie </option>\n                      <option value=\"Tchad\">Tchad </option>\n                      <option value=\"Thailande\">Thailande </option>\n                      <option value=\"Tibet\">Tibet </option>\n                      <option value=\"Timor_Oriental\">Timor_Oriental </option>\n                      <option value=\"Togo\">Togo </option> \n                      <option value=\"Trinite_et_Tobago\">Trinite_et_Tobago </option>\n                      <option value=\"Tristan da cunha\">Tristan de cuncha </option>\n                      <option value=\"Tunisie\">Tunisie </option>\n                      <option value=\"Turkmenistan\">Turmenistan </option> \n                      <option value=\"Turquie\">Turquie </option>\n                      <option value=\"Ukraine\">Ukraine </option>\n                      <option value=\"Uruguay\">Uruguay </option>\n                      <option value=\"Vanuatu\">Vanuatu </option>\n                      <option value=\"Vatican\">Vatican </option>\n                      <option value=\"Venezuela\">Venezuela </option>\n                      <option value=\"Vierges_Americaines\">Vierges_Americaines </option>\n                      <option value=\"Vierges_Britanniques\">Vierges_Britanniques </option>\n                      <option value=\"Vietnam\">Vietnam </option>\n                      <option value=\"Wake\">Wake </option>\n                      <option value=\"Wallis et Futuma\">Wallis et Futuma </option>\n                      <option value=\"Yemen\">Yemen </option>\n                      <option value=\"Yougoslavie\">Yougoslavie </option>\n                      <option value=\"Zambie\">Zambie </option>\n                      <option value=\"Zimbabwe\">Zimbabwe </option>\n                  </select>\n                <div *ngIf=\"form.get('countryOfBirth').touched && form.get('countryOfBirth').hasError('required')\" class=\"alert alert-danger\">Pays requis</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\">Ville<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"cityOfBirth\">\n                <div *ngIf=\"form.get('cityOfBirth').touched && form.get('cityOfBirth').hasError('required')\" class=\"alert alert-danger\">Ville requise</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Téléphone <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <div class=\"input-group\">\n                  <div class=\"input-group-btn input-group-addon-bes\">\n                    <li class=\"nav-item dropdown\" dropdown>\n                      <a href class=\"btn  dropdown-toggle\" style=\"background: transparent !important;border: none;\" dropdownToggle (click)=\"false\">\n                        <span class=\"\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">(+33)</span></span>\n                      </a>\n                      <div class=\"dropdown-menu dropdown-menu-left\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-us\"></span><span  class=\"languages\">(+44)</span></a>\n                        <a class=\"dropdown-item\" href=\"#//address\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">(+34)</span></a>\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">(+32)</span></a>\n                      </div>\n                    </li>\n                  </div>\n                  <input class=\"form-control form-bes\" id=\"input1-group3\" formControlName=\"phone\" name=\"input1-group3\" placeholder=\"Numéro\"\n                    type=\"text\">\n                </div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('required')\" class=\"alert alert-danger\">Numéro de Téléphone requis</div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('pattern')\" class=\"alert alert-danger\">\n                  Téléphone non valide\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">Email <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"email\" value=\"{{(store | async)?.customer.email}}\" id=\"example-date-input\">\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
-
-/***/ }),
-/* 604 */
-/***/ (function(module, exports) {
-
-module.exports = "<router-outlet></router-outlet>\n\n"
-
-/***/ }),
-/* 605 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6  pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height  card-bes-white\">\n          <div class=\"card-header card-header-bes\">\n            \n            <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n            <!--<navbar-step-form [step]=\"step\"></navbar-step-form>-->\n          </div>\n\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row mb-0 pl-4\">\n              <div class=\"col-sm-6 pl-0 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" formControlName=\"lastName\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                </div>\n                <div class=\"alert-container mb-2 mt-2\">\n                  <div *ngIf=\"form.get('lastName').touched && form.get('lastName').hasError('required')\" class=\"alert alert-danger\"><span>nom requis</span></div>\n                </div>\n\n              </div>\n              <div class=\"col-sm-6 pl-0 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" formControlName=\"firstName\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                </div>\n                <div class=\"alert-container mb-2 mt-2\">\n                  <div *ngIf=\"form.get('firstName').touched && form.get('firstName').hasError('required')\" class=\"alert alert-danger\">Prénom requis</div>\n                </div>\n\n              </div>\n            </div>\n            <div class=\"form-group row mb-0 pl-4 pr-1\">\n              <div class=\"input-group\">\n                <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                <input type=\"email\" formControlName=\"email\" class=\"form-control form-bes\" placeholder=\"Email\">\n              </div>\n\n            </div>\n            <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n              <div *ngIf=\"form.get('email').touched && form.get('email').hasError('required')\" class=\"alert alert-danger\">\n                Adresse e-mail requis\n              </div>\n              <div *ngIf=\"form.get('email').touched && form.get('email').hasError('pattern')\" class=\"alert alert-danger\">\n                Adresse e-mail non valide\n              </div>\n            </div>\n            <div class=\"form-group row pl-4 pr-1\">\n              <div class=\"input-group\">\n                <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                <input type=\"text\" formControlName=\"confirmEmail\" class=\"form-control form-bes\" placeholder=\"Confirmer votre Email\">\n              </div>\n\n            </div>\n            <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n              <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('required')\" class=\"alert alert-danger\">\n                Adresse e-mail de confirmation requis\n              </div>\n              <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('pattern')\" class=\"alert  alert-danger\">\n                Adresse e-mail de confirmation non valide\n              </div>\n            </div>\n\n            <div class=\"form-group row pl-4 pr-1\">\n              <label>Veuillez prouvez que vous n'êtes pas un robot</label>\n              <re-captcha site_key=\"6LcO0SEUAAAAAGyFwB2n6oqSzUD91uapRI7FPNcm\"></re-captcha>\n            </div>\n\n\n            <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n\n\n\n            <div class=\"form-group row pl-4\">\n              <div class=\"col-6\">\n              </div>\n              <div class=\"col-6 text-right pr-0\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
+/* 602 */,
+/* 603 */,
+/* 604 */,
+/* 605 */,
 /* 606 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">Devenir Client</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.customer.lastName}}\" class=\"form-control form-bes\" placeholder=\"Nom\">\n                </div>\n              </div>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.customer.firstName}}\" class=\"form-control form-bes\" placeholder=\"Prénom\">\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-form-legend col-sm-4\">Sexe <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                    <input name=\"gender\" formControlName=\"gender\"  type=\"radio\" value=\"Femme\"  class=\"custom-control-input\">\n                      <span class=\"custom-control-indicator\"></span>\n                        <span class=\"custom-control-description\">Femme</span>\n                          </label>\n                          <label class=\"custom-control custom-radio\">\n                            <input  formControlName=\"gender\"  value=\"Homme\" type=\"radio\"  class=\"custom-control-input\">\n                              <span class=\"custom-control-indicator\"></span>\n                                <span class=\"custom-control-description\">Homme</span>\n                                  </label>\n                </div>\n                <div *ngIf=\"form.get('gender').touched && form.get('gender').hasError('required')\" class=\"alert alert-danger\">Sexe requis</div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <div class=\"input-group  ab-datepicker\">\n              <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"birthday\" ngbDatepicker #birthdayD=\"ngbDatepicker\">\n              <span class=\"input-group-addon input-group-addon-bes\" (click)=\"birthdayD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n            </div>\n\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('required')\" class=\"alert alert-danger\">Date de naissance requise</div>\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('validateBirthday')\" class=\"alert alert-danger\">18 ans, c'est l'âge minimum requis</div>\n\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de naissance <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <input class=\"form-control form-bes\" formControlName=\"birthplace\" type=\"text\" value=\"\" id=\"example-date-input\">\n            <div *ngIf=\"form.get('birthplace').touched && form.get('birthplace').hasError('required')\" class=\"alert alert-danger\">Lieu de naissance requis</div>\n          </div>\n\n        </div>\n        <div class=\"row\">\n          <label class=\"col-form-legend col-sm-4\">Pièce d'identité <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input  formControlName=\"identityDocument\"  value=\"Carte nationale\" type=\"radio\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">Carte nationale</span>\n                      </label>\n                      <label class=\"custom-control custom-radio\">\n                        <input  formControlName=\"identityDocument\" value=\"Passeport\" type=\"radio\"  class=\"custom-control-input\">\n                          <span class=\"custom-control-indicator\"></span>\n                            <span class=\"custom-control-description\">Passeport</span>\n                              </label>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">N° de pièce d'identité <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" formControlName=\"identityNumber\" type=\"text\" value=\"\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('identityNumber').touched && form.get('identityNumber').hasError('required')\" class=\"alert alert-danger\">Numéro de pièce d'identité requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date de Délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"dateOfIssue\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #dateOfIssueD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"dateOfIssueD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('dateOfIssue').touched && form.get('dateOfIssue').hasError('required')\" class=\"alert alert-danger\">Date de Délivrance requise</div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">Lieu de délivrance <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" type=\"text\" formControlName=\"placeOfIssue\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('placeOfIssue').touched && form.get('placeOfIssue').hasError('required')\" class=\"alert alert-danger\">Lieu de délivrance requis</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">Date d'expiration <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"expirDate\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #expirDateD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"expirDateD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('required')\" class=\"alert alert-danger\">Date d'expiration requis</div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('validateDate')\" class=\"alert alert-danger\">Date d'expiration non valide</div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">Précédent</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">Suivant</button>\n        </div>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>\n\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">{{'REGISTER.TITLE' | translate}}</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <rib-input [group]=\"form\" [label]=\"label\"></rib-input>\n            <div>\n              <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                <input formControlName=\"agree\" (change)=\"hideBeneficiare()\" type=\"checkbox\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">{{'BENEFICIAIRE.CUSTOMER' | translate}}</span>\n                      </label>\n            </div>\n\n            <div class=\"beneficiare\">\n              <div class=\"form-group row\">\n                <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{'BENEFICIAIRE.LASTNAME' | translate}} <span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <input type=\"text\" id=\"disabledTextInput\" formControlName=\"lastname\" class=\"form-control form-bes\" placeholder=\"\">\n                  <div *ngIf=\"form.get('lastname').touched && form.get('lastname').hasError('required')\" class=\"alert alert-danger\">{{'BENEFICIAIRE.VALIDATIONS.LASTNAME' | translate}}</div>\n                </div>\n              </div>\n              <div class=\"form-group row\">\n                <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{'BENEFICIAIRE.FIRSTNAME' | translate}}<span class=\"required\"> *</span></label>\n                <div class=\"col-md-8\">\n                  <input type=\"text\" id=\"disabledTextInput\" formControlName=\"firstname\" class=\"form-control form-bes\" placeholder=\"\">\n                  <div *ngIf=\"form.get('firstname').touched && form.get('firstname').hasError('required')\" class=\"alert alert-danger\">{{'BENEFICIAIRE.VALIDATIONS.FIRSTNAME' | translate}}</div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{'BENEFICIAIRE.AGENCES' | translate}}<span class=\"required\"> *</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" formControlName=\"agenceBes\" class=\"form-control form-bes\">\n                    <optgroup  *ngFor=\"let pays of agences\" label=\"{{pays.pays}}\">\n                      <option *ngFor=\"let agence of pays.agences\" [value]=\"agence.key\">{{agence.address}}</option>\n                    </optgroup>  \n              </select>\n                <div *ngIf=\"form.get('agenceBes').touched && form.get('agenceBes').hasError('required')\" class=\"alert alert-danger\">{{'BENEFICIAIRE.VALIDATIONS.AGENCES' | translate}}</div>\n              </div>\n            </div>\n\n            <sebm-google-map [zoom]=\"15\" [latitude]=\"lat\" [longitude]=\"lng\" [hidden]=\"hidden\">\n              <sebm-google-map-marker *ngFor=\"let m of markers; let i = index\" (markerClick)=\"clickedMarker(m.label, m.title)\" [latitude]=\"m.lat\"\n                [longitude]=\"m.lng\" [label]=\"m.label\" [iconUrl]=\"m.icon\">\n              </sebm-google-map-marker>\n            </sebm-google-map>\n\n\n            <div class=\"form-group row mt-3\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{'BENEFICIAIRE.DOWNLOALD' | translate}} <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input type=\"file\" name=\"file\" id=\"file\" class=\"inputfile\" />\n                <label class=\"p-3\" for=\"file\">{{'BENEFICIAIRE.DOWNLOALD' | translate}}</label>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <div class=\"col-md-12\">\n                <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                  <input formControlName=\"newsletterInscription\" value=\"1\"  type=\"checkbox\" value=\"1\"  class=\"custom-control-input\">\n                  <span class=\"custom-control-indicator\"></span>\n                    <span class=\"custom-control-description\">{{'BENEFICIAIRE.NEWSLETTER' | translate}}</span>\n                      </label>\n              </div>\n        </div>\n        <div class=\"form-group row\">\n          <div class=\"col-md-12\">\n            <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n              <input formControlName=\"agree\" value=\"1\" type=\"checkbox\"  class=\"custom-control-input\">\n                <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">\n                    {{'BENEFICIAIRE.MENTIONS' | translate}}</span>\n                    </label>\n          </div>\n      </div>\n      <div class=\"row\" *ngIf=\"!loading\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">{{'BUTTON.PREV' | translate}}</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-success btn-bmce\">{{'BUTTON.VALIDATE' | translate}}</button>\n        </div>\n      </div>\n      <div *ngIf=\"loading\" class=\"loader-container\">\n        <loaders-css [loader]=\"'ball-spin-fade-loader'\" [loaderClass]=\"'my-loader'\"></loaders-css>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>"
 
 /***/ }),
 /* 607 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"app flex-row app-bes align-items-center\">\r\n  <div class=\"container\">\r\n    <div class=\"row justify-content-center\">\r\n      <div class=\"col-md-6\">\r\n        <div class=\"card-block text-center card-bes card-bes-green\">\r\n          <h4 class=\"mb-3\">Opération réussie </h4>\r\n            <div class=\"form-group row card card-inverse card-success mb-3 text-center\"   name=\"success\">\r\n              <p> Un message de bienvenue contenant votre mot de passe de connexion vous a été envoyé sur votre boîte email\r\n                {{email}}.</p>\r\n        </div>\r\n        <div class=\"row justify-content-center\">\r\n          <button type=\"button\" style=\"background: #c1c1c1;\" class=\"btn btn-primary btn-bmce\" (click)=\"backToHome()\">Ok</button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n"
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">{{ 'REGISTER.TITLE' | translate }}</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\"> {{'CONTACT.LABELS.ADDRESS' | translate}}<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"address\" id=\"example-text-input\">\n                <div *ngIf=\"form.get('address').touched && form.get('address').hasError('required')\" class=\"alert alert-danger\">\n                  {{'CONTACT.VALIDATIONS.ADDRESS' | translate}}</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\"> {{'CONTACT.LABELS.CODE' | translate}}<span class=\"required\">*</span></label>\n              <div class=\"col-md-6\">\n                <input type=\"text\" class=\"form-control form-bes\" id=\"inputZip\" formControlName=\"codePostal\">\n                <div *ngIf=\"form.get('codePostal').touched && form.get('codePostal').hasError('required')\" class=\"alert alert-danger\">\n                  {{'CONTACT.VALIDATIONS.CODE' | translate}}</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\"> {{'CONTACT.LABELS.COUNTRY' | translate}}<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <select id=\"inputState\" (change)=\"getCitiesOfCountry(c.value)\" #c formControlName=\"countryOfBirth\" class=\"form-control form-bes\">Choose\n                      <option value=\"France\" selected=\"selected\">France </option>\n                       <option value=\"Espagne\">Espagne </option>\n                      <option value=\"Italie\">italie </option>\n                      <option value=\"Belgique\">Belgique </option>\n                      <option value=\"Afghanistan\">Afghanistan </option>\n                      <option value=\"Afrique_Centrale\">Afrique_Centrale </option>\n                      <option value=\"Afrique_du_sud\">Afrique_du_Sud </option> \n                      <option value=\"Albanie\">Albanie </option>\n                      <option value=\"Algerie\">Algerie </option>\n                      <option value=\"Allemagne\">Allemagne </option>\n                      <option value=\"Andorre\">Andorre </option>\n                      <option value=\"Angola\">Angola </option>\n                      <option value=\"Anguilla\">Anguilla </option>\n                      <option value=\"Arabie_Saoudite\">Arabie_Saoudite </option>\n                      <option value=\"Argentine\">Argentine </option>\n                      <option value=\"Armenie\">Armenie </option> \n                      <option value=\"Australie\">Australie </option>\n                      <option value=\"Autriche\">Autriche </option>\n                      <option value=\"Azerbaidjan\">Azerbaidjan </option>\n                      <option value=\"Bahamas\">Bahamas </option>\n                      <option value=\"Bangladesh\">Bangladesh </option>\n                      <option value=\"Barbade\">Barbade </option>\n                      <option value=\"Bahrein\">Bahrein </option>\n                      \n                      <option value=\"Belize\">Belize </option>\n                      <option value=\"Benin\">Benin </option>\n                      <option value=\"Bermudes\">Bermudes </option>\n                      <option value=\"Bielorussie\">Bielorussie </option>\n                      <option value=\"Bolivie\">Bolivie </option>\n                      <option value=\"Botswana\">Botswana </option>\n                      <option value=\"Bhoutan\">Bhoutan </option>\n                      <option value=\"Boznie_Herzegovine\">Boznie_Herzegovine </option>\n                      <option value=\"Bresil\">Bresil </option>\n                      <option value=\"Brunei\">Brunei </option>\n                      <option value=\"Bulgarie\">Bulgarie </option>\n                      <option value=\"Burkina_Faso\">Burkina_Faso </option>\n                      <option value=\"Burundi\">Burundi </option>\n                      <option value=\"Caiman\">Caiman </option>\n                      <option value=\"Cambodge\">Cambodge </option>\n                      <option value=\"Cameroun\">Cameroun </option>\n                      <option value=\"Canada\">Canada </option>\n                      <option value=\"Canaries\">Canaries </option>\n                      <option value=\"Cap_vert\">Cap_Vert </option>\n                      <option value=\"Chili\">Chili </option>\n                      <option value=\"Chine\">Chine </option> \n                      <option value=\"Chypre\">Chypre </option> \n                      <option value=\"Colombie\">Colombie </option>\n                      <option value=\"Comores\">Colombie </option>\n                      <option value=\"Congo\">Congo </option>\n                      <option value=\"Congo_democratique\">Congo_democratique </option>\n                      <option value=\"Cook\">Cook </option>\n                      <option value=\"Coree_du_Nord\">Coree_du_Nord </option>\n                      <option value=\"Coree_du_Sud\">Coree_du_Sud </option>\n                      <option value=\"Costa_Rica\">Costa_Rica </option>\n                      <option value=\"Cote_d_Ivoire\">Côte_d_Ivoire </option>\n                      <option value=\"Croatie\">Croatie </option>\n                      <option value=\"Cuba\">Cuba </option>\n                      <option value=\"Danemark\">Danemark </option>\n                      <option value=\"Djibouti\">Djibouti </option>\n                      <option value=\"Dominique\">Dominique </option>\n                      <option value=\"Egypte\">Egypte </option> \n                      <option value=\"Emirats_Arabes_Unis\">Emirats_Arabes_Unis </option>\n                      <option value=\"Equateur\">Equateur </option>\n                      <option value=\"Erythree\">Erythree </option>\n                     \n                      <option value=\"Estonie\">Estonie </option>\n                      <option value=\"Etats_Unis\">Etats_Unis </option>\n                      <option value=\"Ethiopie\">Ethiopie </option>\n                      <option value=\"Falkland\">Falkland </option>\n                      <option value=\"Feroe\">Feroe </option>\n                      <option value=\"Fidji\">Fidji </option>\n                      <option value=\"Finlande\">Finlande </option>\n                      <option value=\"France\">France </option>\n                      <option value=\"Gabon\">Gabon </option>\n                      <option value=\"Gambie\">Gambie </option>\n                      <option value=\"Georgie\">Georgie </option>\n                      <option value=\"Ghana\">Ghana </option>\n                      <option value=\"Gibraltar\">Gibraltar </option>\n                      <option value=\"Grece\">Grece </option>\n                      <option value=\"Grenade\">Grenade </option>\n                      <option value=\"Groenland\">Groenland </option>\n                      <option value=\"Guadeloupe\">Guadeloupe </option>\n                      <option value=\"Guam\">Guam </option>\n                      <option value=\"Guatemala\">Guatemala</option>\n                      <option value=\"Guernesey\">Guernesey </option>\n                      <option value=\"Guinee\">Guinee </option>\n                      <option value=\"Guinee_Bissau\">Guinee_Bissau </option>\n                      <option value=\"Guinee equatoriale\">Guinee_Equatoriale </option>\n                      <option value=\"Guyana\">Guyana </option>\n                      <option value=\"Guyane_Francaise \">Guyane_Francaise </option>\n                      <option value=\"Haiti\">Haiti </option>\n                      <option value=\"Hawaii\">Hawaii </option> \n                      <option value=\"Honduras\">Honduras </option>\n                      <option value=\"Hong_Kong\">Hong_Kong </option>\n                      <option value=\"Hongrie\">Hongrie </option>\n                      <option value=\"Inde\">Inde </option>\n                      <option value=\"Indonesie\">Indonesie </option>\n                      <option value=\"Iran\">Iran </option>\n                      <option value=\"Iraq\">Iraq </option>\n                      <option value=\"Irlande\">Irlande </option>\n                      <option value=\"Islande\">Islande </option>\n                      <option value=\"Israel\">Israel </option>\n                      \n                      <option value=\"Jamaique\">Jamaique </option>\n                      <option value=\"Jan Mayen\">Jan Mayen </option>\n                      <option value=\"Japon\">Japon </option>\n                      <option value=\"Jersey\">Jersey </option>\n                      <option value=\"Jordanie\">Jordanie </option>\n                      <option value=\"Kazakhstan\">Kazakhstan </option>\n                      <option value=\"Kenya\">Kenya </option>\n                      <option value=\"Kirghizstan\">Kirghizistan </option>\n                      <option value=\"Kiribati\">Kiribati </option>\n                      <option value=\"Koweit\">Koweit </option>\n                      <option value=\"Laos\">Laos </option>\n                      <option value=\"Lesotho\">Lesotho </option>\n                      <option value=\"Lettonie\">Lettonie </option>\n                      <option value=\"Liban\">Liban </option>\n                      <option value=\"Liberia\">Liberia </option>\n                      <option value=\"Liechtenstein\">Liechtenstein </option>\n                      <option value=\"Lituanie\">Lituanie </option> \n                      <option value=\"Luxembourg\">Luxembourg </option>\n                      <option value=\"Lybie\">Lybie </option>\n                      <option value=\"Macao\">Macao </option>\n                      <option value=\"Macedoine\">Macedoine </option>\n                      <option value=\"Madagascar\">Madagascar </option>\n                      <option value=\"Madère\">Madère </option>\n                      <option value=\"Malaisie\">Malaisie </option>\n                      <option value=\"Malawi\">Malawi </option>\n                      <option value=\"Maldives\">Maldives </option>\n                      <option value=\"Mali\">Mali </option>\n                      <option value=\"Malte\">Malte </option>\n                      <option value=\"Man\">Man </option>\n                      <option value=\"Mariannes du Nord\">Mariannes du Nord </option>\n                      <option value=\"Maroc\">Maroc </option>\n                      <option value=\"Marshall\">Marshall </option>\n                      <option value=\"Martinique\">Martinique </option>\n                      <option value=\"Maurice\">Maurice </option>\n                      <option value=\"Mauritanie\">Mauritanie </option>\n                      <option value=\"Mayotte\">Mayotte </option>\n                      <option value=\"Mexique\">Mexique </option>\n                      <option value=\"Micronesie\">Micronesie </option>\n                      <option value=\"Midway\">Midway </option>\n                      <option value=\"Moldavie\">Moldavie </option>\n                      <option value=\"Monaco\">Monaco </option>\n                      <option value=\"Mongolie\">Mongolie </option>\n                      <option value=\"Montserrat\">Montserrat </option>\n                      <option value=\"Mozambique\">Mozambique </option>\n                      <option value=\"Namibie\">Namibie </option>\n                      <option value=\"Nauru\">Nauru </option>\n                      <option value=\"Nepal\">Nepal </option>\n                      <option value=\"Nicaragua\">Nicaragua </option>\n                      <option value=\"Niger\">Niger </option>\n                      <option value=\"Nigeria\">Nigeria </option>\n                      <option value=\"Niue\">Niue </option>\n                      <option value=\"Norfolk\">Norfolk </option>\n                      <option value=\"Norvege\">Norvege </option>\n                      <option value=\"Nouvelle_Caledonie\">Nouvelle_Caledonie </option>\n                      <option value=\"Nouvelle_Zelande\">Nouvelle_Zelande </option>\n                      <option value=\"Oman\">Oman </option>\n                      <option value=\"Ouganda\">Ouganda </option>\n                      <option value=\"Ouzbekistan\">Ouzbekistan </option>\n                      <option value=\"Pakistan\">Pakistan </option>\n                      <option value=\"Palau\">Palau </option>\n                      <option value=\"Palestine\">Palestine </option>\n                      <option value=\"Panama\">Panama </option>\n                      <option value=\"Papouasie_Nouvelle_Guinee\">Papouasie_Nouvelle_Guinee </option>\n                      <option value=\"Paraguay\">Paraguay </option>\n                      <option value=\"Pays_Bas\">Pays_Bas </option>\n                      <option value=\"Perou\">Perou </option>\n                      <option value=\"Philippines\">Philippines </option> \n                      <option value=\"Pologne\">Pologne </option>\n                      <option value=\"Polynesie\">Polynesie </option>\n                      <option value=\"Porto_Rico\">Porto_Rico </option>\n                      <option value=\"Portugal\">Portugal </option>\n                      <option value=\"Qatar\">Qatar </option>\n                      <option value=\"Republique_Dominicaine\">Republique_Dominicaine </option>\n                      <option value=\"Republique_Tcheque\">Republique_Tcheque </option>\n                      <option value=\"Reunion\">Reunion </option>\n                      <option value=\"Roumanie\">Roumanie </option>\n                      <option value=\"Royaume_Uni\">Royaume_Uni </option>\n                      <option value=\"Russie\">Russie </option>\n                      <option value=\"Rwanda\">Rwanda </option>\n                      <option value=\"Sahara Occidental\">Sahara Occidental </option>\n                      <option value=\"Sainte_Lucie\">Sainte_Lucie </option>\n                      <option value=\"Saint_Marin\">Saint_Marin </option>\n                      <option value=\"Salomon\">Salomon </option>\n                      <option value=\"Salvador\">Salvador </option>\n                      <option value=\"Samoa_Occidentales\">Samoa_Occidentales</option>\n                      <option value=\"Samoa_Americaine\">Samoa_Americaine </option>\n                      <option value=\"Sao_Tome_et_Principe\">Sao_Tome_et_Principe </option> \n                      <option value=\"Senegal\">Senegal </option> \n                      <option value=\"Seychelles\">Seychelles </option>\n                      <option value=\"Sierra Leone\">Sierra Leone </option>\n                      <option value=\"Singapour\">Singapour </option>\n                      <option value=\"Slovaquie\">Slovaquie </option>\n                      <option value=\"Slovenie\">Slovenie</option>\n                      <option value=\"Somalie\">Somalie </option>\n                      <option value=\"Soudan\">Soudan </option> \n                      <option value=\"Sri_Lanka\">Sri_Lanka </option> \n                      <option value=\"Suede\">Suede </option>\n                      <option value=\"Suisse\">Suisse </option>\n                      <option value=\"Surinam\">Surinam </option>\n                      <option value=\"Swaziland\">Swaziland </option>\n                      <option value=\"Syrie\">Syrie </option>\n                      <option value=\"Tadjikistan\">Tadjikistan </option>\n                      <option value=\"Taiwan\">Taiwan </option>\n                      <option value=\"Tonga\">Tonga </option>\n                      <option value=\"Tanzanie\">Tanzanie </option>\n                      <option value=\"Tchad\">Tchad </option>\n                      <option value=\"Thailande\">Thailande </option>\n                      <option value=\"Tibet\">Tibet </option>\n                      <option value=\"Timor_Oriental\">Timor_Oriental </option>\n                      <option value=\"Togo\">Togo </option> \n                      <option value=\"Trinite_et_Tobago\">Trinite_et_Tobago </option>\n                      <option value=\"Tristan da cunha\">Tristan de cuncha </option>\n                      <option value=\"Tunisie\">Tunisie </option>\n                      <option value=\"Turkmenistan\">Turmenistan </option> \n                      <option value=\"Turquie\">Turquie </option>\n                      <option value=\"Ukraine\">Ukraine </option>\n                      <option value=\"Uruguay\">Uruguay </option>\n                      <option value=\"Vanuatu\">Vanuatu </option>\n                      <option value=\"Vatican\">Vatican </option>\n                      <option value=\"Venezuela\">Venezuela </option>\n                      <option value=\"Vierges_Americaines\">Vierges_Americaines </option>\n                      <option value=\"Vierges_Britanniques\">Vierges_Britanniques </option>\n                      <option value=\"Vietnam\">Vietnam </option>\n                      <option value=\"Wake\">Wake </option>\n                      <option value=\"Wallis et Futuma\">Wallis et Futuma </option>\n                      <option value=\"Yemen\">Yemen </option>\n                      <option value=\"Yougoslavie\">Yougoslavie </option>\n                      <option value=\"Zambie\">Zambie </option>\n                      <option value=\"Zimbabwe\">Zimbabwe </option>\n                  </select>\n                <div *ngIf=\"form.get('countryOfBirth').touched && form.get('countryOfBirth').hasError('required')\" class=\"alert alert-danger\">{{'CONTACT.VALIDATIONS.COUNTRY' | translate}}</div>\n              </div>\n            </div>\n\n            <div class=\"form-group row\">\n              <label for=\"inputState\" class=\"col-md-4 form-control-label\"> {{'CONTACT.LABELS.CITY' | translate}}<span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input *ngIf=\"cityInput\" class=\"form-control form-bes\" type=\"text\" formControlName=\"cityOfBirth\">\n                <select *ngIf=\"!cityInput\" id=\"inputState\"  (change)=\"chooseOthers(v.value)\" #v  formControlName=\"cityOfBirth\" class=\"form-control form-bes\">{{'CONTACT.CHOOSE' | translate}}  \n                    <option *ngFor=\"let city of cities\" [value]=\"city.key\">{{city.value}}</option> \n                    <option value=\"others\">---- {{'CONTACT.OTHERS' | translate}} -----</option>    \n                </select>\n                <div *ngIf=\"form.get('cityOfBirth').touched && form.get('cityOfBirth').hasError('required')\" class=\"alert alert-danger\">\n                  {{'CONTACT.VALIDATIONS.CITY' | translate}}</div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\"> {{'CONTACT.LABELS.TEL' | translate}} <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <div class=\"input-group\">\n                  <div class=\"input-group-btn input-group-addon-bes\">\n                    <li class=\"nav-item dropdown\" dropdown>\n                      <a href class=\"btn  dropdown-toggle\" style=\"background: transparent !important;border: none;\" dropdownToggle (click)=\"false\">\n                        <span class=\"\"><span class=\"flag-icon flag-icon-fr\"></span><span class=\"languages\">(+33)</span></span>\n                      </a>\n                      <div class=\"dropdown-menu dropdown-menu-left\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-us\"></span><span  class=\"languages\">(+44)</span></a>\n                        <a class=\"dropdown-item\" href=\"#//address\"><span class=\"flag-icon flag-icon-es\"></span><span  class=\"languages\">(+34)</span></a>\n                        <a class=\"dropdown-item\" href=\"#/address\"><span class=\"flag-icon flag-icon-be\"></span><span  class=\"languages\">(+32)</span></a>\n                      </div>\n                    </li>\n                  </div>\n                  <input class=\"form-control form-bes\" id=\"input1-group3\" formControlName=\"phone\" name=\"input1-group3\" placeholder=\"Numéro\"\n                    type=\"text\">\n                </div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('required')\" class=\"alert alert-danger\">\n                  {{'CONTACT.VALIDATIONS.TEL.REQUIRED' | translate}}</div>\n                <div *ngIf=\"form.get('phone').touched && form.get('phone').hasError('pattern')\" class=\"alert alert-danger\">\n                  {{'CONTACT.VALIDATIONS.TEL.NOTVALID' | translate}}\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label class=\"col-md-4 form-control-label\" for=\"text-input\"> {{'CONTACT.LABELS.EMAIL' | translate}} <span class=\"required\">*</span></label>\n              <div class=\"col-md-8\">\n                <input class=\"form-control form-bes\" type=\"text\" formControlName=\"email\" value=\"{{(store | async)?.customer.email}}\" id=\"example-date-input\">\n              </div>\n            </div>\n\n            <div class=\"row\">\n              <div class=\"col-6\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">{{'BUTTON.PREV' | translate}}</button>\n              </div>\n              <div class=\"col-6 text-right\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">{{'BUTTON.VALIDATE' | translate}}</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 /* 608 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{label}} <span class=\"required\">*</span></label>\r\n    <div class=\"col-md-8\">\r\n        <div class=\"input-group mb-3\">\r\n            <span class=\"input-group-addon  input-group-addon-bes\">011</span>\r\n            <input maxlength=\"21\" #account RibNumberFormatter type=\"text\" limit-input=\"21\" class=\"form-control form-bes\" formControlName=\"account\"\r\n                placeholder=\"000 000 000 000 000 000 000\">\r\n            <span *ngIf=\"form.get('account').dirty\" class=\"twitter-count mt-3 m-1\">{{account.value.length + 3}}/24</span>\r\n        </div>\r\n        <div *ngIf=\"form.get('account').touched && form.get('account').hasError('required')\" class=\"alert alert-danger\">Numéro RIB requis</div>\r\n        <div *ngIf=\"form.get('account').touched && form.get('account').hasError('pattern')\" class=\"alert alert-danger\">\r\n            Numero de compte non valide\r\n        </div>\r\n    </div>\r\n</div>"
+module.exports = "<router-outlet></router-outlet>\n\n"
 
 /***/ }),
 /* 609 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6  pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height  card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">{{ 'REGISTER.TITLE' | translate }}</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form autocomplete=\"on\" novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row mb-0 pl-4\">\n              <div class=\"col-sm-6 pl-0 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input autocomplete=\"on\" name=\"firstName\" type=\"text\" formControlName=\"lastName\" class=\"form-control form-bes\" placeholder=\"{{ 'GENERAL.PLACEHOLDER.LASTNAME' | translate }}\">\n                </div>\n                <div class=\"alert-container mb-2 mt-2\">\n                  <div *ngIf=\"form.get('lastName').touched && form.get('lastName').hasError('required')\" class=\"alert alert-danger\"><span>{{ 'GENERAL.LASTNAME' | translate }}</span></div>\n                </div>\n\n              </div>\n              <div class=\"col-sm-6 pl-0 pr-1\">\n                <div class=\"input-group\">\n                  <span class=\"input-group-addon  input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" formControlName=\"firstName\" class=\"form-control form-bes\" placeholder=\"{{ 'GENERAL.PLACEHOLDER.FIRSTNAME' | translate }}\">\n                </div>\n                <div class=\"alert-container mb-2 mt-2\">\n                  <div *ngIf=\"form.get('firstName').touched && form.get('firstName').hasError('required')\" class=\"alert alert-danger\">{{ 'GENERAL.FIRSTNAME' | translate }}</div>\n                </div>\n\n              </div>\n            </div>\n            <div class=\"form-group row mb-0 pl-4 pr-1\">\n              <div class=\"input-group\">\n                <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                <input  name=\"email\" type=\"email\" formControlName=\"email\" class=\"form-control form-bes\" placeholder=\"{{ 'GENERAL.PLACEHOLDER.EMAIL' | translate }}\">\n              </div>\n\n            </div>\n            <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n              <div *ngIf=\"form.get('email').touched && form.get('email').hasError('required')\" class=\"alert alert-danger\">\n                {{ 'GENERAL.EMAIL' | translate }}\n              </div>\n              <div *ngIf=\"form.get('email').touched && form.get('email').hasError('pattern')\" class=\"alert alert-danger\">\n                {{ 'GENERAL.INVALIDEMAIL' | translate }}\n              </div>\n            </div>\n            <div class=\"form-group row pl-4 pr-1\">\n              <div class=\"input-group\">\n                <span class=\"input-group-addon  input-group-addon-bes\"><font color=\"#C0C0C0\">@</font></span>\n                <input type=\"text\" name=\"confirmEmail\" formControlName=\"confirmEmail\" class=\"form-control form-bes\" placeholder=\"{{ 'GENERAL.PLACEHOLDER.CONFIRMEMAIL' | translate }}\">\n              </div>\n\n            </div>\n            <div class=\"alert-container col-sm-6 mb-2 mt-2\">\n              <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('required')\" class=\"alert alert-danger\">\n                {{ 'GENERAL.CONFIRMATIONEMAIL' | translate }}\n              </div>\n              <div *ngIf=\"form.get('confirmEmail').touched && form.get('confirmEmail').hasError('pattern')\" class=\"alert  alert-danger\">\n                {{ 'GENERAL.INVALIDCONFEMAIL' | translate }}\n              </div>\n            </div>\n\n            <div class=\"form-group row pl-4 pr-1\">\n              <label>{{ 'GENERAL.TESTROBOT' | translate }}</label>\n              <re-captcha site_key=\"6LcO0SEUAAAAAGyFwB2n6oqSzUD91uapRI7FPNcm\"></re-captcha>\n            </div>\n\n\n            <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n\n\n\n            <div class=\"form-group row pl-4\">\n              <div class=\"col-6\">\n              </div>\n              <div class=\"col-6 text-right pr-0\">\n                <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">{{'GENERAL.NEXT' | translate }}</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+/* 610 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-6 pt-5 pb-5\">\n        <div class=\"card-block card-bes card-height card-bes-white\">\n          <h4 style=\"margin-bottom: 2rem !important;\">{{ 'SIGNALITIQUE.CLIENT' | translate }}</h4>\n          <navbar-step-form [step]=\"step\"></navbar-step-form>\n          <form autocomplete=\"on\" novalidate [formGroup]=\"form\" (submit)=\"next()\">\n            <div class=\"form-group row\">\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.customer.lastName}}\" class=\"form-control form-bes\" name=\"LastName\" placeholder=\"Nom\">\n                </div>\n              </div>\n              <div class=\"col-sm-6\">\n                <div class=\"input-group mb-3\">\n                  <span class=\"input-group-addon input-group-addon-bes\"><i class=\"icon-user\"></i></span>\n                  <input type=\"text\" value=\"{{(store | async)?.customer.firstName}}\" class=\"form-control form-bes\" name=\"prenom\" placeholder=\"Prénom\">\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-form-legend col-sm-4\">{{ 'SIGNALITIQUE.GENDER' | translate }}<span class=\"required\">*</span></label>\n                <div class=\"col-md-8\">\n                  <label class=\"custom-control custom-radio\"  id=\"Sradio\">\n                    <input name=\"gender\" formControlName=\"gender\"  type=\"radio\" value=\"Femme\"  class=\"custom-control-input\">\n                      <span class=\"custom-control-indicator\"></span>\n                        <span class=\"custom-control-description\">{{ 'SIGNALITIQUE.FEMALE' | translate }}</span>\n                          </label>\n                          <label class=\"custom-control custom-radio\">\n                            <input  formControlName=\"gender\"  value=\"Homme\" type=\"radio\"  class=\"custom-control-input\">\n                              <span class=\"custom-control-indicator\"></span>\n                                <span class=\"custom-control-description\">{{ 'SIGNALITIQUE.MALE' | translate }}</span>\n                                  </label>\n                </div>\n                <div *ngIf=\"form.get('gender').touched && form.get('gender').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.SEXREQUIRED' | translate }}</div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"password-input\">{{ 'SIGNALITIQUE.BIRTHDATE' | translate }} <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <div class=\"input-group  ab-datepicker\">\n              <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"birthday\" ngbDatepicker #birthdayD=\"ngbDatepicker\">\n              <span class=\"input-group-addon input-group-addon-bes\" (click)=\"birthdayD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n            </div>\n\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.BIRTHDATEREQUIRED' | translate }}</div>\n            <div *ngIf=\"form.get('birthday').touched && form.get('birthday').hasError('validateBirthday')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.AGE' | translate }}</div>\n\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{ 'SIGNALITIQUE.BIRTHPLACE' | translate }} <span class=\"required\">*</span></label>\n          <div class=\"col-md-8\">\n            <input class=\"form-control form-bes\" formControlName=\"birthplace\" type=\"text\" name=\"birthplace\" value=\"\" id=\"example-date-input\">\n            <div *ngIf=\"form.get('birthplace').touched && form.get('birthplace').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.BIRTHPLACEREQUIRED' | translate }} </div>\n          </div>\n\n        </div>\n        <div class=\"form-group row\">\n          <label class=\"col-form-legend col-sm-4\">{{ 'SIGNALITIQUE.ID' | translate }} <span class=\"required\">*</span></label>\n            <div class=\"col-md-8\">\n              <select id=\"inputState\" formControlName=\"identityDocument\" class=\"form-control form-bes\">\n                <option *ngFor=\"let id of ids\" [value]=\"id.key\">{{id.value}}</option>     \n              </select>\n            </div>\n      </div>\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{ 'SIGNALITIQUE.IDNUM' | translate }} <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" formControlName=\"identityNumber\" name=\"identityNumber\"  type=\"text\" value=\"\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('identityNumber').touched && form.get('identityNumber').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.IDNUMREQUIRED' | translate }}</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">{{ 'SIGNALITIQUE.ISSUEDATE' | translate }} <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\"  formControlName=\"dateOfIssue\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #dateOfIssueD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"dateOfIssueD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('dateOfIssue').touched && form.get('dateOfIssue').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.ISSUEDATEREQUIRED' | translate }}</div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{ 'SIGNALITIQUE.ISSUEPLACE' | translate }} <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <input class=\"form-control form-bes\" type=\"text\" formControlName=\"placeOfIssue\" name=\"placeOfIssue\" id=\"example-date-input\">\n          <div *ngIf=\"form.get('placeOfIssue').touched && form.get('placeOfIssue').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.ISSUEPLACEREQUIRED' | translate }}</div>\n        </div>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <label class=\"col-md-4 form-control-label\" for=\"password-input\">{{ 'SIGNALITIQUE.EXPIRATIONDATE' | translate }} <span class=\"required\">*</span></label>\n        <div class=\"col-md-8\">\n          <div class=\"input-group  ab-datepicker\">\n            <input class=\"form-control form-bes\" placeholder=\"yyyy-mm-dd\" formControlName=\"expirDate\" placeholder=\"yyyy-mm-dd\" ngbDatepicker\n              #expirDateD=\"ngbDatepicker\">\n            <span class=\"input-group-addon input-group-addon-bes\" (click)=\"expirDateD.toggle()\"><i class=\"fa fa-calendar\"></i></span>\n          </div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('required')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.EXPIRATIONDATEREQUIRED' | translate }}</div>\n          <div *ngIf=\"form.get('expirDate').touched && form.get('expirDate').hasError('validateDate')\" class=\"alert alert-danger\">{{ 'SIGNALITIQUE.EXPIRATIONDATEINVALID' | translate }}</div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-6\">\n          <button type=\"button\" class=\"btn btn-primary btn-bmce\" (click)=\"back()\">{{ 'SIGNALITIQUE.PREVIOUS' | translate }}</button>\n        </div>\n        <div class=\"col-6 text-right\">\n          <button type=\"submit\" [disabled]=\"form.invalid\" class=\"btn btn-primary btn-bmce\">{{ 'SIGNALITIQUE.NEXT' | translate }}</button>\n        </div>\n      </div>\n      </form>\n    </div>\n  </div>\n</div>\n</div>\n</div>\n\n"
+
+/***/ }),
+/* 611 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"app flex-row app-bes align-items-center\">\r\n  <div class=\"container\">\r\n    <div class=\"row justify-content-center\">\r\n      <div class=\"col-md-6\">\r\n        <div class=\"card-block text-center card-bes card-bes-green\">\r\n          <h4 class=\"mb-3\">{{ 'RESULT.SUCCESSFUL' | translate }} </h4>\r\n            <div class=\"form-group row card card-inverse card-success mb-3 text-center\"   name=\"success\">\r\n              <p> {{ 'RESULT.MSGSUCCESSFUL' | translate }} {{email}}.</p>\r\n        </div>\r\n        <div class=\"row justify-content-center\">\r\n          <button type=\"button\" style=\"background: #c1c1c1;\" class=\"btn btn-primary btn-bmce\" (click)=\"backToHome()\">Ok</button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n"
+
+/***/ }),
+/* 612 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-md-4 form-control-label\" for=\"text-input\">{{'BENEFICIAIRE.RIB' | translate}} <span class=\"required\">*</span></label>\r\n    <div class=\"col-md-8\">\r\n        <div class=\"input-group mb-3\">\r\n            <span class=\"input-group-addon  input-group-addon-bes\">011</span>\r\n            <input  (blur)=\"onKey($event)\" (keypress)=\"onPress($event)\"  maxlength=\"21\" #account RibNumberFormatter type=\"text\" limit-input=\"21\" class=\"form-control form-bes\" formControlName=\"account\"\r\n                placeholder=\"000 000 000 000 000 000 000\">\r\n            <span *ngIf=\"form.get('account').dirty && cardLength\" class=\"twitter-count mt-3 m-1\">{{account.value.length + 3}}/24</span>\r\n        </div>\r\n        <div *ngIf=\"form.get('account').touched && form.get('account').hasError('required')\" class=\"alert alert-danger\">{{ 'BENEFICIAIRE.VALIDATIONS.RIB.REQUIRED' | translate }}</div>\r\n        <div *ngIf=\"form.get('account').touched && form.get('account').hasError('pattern')\" class=\"alert alert-danger\">\r\n           {{ 'BENEFICIAIRE.VALIDATIONS.RIB.NOTVALID' | translate }} \r\n        </div>\r\n    </div>\r\n</div>"
+
+/***/ }),
+/* 613 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12042,7 +12228,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(41);
-var queue_1 = __webpack_require__(504);
+var queue_1 = __webpack_require__(508);
 var Subscription_1 = __webpack_require__(49);
 var observeOn_1 = __webpack_require__(180);
 var ObjectUnsubscribedError_1 = __webpack_require__(106);
@@ -12139,7 +12325,7 @@ var ReplayEvent = (function () {
 //# sourceMappingURL=ReplaySubject.js.map
 
 /***/ }),
-/* 610 */
+/* 614 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12194,7 +12380,7 @@ exports.Scheduler = Scheduler;
 //# sourceMappingURL=Scheduler.js.map
 
 /***/ }),
-/* 611 */
+/* 615 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12206,7 +12392,7 @@ Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
 
 /***/ }),
-/* 612 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12216,7 +12402,7 @@ exports.empty = EmptyObservable_1.EmptyObservable.create;
 //# sourceMappingURL=empty.js.map
 
 /***/ }),
-/* 613 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12330,7 +12516,7 @@ var DistinctUntilChangedSubscriber = (function (_super) {
 //# sourceMappingURL=distinctUntilChanged.js.map
 
 /***/ }),
-/* 614 */
+/* 618 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12393,7 +12579,7 @@ function plucker(props, length) {
 //# sourceMappingURL=pluck.js.map
 
 /***/ }),
-/* 615 */
+/* 619 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12450,7 +12636,7 @@ var SkipSubscriber = (function (_super) {
 //# sourceMappingURL=skip.js.map
 
 /***/ }),
-/* 616 */
+/* 620 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12531,7 +12717,7 @@ var TakeUntilSubscriber = (function (_super) {
 //# sourceMappingURL=takeUntil.js.map
 
 /***/ }),
-/* 617 */
+/* 621 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12581,7 +12767,7 @@ exports.Action = Action;
 //# sourceMappingURL=Action.js.map
 
 /***/ }),
-/* 618 */
+/* 622 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12592,7 +12778,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var root_1 = __webpack_require__(27);
-var Action_1 = __webpack_require__(617);
+var Action_1 = __webpack_require__(621);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -12729,7 +12915,7 @@ exports.AsyncAction = AsyncAction;
 //# sourceMappingURL=AsyncAction.js.map
 
 /***/ }),
-/* 619 */
+/* 623 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12739,7 +12925,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(610);
+var Scheduler_1 = __webpack_require__(614);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -12786,7 +12972,7 @@ exports.AsyncScheduler = AsyncScheduler;
 //# sourceMappingURL=AsyncScheduler.js.map
 
 /***/ }),
-/* 620 */
+/* 624 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12796,7 +12982,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(618);
+var AsyncAction_1 = __webpack_require__(622);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -12841,7 +13027,7 @@ exports.QueueAction = QueueAction;
 //# sourceMappingURL=QueueAction.js.map
 
 /***/ }),
-/* 621 */
+/* 625 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12851,7 +13037,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(619);
+var AsyncScheduler_1 = __webpack_require__(623);
 var QueueScheduler = (function (_super) {
     __extends(QueueScheduler, _super);
     function QueueScheduler() {

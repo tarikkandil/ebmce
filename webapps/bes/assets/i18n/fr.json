@@ -2,21 +2,209 @@
   "HOME": {
     "TITLE": "Bonjour Angular 2 avec ng2-translate !",
     "SELECT": "Changer la langue",
-    "ESPACE": "Espace client"
+    "ESPACE": "Espace client",
+    "SUBTITLE": "Identifiez-vous pour accéder à votre compte",
+    "USERNAME": "Adresse e-mail requis",
+    "EMAIL": "Adresse e-mail non valide",
+    "PASSWORD": "Password required",
+    "CONNEXION": "Connexion",
+    "PASSWORDFORGOTTEN": "Mot de passe oublié?",
+    "INTRODUCTION": "BMCE EuroServices vous propose un nouveau service en ligne qui vous permet de transférer par carte Banque par Internet",
+    "INTRODUCTIONSUITE": "Avec un seul clic, vous transférez en toute sécurité, votre argent où que vous soyez",
+    "CLIENT": "Devenir client",
+    "PLACEHOLDER": {
+      "USERNAME": "Email de l'utilisateur",
+      "PASSWORD": "Mot de passe"
+    }
   },
-   "HEADER": {
+  "HEADER": {
     "SERVICES": "Services",
     "AGENCES": "Agences",
     "ESPACE": "Espace client"
   },
   "TRANSFER": {
     "TITLE": "Transfert d'argent",
-    "FORM" : {
-      "AMOUNT" : "Amount"
-
+    "MONTANT": "Montant",
+    "PAYMENT": "Moyen de paiement",
+    "CARD-NUMBER": "Numéro de carte",
+    "EXPIRATION": "Date d expiration (MM/YY)",
+    "CODE": "Code de vérification",
+    "NAME": "Nom et prénom",
+    "VALIDATION": {
+      "MONTANT": {
+        "REQUIRED": "Montant requis",
+        "NOTVALID": "Montant non valid"
+      },
+      "CARD-NUMBER": {
+        "REQUIRED": "Numéro de carte requis",
+        "NOTVALID": "Numéro de carte non valid"
+      },
+      "EXPIRATION": {
+        "REQUIRED": "Date d'expiration requis"
+      },
+      "CODE": {
+        "REQUIRED": "Code de vérification requis",
+        "NOTVALID": "Code de vérification non valid"
+      },
+      "NAME": {
+        "REQUIRED": "Name requis"
+      }
+    },
+    "3D-SECURE": {
+      "AUTHENTIFICATION": "Entrer le code d'authentification",
+      "AUTHENTIFICATIONMSG": "Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions de bien vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM",
+      "MARCHANT": "Marchant",
+      "AMOUNT": "Montant",
+      "DATE": "Date",
+      "CARD-NUMBER": "Numéro de carte",
+      "PHONE-NUMBER": "Numéro de téléphone",
+      "LABEL": "Veuillez saisir votre code 3D Secure",
+      "SMS": "Si vous n'avez pas recu votre code par SMS",
+      "CLICKHERE" : "cliquez ici ?",
+      "SMS-PART2" : "Votre code vous sera communiqué par appel téléphonique sur votre GSM",
+      "SECURITY": "Sécurité privée",
+      "CONDITIONS": "Conditions générales",
+      "CONTACT": "Cette authentification est obligatoire pour conclure votre transfert. En cas de problème merci de nous contacter au +33 4 68 29 46 69."
     }
   },
   "REGISTER": {
     "TITLE": "Devenir Client"
+  },
+  "ADVANTAGE": {
+    "TITRE": "Quels sont les avantages de votre espace client BMCE ?"
+
+  },
+  "CUSTOMER": {
+    "ESPACE": "Accédez aux principales rubriques de votre espace client",
+    "SALAMA": "Assurance Salama",
+    "SUBSCRIBE": "Possibilité à Souscrire en ligne à l'assurance Salama",
+    "LOCALISATIONTITLE": "Géo-localiser",
+    "LOCALISATION": "Votre agence en présentant leur coordonnées",
+    "NEWSLETTER": "Newsletter",
+    "NEWSLETTERDETAILS": "S'inscrire en ligne à notre système de newsletter",
+    "ACCOUNT": "Compte Online",
+    "ACCOUNTDETAILS": "Ouvrez votre compte BMCE online et bénéficiez de différents fonctionnalités",
+    "TRANSFERT": "Transférer votre argent",
+    "TRANSFERTDETAILS": "Transférer en ligne via une carte bancaire en toute sécurité",
+    "DEBIT": "prélèvement automatique",
+    "DEBITDETAILS": "Souscrire en ligne au prélèvement automatique"
+  },
+  "Newsletter": {
+    "SUBSCRIBE": "S'inscrire au newsletter ?",
+    "EMAIL": "adresse mail",
+    "VALID": "Valider",
+    "EMAILREQUIRED": "Adresse email est requis",
+    "INVALIDEMAIL": "Adresse email non valid",
+    "VALIDSUSCRIBE": "Inscription à la newsletter de"
+  },
+  "RESET": {
+    "PASSWORD": "Mot de passe oublié ?",
+    "IDENTIFIANT": "mon identifiant (adresse mail)",
+    "VALID": "Valider",
+    "EMAILREQUIRED": "Adresse email est requis",
+    "INVALIDEMAIL": "Adresse email non valid",
+    "RECUPERATIONEMAIL": "Un email contenant un lien pour rénitialiser votre mot de pass a été envoyé sur"
+  },
+
+  "GENERAL": {
+    "LASTNAME": "Nom requis",
+    "FIRSTNAME": "Prénom requis",
+    "EMAIL": "Adresse e-mail requis",
+    "INVALIDEMAIL": "Adresse e-mail non valide",
+    "CONFIRMATIONEMAIL": "Adresse e-mail de confirmation requis",
+    "INVALIDCONFEMAIL": "Adresse e-mail de confirmation non valide",
+    "TESTROBOT": "Veuillez prouvez que vous n'êtes pas un robot",
+    "NEXT": "Suivant",
+    "PLACEHOLDER": {
+      "LASTNAME": "Nom",
+      "FIRSTNAME": "Prénom",
+      "EMAIL": "Email",
+      "CONFIRMEMAIL": "Confirmer votre Email"
+    }
+  },
+  "SIGNALITIQUE": {
+    "CLIENT": "Devenir Client",
+    "GENDER": "Sexe",
+    "MALE": "Homme",
+    "FEMALE": "Femme",
+    "SEXREQUIRED": "Sexe requis",
+    "BIRTHDATE": "Date de naissance",
+    "BIRTHDATEREQUIRED": "Date de naissance requise",
+    "AGE": "18 ans, c'est l'âge minimum requis",
+    "BIRTHPLACE": "Lieu de naissance",
+    "BIRTHPLACEREQUIRED": "Lieu de naissance requis",
+    "ID": "Pièce d'identité",
+    "IDTYPE": "Carte nationale",
+    "IDTYPEP": "Passeport",
+    "IDNUM": "N° de pièce d'identité",
+    "IDNUMREQUIRED": "Numéro de pièce d'identité requis",
+    "ISSUEDATE": "Date de Délivrance",
+    "ISSUEDATEREQUIRED": "Date de Délivrance requise",
+    "ISSUEPLACE": "Lieu de délivrance",
+    "ISSUEPLACEREQUIRED": "Lieu de délivrance requis",
+    "EXPIRATIONDATE": "Date d'expiration",
+    "EXPIRATIONDATEREQUIRED": "Date d'expiration requis",
+    "EXPIRATIONDATEINVALID": "Date d'expiration non valide",
+    "PREVIOUS": "Précédent",
+    "NEXT": "Suivant"
+  },
+  "CONTACT": {
+    "LABELS": {
+      "ADDRESS": "Adresse",
+      "CODE": "Code postal",
+      "COUNTRY": "Pays",
+      "CITY": "Ville",
+      "TEL": "Téléphone",
+      "EMAIL": "Email"
+    },
+     "CHOOSE": "Choisir",
+      "OTHERS" : "Autres",
+    "VALIDATIONS": {
+      "ADDRESS": "Adresse requise",
+      "CODE": "Code postale requis",
+      "COUNTRY": "Pays requis",
+      "CITY": "Ville requise",
+      "TEL": {
+        "REQUIRED": "Numéro de Téléphone requis",
+        "NOTVALID": "Téléphone non valide"
+      }
+    }
+  },
+  "BENEFICIAIRE": {
+    "RIB": "RIB bénéficiaire",
+    "CUSTOMER": "Je suis le client bénéficiaire",
+    "LASTNAME": "Nom du bénéficiare",
+    "FIRSTNAME": "Prénom du bénéficiare",
+    "AGENCES": "Agence BES",
+    "DOWNLOALD": "Télécharger pièce d'identité",
+    "NEWSLETTER": "J'accepte de recevoir des newletters et des offres de produits et services par courrier électronique de BMCE EuroServices et ses partenaires",
+    "MENTIONS": "J'ai lu et j'accepte les mentions légales",
+    "VALIDATIONS": {
+      "RIB": {
+        "REQUIRED": "Numéro RIB requis",
+        "NOTVALID": "Numero de compte non valide"
+      },
+      "LASTNAME": "Nom de bénéficiaire requis",
+      "FIRSTNAME": "Prénom de bénéficiaire requis",
+      "AGENCES": "Agence BES requise"
+    }
+  },
+  "RESULT": {
+    "SUCCESSFUL": "Opération réussie",
+    "MSGSUCCESSFUL": "Un message de bienvenue contenant votre mot de passe de connexion vous a été envoyé sur votre boîte email"
+
+  },
+  "BUTTON": {
+    "NEXT": "Suivant",
+    "PREV": "Précédent",
+    "VALIDATE": "Valider",
+    "CANCEL": "Annuler",
+    "LOGOUT": "Déconnexion"
+  },
+  "FORMSTEPS": {
+    "INFOS": "INFOS GÉNÉRALES",
+    "SIGNALITIQUE": "SIGNALITIQUE",
+    "CONTACT": "CONTACT",
+    "BENEFICIAIRE": "BENEFICIAIRE"
   }
 }

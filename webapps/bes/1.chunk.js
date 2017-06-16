@@ -71,25 +71,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var common_1 = __webpack_require__(38);
-var dashboard_routing_module_1 = __webpack_require__(563);
+var dashboard_routing_module_1 = __webpack_require__(567);
 var http_1 = __webpack_require__(98);
 var shared_lazy_module_1 = __webpack_require__(484);
 var forms_1 = __webpack_require__(177);
 //components
-var dashboard_component_1 = __webpack_require__(520);
-var _3d_secure_component_1 = __webpack_require__(516);
-var transfer_component_1 = __webpack_require__(519);
-var amount_input_component_1 = __webpack_require__(556);
-var card_type_component_1 = __webpack_require__(561);
-var card_number_component_1 = __webpack_require__(559);
-var expiration_date_input_component_1 = __webpack_require__(562);
-var card_code_input_component_1 = __webpack_require__(558);
+var dashboard_component_1 = __webpack_require__(524);
+var _3d_secure_component_1 = __webpack_require__(520);
+var transfer_component_1 = __webpack_require__(523);
+var amount_input_component_1 = __webpack_require__(560);
+var card_type_component_1 = __webpack_require__(565);
+var card_number_component_1 = __webpack_require__(563);
+var expiration_date_input_component_1 = __webpack_require__(566);
+var card_code_input_component_1 = __webpack_require__(562);
 //pipes & directives
-var pipe_currency_mask_pipe_1 = __webpack_require__(517);
-var pipe_currency_mask_directive_1 = __webpack_require__(557);
-var pipe_card_number_directive_1 = __webpack_require__(560);
-var pipe_card_number_pipe_1 = __webpack_require__(518);
+var pipe_currency_mask_pipe_1 = __webpack_require__(521);
+var pipe_currency_mask_directive_1 = __webpack_require__(561);
+var pipe_card_number_directive_1 = __webpack_require__(564);
+var pipe_card_number_pipe_1 = __webpack_require__(522);
 var ng_bootstrap_1 = __webpack_require__(457);
+var auth_guards_1 = __webpack_require__(518);
 var DashboardModule = (function () {
     function DashboardModule() {
     }
@@ -124,6 +125,7 @@ DashboardModule = __decorate([
         providers: [
             pipe_currency_mask_pipe_1.CurrencyMaskPipe,
             pipe_card_number_pipe_1.MyCardNumberPipe,
+            auth_guards_1.AuthGuard
         ]
     })
 ], DashboardModule);
@@ -2760,7 +2762,7 @@ var NavigationEvent;
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__datepicker__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__datepicker_input__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_9__ngb_calendar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__ = __webpack_require__(492);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_13__hijri_ngb_calendar_islamic_civil__["a"]; });
 /* unused harmony reexport NgbDatepickerMonthView */
 /* unused harmony reexport NgbDatepickerDayView */
@@ -4429,7 +4431,7 @@ NgbTabsetModule.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_time__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngb_time__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__timepicker_config__ = __webpack_require__(432);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbTimepicker; });
 
@@ -4843,11 +4845,11 @@ NgbHighlight.propDecorators = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__ = __webpack_require__(507);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_let__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_fromEvent__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_positioning__ = __webpack_require__(418);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__typeahead_window__ = __webpack_require__(435);
@@ -5232,6 +5234,7 @@ var core_1 = __webpack_require__(1);
 var http_1 = __webpack_require__(98);
 var common_1 = __webpack_require__(38);
 var core_2 = __webpack_require__(99);
+var angular2_loaders_css_1 = __webpack_require__(485);
 var SharedLazyModule = (function () {
     function SharedLazyModule() {
     }
@@ -5242,11 +5245,14 @@ SharedLazyModule = __decorate([
         imports: [
             http_1.HttpModule,
             common_1.CommonModule,
+            angular2_loaders_css_1.LoadersCssModule,
             core_2.TranslateModule.forChild({}),
         ],
+        declarations: [],
         exports: [
             common_1.CommonModule,
-            core_2.TranslateModule
+            core_2.TranslateModule,
+            angular2_loaders_css_1.LoadersCssModule
         ]
     })
 ], SharedLazyModule);
@@ -5255,7 +5261,115 @@ exports.SharedLazyModule = SharedLazyModule;
 
 /***/ }),
 
+/***/ 485:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__(487));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 486:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var LoadersCssComponent = (function () {
+    function LoadersCssComponent() {
+        this.nodes = [];
+        this._loaders = {
+            "ball-pulse": 3,
+            "ball-grid-pulse": 9,
+            "ball-clip-rotate": 1,
+            "ball-clip-rotate-pulse": 2,
+            "square-spin": 1,
+            "ball-clip-rotate-multiple": 2,
+            "ball-pulse-rise": 5,
+            "ball-rotate": 1,
+            "cube-transition": 2,
+            "ball-zig-zag": 2,
+            "ball-zig-zag-deflect": 2,
+            "ball-triangle-path": 3,
+            "ball-scale": 1,
+            "line-scale": 5,
+            "line-scale-party": 4,
+            "ball-scale-multiple": 3,
+            "ball-pulse-sync": 3,
+            "ball-beat": 3,
+            "line-scale-pulse-out": 5,
+            "line-scale-pulse-out-rapid": 5,
+            "ball-scale-ripple": 1,
+            "ball-scale-ripple-multiple": 3,
+            "ball-spin-fade-loader": 8,
+            "line-spin-fade-loader": 8,
+            "triangle-skew-spin": 1,
+            "pacman": 5,
+            "ball-grid-beat": 9,
+            "semi-circle-spin": 1
+        };
+    }
+    LoadersCssComponent.prototype.ngOnInit = function () {
+        for (var i = 0; i < this._loaders[this.loader]; i++) {
+            this.nodes.push(i);
+        }
+    };
+    return LoadersCssComponent;
+}());
+LoadersCssComponent.decorators = [
+    { type: core_1.Component, args: [{
+                selector: 'loaders-css',
+                template: "\n        <div class=\"loader\">\n            <div class=\"loader-inner {{loader}}\">\n                <div *ngFor=\"let node of nodes\" class=\"{{loaderClass}}\"></div>\n            </div>\n        </div>\n    "
+            },] },
+];
+/** @nocollapse */
+LoadersCssComponent.ctorParameters = function () { return []; };
+LoadersCssComponent.propDecorators = {
+    'loader': [{ type: core_1.Input },],
+    'loaderClass': [{ type: core_1.Input },],
+};
+exports.LoadersCssComponent = LoadersCssComponent;
+//# sourceMappingURL=loaders-css.component.js.map
+
+/***/ }),
+
 /***/ 487:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var common_1 = __webpack_require__(38);
+var loaders_css_component_1 = __webpack_require__(486);
+var LoadersCssModule = (function () {
+    function LoadersCssModule() {
+    }
+    return LoadersCssModule;
+}());
+LoadersCssModule.decorators = [
+    { type: core_1.NgModule, args: [{
+                imports: [common_1.CommonModule],
+                declarations: [loaders_css_component_1.LoadersCssComponent],
+                exports: [loaders_css_component_1.LoadersCssComponent],
+                providers: []
+            },] },
+];
+/** @nocollapse */
+LoadersCssModule.ctorParameters = function () { return []; };
+exports.LoadersCssModule = LoadersCssModule;
+//# sourceMappingURL=module.js.map
+
+/***/ }),
+
+/***/ 491:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5339,11 +5453,11 @@ NgbCalendarHijri.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 488:
+/***/ 492:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngb_calendar_hijri__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngb_calendar_hijri__ = __webpack_require__(491);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngb_date__ = __webpack_require__(414);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgbCalendarIslamicCivil; });
@@ -5493,7 +5607,7 @@ NgbCalendarIslamicCivil.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 489:
+/***/ 493:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5556,7 +5670,7 @@ var NgbTime = (function () {
 
 /***/ }),
 
-/***/ 500:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5703,18 +5817,18 @@ exports.FromEventObservable = FromEventObservable;
 
 /***/ }),
 
-/***/ 501:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventObservable_1 = __webpack_require__(500);
+var FromEventObservable_1 = __webpack_require__(504);
 exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
 
-/***/ 502:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5834,7 +5948,7 @@ var DoSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 503:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5853,7 +5967,49 @@ exports.letProto = letProto;
 
 /***/ }),
 
-/***/ 516:
+/***/ 518:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var router_1 = __webpack_require__(97);
+var AuthGuard = (function () {
+    function AuthGuard(router) {
+        this.router = router;
+    }
+    AuthGuard.prototype.canActivate = function () {
+        if (localStorage.getItem('currentUser')) {
+            // logged in so return true
+            return true;
+        }
+        // not logged in so redirect to login page
+        this.router.navigate(['/login']);
+        return false;
+    };
+    return AuthGuard;
+}());
+AuthGuard = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
+], AuthGuard);
+exports.AuthGuard = AuthGuard;
+var _a;
+//# sourceMappingURL=D:/workspace/Bes_project/src/auth.guards.js.map
+
+/***/ }),
+
+/***/ 520:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5882,7 +6038,7 @@ var DSecureComponent = (function () {
 }());
 DSecureComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(589),
+        template: __webpack_require__(593),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
@@ -5893,7 +6049,7 @@ var _a;
 
 /***/ }),
 
-/***/ 517:
+/***/ 521:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5950,7 +6106,7 @@ exports.CurrencyMaskPipe = CurrencyMaskPipe;
 
 /***/ }),
 
-/***/ 518:
+/***/ 522:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6004,7 +6160,7 @@ exports.MyCardNumberPipe = MyCardNumberPipe;
 
 /***/ }),
 
-/***/ 519:
+/***/ 523:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6029,6 +6185,7 @@ var TransferComponent = (function () {
         this.submitted = false;
         this.hidden = false;
         this.beneficiaires = [];
+        this.loading = false;
         this.phone = "";
         this.label = "Montant";
         this.amountConfig = {};
@@ -6036,6 +6193,7 @@ var TransferComponent = (function () {
         this.cardTypeConfig = {};
         this.expirationDateConfig = {};
         this.cardCodeConfig = {};
+        this.date = new Date();
         var address = JSON.parse(localStorage.getItem('address'));
         this.phone = address != null ? address.phone : "";
         var user = JSON.parse(localStorage.getItem('user'));
@@ -6090,16 +6248,21 @@ var TransferComponent = (function () {
     TransferComponent.prototype.prev = function () {
         this.submitted = false;
         this.hidden === true;
+        this.loading = false;
     };
     TransferComponent.prototype.transfer = function () {
+        var _this = this;
         this.secureCardNumber = this.form.value.cardNumber.substr(-4);
-        this.submitted = true;
+        this.loading = true;
+        setTimeout(function () {
+            _this.submitted = true;
+        }, 2000);
     };
     return TransferComponent;
 }());
 TransferComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(595),
+        template: __webpack_require__(599),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object, typeof (_b = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _b || Object])
@@ -6110,7 +6273,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 520:
+/***/ 524:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6134,7 +6297,7 @@ var DashboardComponent = (function () {
 }());
 DashboardComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(596),
+        template: __webpack_require__(600),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof core_1.ViewContainerRef !== "undefined" && core_1.ViewContainerRef) === "function" && _a || Object])
@@ -6145,7 +6308,7 @@ var _a;
 
 /***/ }),
 
-/***/ 556:
+/***/ 560:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6192,7 +6355,7 @@ __decorate([
 AmountInputComponent = __decorate([
     core_1.Component({
         selector: 'amount-input',
-        template: __webpack_require__(590),
+        template: __webpack_require__(594),
         providers: []
     }),
     __metadata("design:paramtypes", [])
@@ -6203,7 +6366,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 557:
+/***/ 561:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6219,7 +6382,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var pipe_currency_mask_pipe_1 = __webpack_require__(517);
+var pipe_currency_mask_pipe_1 = __webpack_require__(521);
 var CurrencyFormatterDirective = (function () {
     function CurrencyFormatterDirective(elementRef, currencyPipe) {
         this.elementRef = elementRef;
@@ -6259,7 +6422,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 558:
+/***/ 562:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6292,8 +6455,8 @@ __decorate([
 CardCodeComponent = __decorate([
     core_1.Component({
         selector: 'card-code-input',
-        template: __webpack_require__(591),
-        styles: [__webpack_require__(580)],
+        template: __webpack_require__(595),
+        styles: [__webpack_require__(584)],
         providers: []
     }),
     __metadata("design:paramtypes", [])
@@ -6304,7 +6467,7 @@ var _a;
 
 /***/ }),
 
-/***/ 559:
+/***/ 563:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6344,8 +6507,8 @@ __decorate([
 CardNumberComponent = __decorate([
     core_1.Component({
         selector: 'card-number',
-        template: __webpack_require__(592),
-        styles: [__webpack_require__(581)],
+        template: __webpack_require__(596),
+        styles: [__webpack_require__(585)],
         providers: []
     })
 ], CardNumberComponent);
@@ -6355,7 +6518,7 @@ var _a;
 
 /***/ }),
 
-/***/ 560:
+/***/ 564:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6371,7 +6534,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var pipe_card_number_pipe_1 = __webpack_require__(518);
+var pipe_card_number_pipe_1 = __webpack_require__(522);
 var MyCardNumberFormatterDirective = (function () {
     function MyCardNumberFormatterDirective(elementRef, cardNumberPipe) {
         this.elementRef = elementRef;
@@ -6411,7 +6574,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 561:
+/***/ 565:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6450,8 +6613,8 @@ __decorate([
 CardTypeComponent = __decorate([
     core_1.Component({
         selector: 'card-type',
-        template: __webpack_require__(593),
-        styles: [__webpack_require__(582)],
+        template: __webpack_require__(597),
+        styles: [__webpack_require__(586)],
         providers: []
     }),
     __metadata("design:paramtypes", [])
@@ -6462,7 +6625,7 @@ var _a;
 
 /***/ }),
 
-/***/ 562:
+/***/ 566:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6486,7 +6649,7 @@ var ExpirationDateComponent = (function () {
         this.years = [];
         this.months = [];
         this.date = new Date();
-        this.m = this.date.getMonth();
+        this.m = this.date.getMonth() + 1;
         this.y = this.date.getFullYear();
         for (var i = this.m; i < 13; i++) {
             this.months.push({
@@ -6528,8 +6691,8 @@ __decorate([
 ExpirationDateComponent = __decorate([
     core_1.Component({
         selector: 'expiration-date-input',
-        template: __webpack_require__(594),
-        styles: [__webpack_require__(583)],
+        template: __webpack_require__(598),
+        styles: [__webpack_require__(587)],
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_b = typeof forms_1.FormBuilder !== "undefined" && forms_1.FormBuilder) === "function" && _b || Object])
@@ -6540,7 +6703,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 563:
+/***/ 567:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6554,9 +6717,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var router_1 = __webpack_require__(97);
-var _3d_secure_component_1 = __webpack_require__(516);
-var transfer_component_1 = __webpack_require__(519);
-var dashboard_component_1 = __webpack_require__(520);
+var _3d_secure_component_1 = __webpack_require__(520);
+var transfer_component_1 = __webpack_require__(523);
+var dashboard_component_1 = __webpack_require__(524);
+var auth_guards_1 = __webpack_require__(518);
 var routes = [
     {
         path: '',
@@ -6567,6 +6731,7 @@ var routes = [
             {
                 path: 'index',
                 component: dashboard_component_1.DashboardComponent,
+                canActivate: [auth_guards_1.AuthGuard],
                 data: {
                     title: 'dashboard'
                 }
@@ -6574,6 +6739,7 @@ var routes = [
             {
                 path: 'secure',
                 component: _3d_secure_component_1.DSecureComponent,
+                canActivate: [auth_guards_1.AuthGuard],
                 data: {
                     title: '3D secure'
                 }
@@ -6581,6 +6747,7 @@ var routes = [
             {
                 path: 'transfer',
                 component: transfer_component_1.TransferComponent,
+                canActivate: [auth_guards_1.AuthGuard],
                 data: {
                     title: 'money transfer'
                 }
@@ -6604,7 +6771,7 @@ exports.DashboardRoutingModule = DashboardRoutingModule;
 
 /***/ }),
 
-/***/ 580:
+/***/ 584:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(178)();
@@ -6622,7 +6789,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 581:
+/***/ 585:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(178)();
@@ -6640,7 +6807,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 582:
+/***/ 586:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(178)();
@@ -6658,7 +6825,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 583:
+/***/ 587:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(178)();
@@ -6673,59 +6840,59 @@ exports.push([module.i, "\r\n.paymentWrap .paymentBtnGroup {\r\n  max-width: 800
 
 /*** EXPORTS FROM exports-loader ***/
 module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 589:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-6\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-header mb-3\" style=\"background-color:#dadde2\">\n          <img src=\"assets/img/mastercard-securecode.png\"   style=\"width:20%\">\n                    \n                    <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\n                </div>\n       \n        <h5 class=\"esecure-title text-center\">Entrer le code d'authentification</h5>\n        <p>Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions de bien\n          vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM</p>\n\n        <span class=\"mb-2\">Marchant : BMCE Euro service</span>\n\n        <span>:</span>\n        <span class=\"mb-2\">Montant : € xxx</span>\n        <span>Date : {{date | date:'short'}}</span>\n        <span class=\"mb-2\">Numéro de carte : xxxx-xxxx-xxxx-xxxx-1111</span>\n        <span class=\"mb-2\">Numéro de téléphone : +33 x xx xx xx xx</span>\n        <div class=\"mb-2\">\n          <form name=\"form\" novalidate>\n            <div>\n              <label for=\"nf-email\">Veuillez saisir votre code 3D Secure</label>\n              <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\n            </div>\n            <p>Si vous n'avez pas recu votre code par SMS <a href=\"#\">cliquez ici</a> ? Votre code vous sera communiqué par\n              appel téléphonique sur votre GSM</p>\n            <div class=\"row justify-content-center\">\n              <div class=\"text-center\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\">Anuuler</button>\n                <button type=\"submit\" class=\"btn btn-primary btn-bmce\">Valider</button>\n              </div>\n            </div>\n\n\n            <div class=\"row \">\n              <div class=\"col-6\">\n                <a href=\"#\">Sécurité privée</a>\n              </div>\n              <div class=\"col-6 text-right\">\n                <a href=\"#\">Conditions générales</a>\n              </div>\n            </div>\n            <p> Cette authentification est obligatoire pour conclure votre transfère. En cas de problème merci de nous contacter\n              au 05xx xx xx xx.\n          </form>\n        </div>\n        <div class=\"card-footer\"></div>\n      </div>\n    </div>\n  </div>\n\n</div>\n"
-
-/***/ }),
-
-/***/ 590:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{config.label ? config.label : 'Montant'}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\">\r\n        <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': control.touched && (control.hasError('required') || control.hasError('pattern')) }\">\r\n            <input type=\"text\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') || control.hasError('pattern')) }\"\r\n                #amount [formControlName]=\"config.name\" currencyFormatter required class=\"form-control form-bes border-left-none\"\r\n                placeholder=\"\"\r\n                [ngbPopover]=\"popContent\" #p=\"ngbPopover\" triggers=\"manual\" placement=\"right\"\r\n                >\r\n        </div>\r\n       \r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\" (click)=\"changeGreeting({ greeting: 'Montant requis' })\">Montant requis</div>\r\n        <div *ngIf=\"control.touched &&  control.hasError('pattern')\" class=\"alert alert-danger\">Montant non valid</div>\r\n    </div>\r\n</div>\r\n <ng-template #popContent  let-greeting=\"greeting\">{{greeting}}</ng-template>"
-
-/***/ }),
-
-/***/ 591:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4  form-control-label\" for=\"input-small\">{{config.label ? config.label : 'Code de vérification'}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\" [ngClass]=\"{ 'has-danger has-feedback': control.touched && (control.hasError('required') || control.hasError('pattern')) }\">\r\n        <input type=\"tel\" maxlength=\"3\" limit-input=\"3\" [formControlName]=\"config.name\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') || control.hasError('pattern')) }\"\r\n          #cardCode required class=\"form-control form-bes\" placeholder=\"_ _ _\">\r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">Code de vérification requis</div>\r\n        <div *ngIf=\"control.touched && control.hasError('pattern')\" class=\"alert alert-danger\">Code de vérification non valid</div>\r\n    </div>\r\n</div>"
-
-/***/ }),
-
-/***/ 592:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{config.label ? config.label : 'Numéro de carte'}} <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-6\">\r\n        <div class=\"input-group  montant\">\r\n            <input type=\"tel\" (blur)=\"onKey($event)\" (keypress)=\"onPress($event)\" limit-input=\"16\" [maxlength]=\"16\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') && control.hasError('pattern'))}\"\r\n                formControlName=\"cardNumber\" #cardNumber  MyCardNumberFormatter required class=\"form-control form-bes border-left-none\"\r\n                placeholder=\"xxxx xxxx xxxx xxxx\">\r\n            <span *ngIf=\"control.dirty && cardLength\" class=\"twitter-count mt-3 m-1\">{{cardNumber.value.length}}/16</span>\r\n        </div>\r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">Numéro de carte requis</div>\r\n        <div *ngIf=\"control.touched && control.hasError('pattern')\" class=\"alert alert-danger\">Numéro de carte non valid</div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
 /***/ 593:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"paymentCont\" [formGroup]=\"form\">\r\n    <div class=\"paymentWrap\">\r\n        <div class=\"form-group row\">\r\n            <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{config.label ? config.label : 'Moyen de paiement'}} <span class=\"required\">*</span></label>\r\n         \r\n            <div>\r\n                <div class=\"btn-group paymentBtnGroup btn-group-justified\" data-toggle=\"buttons\">\r\n                    <label *ngFor=\"let card of cards\" class=\"btn paymentMethod \" [ngClass]=\"{ 'active': card.value == form.get(config.name).value }\">\r\n                        <div class=\"method {{card.display}}\"></div>\r\n                        <input type=\"radio\" #cardType  [formControlName]=\"config.name\" value=\"{{card.value}}\"  required> \r\n                    </label>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-6\">\n      <div class=\"card card-bes p-3\">\n        <div class=\"card-header mb-3\" style=\"background-color:#dadde2\">\n          <img src=\"assets/img/mastercard-securecode.png\"   style=\"width:20%\">\n                    \n                    <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\n                </div>\n       \n        <h5 class=\"esecure-title text-center\">Entrer le code d'authentification</h5>\n        <p>Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions de bien\n          vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM</p>\n\n        <span class=\"mb-2\">Marchant : BMCE Euro service</span>\n\n        <span>:</span>\n        <span class=\"mb-2\">Montant : € xxx</span>\n        <span>Date : {{date | date:'short'}}</span>\n        <span class=\"mb-2\">Numéro de carte : xxxx-xxxx-xxxx-xxxx-1111</span>\n        <span class=\"mb-2\">Numéro de téléphone : +33 x xx xx xx xx</span>\n        <div class=\"mb-2\">\n          <form name=\"form\" novalidate>\n            <div>\n              <label for=\"nf-email\">Veuillez saisir votre code 3D Secure</label>\n              <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\n            </div>\n            <p>Si vous n'avez pas recu votre code par SMS <a href=\"#\">cliquez ici</a> ? Votre code vous sera communiqué par\n              appel téléphonique sur votre GSM</p>\n            <div class=\"row justify-content-center\">\n              <div class=\"text-center\">\n                <button type=\"button\" class=\"btn btn-primary btn-bmce\">Anuuler</button>\n                <button type=\"submit\" class=\"btn btn-primary btn-bmce\">Valider</button>\n              </div>\n            </div>\n\n\n            <div class=\"row \">\n              <div class=\"col-6\">\n                <a href=\"#\">Sécurité privée</a>\n              </div>\n              <div class=\"col-6 text-right\">\n                <a href=\"#\">Conditions générales</a>\n              </div>\n            </div>\n            <p> Cette authentification est obligatoire pour conclure votre transfère. En cas de problème merci de nous contacter\n              au 05xx xx xx xx.\n          </form>\n        </div>\n        <div class=\"card-footer\"></div>\n      </div>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 594:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"form-group row\" [formGroup]=\"form1\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{config.label ? config.label : 'Date d expiration (MM/YY)'}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\">\r\n        <select  (change)=\"onMonthChange(cardMonth.value)\" class=\"form-control form-bes\" #cardMonth  formControlName=\"cardMonth\" required>\r\n            <option *ngFor=\"let month of months\"  [value]=\"month.value\">{{month.display}}</option>\r\n        </select>\r\n    </div>\r\n    <div class=\"col-sm-3\">\r\n        <select  (change)=\"onYearChange(cardYear.value)\" class=\"form-control form-bes\" #cardYear formControlName=\"cardYear\" required>\r\n            <option *ngFor=\"let year of years\" [value]=\"year.value\">{{year.display}}</option>\r\n        </select>\r\n    </div>\r\n    <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">Date d'expiration requis</div>\r\n</div>\r\n<div class=\"form-group row\" [hidden]=\"true\"  [formGroup]=\"form\">\r\n    <input type=\"text\" #cardExpiration [formControlName]=\"config.name\" required>\r\n</div>\r\n"
+module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{'TRANSFER.MONTANT' | translate}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\">\r\n        <div class=\"input-group  montant\" [ngClass]=\"{ 'has-danger has-feedback': control.touched && (control.hasError('required') || control.hasError('pattern')) }\">\r\n            <input type=\"text\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') || control.hasError('pattern')) }\"\r\n                #amount [formControlName]=\"config.name\" currencyFormatter required class=\"form-control form-bes border-left-none\"\r\n                placeholder=\"\"\r\n                [ngbPopover]=\"popContent\" #p=\"ngbPopover\" triggers=\"manual\" placement=\"right\"\r\n                >\r\n        </div>\r\n       \r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\" (click)=\"changeGreeting({ greeting: 'Montant requis' })\">{{'TRANSFER.VALIDATION.MONTANT.REQUIRED' | translate}}</div>\r\n        <div *ngIf=\"control.touched &&  control.hasError('pattern')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.MONTANT.NOTVALID' | translate}}</div>\r\n    </div>\r\n</div>\r\n <ng-template #popContent  let-greeting=\"greeting\">{{greeting}}</ng-template>"
 
 /***/ }),
 
 /***/ 595:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"animated fadeIn\" *ngIf=\"!submitted\">\r\n    <div class=\"row justify-content-center\">\r\n        <div class=\"col-md-9 p-0\">\r\n            <div class=\"card card-bes p-3\">\r\n                <div class=\"card-block card-bes\">\r\n                    <h2 class=\"mb-4\">{{ 'TRANSFER.TITLE' | translate }}</h2>\r\n                    <form name=\"form\" (submit)=\"transfer()\" [formGroup]=\"form\" novalidate>\r\n                        <amount-input [config]=\"amountConfig\"></amount-input>\r\n                        <hr />\r\n                        <card-type [config]=\"cardTypeConfig\"></card-type>\r\n                        <card-number [config]=\"cardNumberConfig\"></card-number>\r\n                        <expiration-date-input [config]=\"expirationDateConfig\"></expiration-date-input>\r\n                        <card-code-input [config]=\"cardCodeConfig\"> </card-code-input>\r\n                        <div class=\"form-group row\">\r\n                            <label class=\"col-sm-4 form-control-label\" for=\"input-small\">Nom et prénom <span class=\"required\">*</span></label>\r\n                            <div class=\"col-sm-6\">\r\n                                <div class=\"input-group\" [ngClass]=\"{ 'has-danger has-feedback': form.get('fullName').touched && form.get('fullName').hasError('required') }\">\r\n                                    <input type=\"text\" [ngClass]=\"{ 'form-control-danger': form.get('fullName').touched && form.get('fullName').hasError('required') }\"\r\n                                        formControlName=\"fullName\" #fullName required class=\"form-control form-bes border-left-none\"\r\n                                        placeholder=\"\">\r\n                                </div>\r\n                                <div *ngIf=\"form.get('fullName').touched && form.get('fullName').hasError('required')\" class=\"alert alert-danger\">Nom et prénom requis</div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row\">\r\n                            <div class=\"col-6\">\r\n                                <button type=\"button\" (click)=\"reset()\" class=\"btn btn-primary btn-bmce\">Annuler</button>\r\n                            </div>\r\n                            <div class=\"col-6 text-right\">\r\n                                <button type=\"submit\" class=\"btn btn-primary btn-bmce\"\r\n                                    [disabled]=\"form.invalid\">Valider</button>\r\n                            </div>\r\n                        </div>\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<div class=\"animated fadeIn\" *ngIf=\"submitted\">\r\n    <div class=\"row justify-content-center\">\r\n        <div class=\"col-md-6\">\r\n            <div class=\"card card-bes p-3\">\r\n                <div class=\"card-header mb-3\" style=\"background-color:#dadde2\">\r\n                    <img *ngIf=\"form.get('cardType').value   === 'master-card'\" src=\"assets/img/mastercard-securecode.png\" style=\"width:8rem\">\r\n                    <img *ngIf=\"form.get('cardType').value === 'visa'\" src=\"assets/img/visa.png\" style=\"width:8rem\">\r\n                    <img *ngIf=\"form.get('cardType').value === 'amex'\" src=\"assets/img/maestro.png\" style=\"width:8rem\">\r\n                    <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\r\n                </div>\r\n\r\n                <h5 class=\"esecure-title text-center\">Entrer le code d'authentification</h5>\r\n                <p>Afin de sécuriser votre transfert sur ce site affichant le logo Mastercard Secure Code, nous vous remercions\r\n                    de bien vouloir vous authentifier grace au code que vous allez recevoir sur votre GSM</p>\r\n\r\n                <span class=\"mb-2\">Marchant : BMCE Euro service</span>\r\n                <span class=\"mb-2\">Montant : {{form.get('amount').value |currencyMask}}</span>\r\n                <span>Date : {{date | date:'yMdjm'}}</span>\r\n                <span class=\"mb-2\">Numéro de carte : xxxx-xxxx-xxxx-xxxx-{{secureCardNumber}}</span>\r\n                <span class=\"mb-2\">Numéro de téléphone : +33 {{phone}}</span>\r\n                <div class=\"mb-2\">\r\n                    <form name=\"form\" novalidate>\r\n                        <div>\r\n                            <label for=\"nf-email\">Veuillez saisir votre code 3D Secure</label>\r\n                            <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\r\n                        </div>\r\n                        <p>Si vous n'avez pas recu votre code par SMS <a href=\"#\">cliquez ici</a> ? Votre code vous sera communiqué\r\n                            par appel téléphonique sur votre GSM</p>\r\n                        <div class=\"row justify-content-center\">\r\n                            <div class=\"text-center\">\r\n                                <button type=\"button\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">Anuuler</button>\r\n                                <button type=\"submit\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">Valider</button>\r\n                            </div>\r\n                        </div>\r\n\r\n\r\n                        <div class=\"row \">\r\n                            <div class=\"col-6\">\r\n                                <a href=\"#\">Sécurité privée</a>\r\n                            </div>\r\n                            <div class=\"col-6 text-right\">\r\n                                <a href=\"#\">Conditions générales</a>\r\n                            </div>\r\n                        </div>\r\n                        <p> Cette authentification est obligatoire pour conclure votre transfert. En cas de problème merci de\r\n                            nous contacter au +33 4 68 29 46 69.\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4  form-control-label\" for=\"input-small\">{{'TRANSFER.CODE' | translate}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\" [ngClass]=\"{ 'has-danger has-feedback': control.touched && (control.hasError('required') || control.hasError('pattern')) }\">\r\n        <input type=\"tel\" maxlength=\"3\" limit-input=\"3\" [formControlName]=\"config.name\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') || control.hasError('pattern')) }\"\r\n          #cardCode required class=\"form-control form-bes\" placeholder=\"_ _ _\">\r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.CODE.REQUIRED' | translate}}</div>\r\n        <div *ngIf=\"control.touched && control.hasError('pattern')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.CODE.NOTVALID' | translate}}</div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
 /***/ 596:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"form-group row\" [formGroup]=\"form\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{'TRANSFER.CARD-NUMBER' | translate}} <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-6\">\r\n        <div class=\"input-group  montant\">\r\n            <input type=\"tel\" (blur)=\"onKey($event)\" (keypress)=\"onPress($event)\" limit-input=\"16\" [maxlength]=\"16\" [ngClass]=\"{ 'form-control-danger': control.touched && (control.hasError('required') && control.hasError('pattern'))}\"\r\n                formControlName=\"cardNumber\" #cardNumber  MyCardNumberFormatter required class=\"form-control form-bes border-left-none\"\r\n                placeholder=\"xxxx xxxx xxxx xxxx\">\r\n            <span *ngIf=\"control.dirty && cardLength\" class=\"twitter-count mt-3 m-1\">{{cardNumber.value.length}}/16</span>\r\n        </div>\r\n        <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.CARD-NUMBER.REQUIRED' | translate}}</div>\r\n        <div *ngIf=\"control.touched && control.hasError('pattern')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.CARD-NUMBER.NOTVALID' | translate}}</div>\r\n    </div>\r\n</div>"
+
+/***/ }),
+
+/***/ 597:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"paymentCont\" [formGroup]=\"form\">\r\n    <div class=\"paymentWrap\">\r\n        <div class=\"form-group row\">\r\n            <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{'TRANSFER.PAYMENT' | translate}} <span class=\"required\">*</span></label>\r\n         \r\n            <div>\r\n                <div class=\"btn-group paymentBtnGroup btn-group-justified\" data-toggle=\"buttons\">\r\n                    <label *ngFor=\"let card of cards\" class=\"btn paymentMethod \" [ngClass]=\"{ 'active': card.value == form.get(config.name).value }\">\r\n                        <div class=\"method {{card.display}}\"></div>\r\n                        <input type=\"radio\" #cardType  [formControlName]=\"config.name\" value=\"{{card.value}}\"  required> \r\n                    </label>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n"
+
+/***/ }),
+
+/***/ 598:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"form-group row\" [formGroup]=\"form1\">\r\n    <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{'TRANSFER.EXPIRATION' | translate}}  <span class=\"required\">*</span></label>\r\n    <div class=\"col-sm-3\">\r\n        <select  (change)=\"onMonthChange(cardMonth.value)\" class=\"form-control form-bes\" #cardMonth  formControlName=\"cardMonth\" required>\r\n            <option *ngFor=\"let month of months\"  [value]=\"month.value\">{{month.display}}</option>\r\n        </select>\r\n    </div>\r\n    <div class=\"col-sm-3\">\r\n        <select  (change)=\"onYearChange(cardYear.value)\" class=\"form-control form-bes\" #cardYear formControlName=\"cardYear\" required>\r\n            <option *ngFor=\"let year of years\" [value]=\"year.value\">{{year.display}}</option>\r\n        </select>\r\n    </div>\r\n    <div *ngIf=\"control.touched && control.hasError('required')\" class=\"alert alert-danger\">{{'TRANSFER.VALIDATION.EXPIRATION.REQUIRED' | translate}}</div>\r\n</div>\r\n<div class=\"form-group row\" [hidden]=\"true\"  [formGroup]=\"form\">\r\n    <input type=\"text\" #cardExpiration [formControlName]=\"config.name\" required>\r\n</div>\r\n"
+
+/***/ }),
+
+/***/ 599:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"animated fadeIn\" *ngIf=\"!submitted\">\r\n    <div class=\"row justify-content-center\">\r\n        <div class=\"col-md-9 p-0\">\r\n            <div class=\"card card-bes p-3\">\r\n                <div class=\"card-block card-bes\">\r\n                    <h2 class=\"mb-4\">{{ 'TRANSFER.TITLE' | translate }}</h2>\r\n                    <form name=\"form\" (submit)=\"transfer()\" [formGroup]=\"form\" novalidate>\r\n                        <amount-input [config]=\"amountConfig\"></amount-input>\r\n                        <hr />\r\n                        <card-type [config]=\"cardTypeConfig\"></card-type>\r\n                        <card-number [config]=\"cardNumberConfig\"></card-number>\r\n                        <expiration-date-input [config]=\"expirationDateConfig\"></expiration-date-input>\r\n                        <card-code-input [config]=\"cardCodeConfig\"> </card-code-input>\r\n                        <div class=\"form-group row\">\r\n                            <label class=\"col-sm-4 form-control-label\" for=\"input-small\">{{ 'TRANSFER.NAME' | translate }} <span class=\"required\">*</span></label>\r\n                            <div class=\"col-sm-6\">\r\n                                <div class=\"input-group\" [ngClass]=\"{ 'has-danger has-feedback': form.get('fullName').touched && form.get('fullName').hasError('required') }\">\r\n                                    <input type=\"text\" [ngClass]=\"{ 'form-control-danger': form.get('fullName').touched && form.get('fullName').hasError('required') }\"\r\n                                        formControlName=\"fullName\" #fullName required class=\"form-control form-bes border-left-none\"\r\n                                        placeholder=\"\">\r\n                                </div>\r\n                                <div *ngIf=\"form.get('fullName').touched && form.get('fullName').hasError('required')\" class=\"alert alert-danger\">>{{ 'TRANSFER.NAMEREQUIRED' | translate }}</div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row\">\r\n                            <div class=\"col-6\">\r\n                                <button type=\"button\" (click)=\"reset()\" class=\"btn btn-primary btn-bmce\">{{ 'BUTTON.CANCEL' | translate }}</button>\r\n                            </div>\r\n                            <div class=\"col-6 text-right\">\r\n                                <button *ngIf=\"!loading\" type=\"submit\" class=\"btn btn-primary btn-bmce\"\r\n                                    [disabled]=\"form.invalid\">{{ 'BUTTON.VALIDATE' | translate }}</button>\r\n                                <div *ngIf=\"loading\" class=\"loader-container\">\r\n                                    <loaders-css [loader]=\"'ball-pulse'\" [loaderClass]=\"'blue-loader'\"></loaders-css>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<div class=\"animated fadeIn\" *ngIf=\"submitted\">\r\n    <div class=\"row justify-content-center\">\r\n        <div class=\"col-md-6\">\r\n            <div class=\"card card-bes p-3\">\r\n                <div class=\"card-header mb-3\" style=\"background-color:#dadde2; padding: 1rem !important\">\r\n                    <img *ngIf=\"form.get('cardType').value   === 'master-card'\" src=\"assets/img/mastercard-securecode.png\" style=\"width:8rem\">\r\n                    <img *ngIf=\"form.get('cardType').value === 'visa'\" src=\"assets/img/visa.png\" style=\"width:8rem\">\r\n                    <img *ngIf=\"form.get('cardType').value === 'amex'\" src=\"assets/img/maestro.png\" style=\"width:8rem\">\r\n                    <span class=\"tag tag-success pull-right\"><img  src=\"assets/img/logo.png\"></span>\r\n                </div>\r\n\r\n                <h5 class=\"esecure-title text-center\">{{ 'TRANSFER.3D-SECURE.AUTHENTIFICATION' | translate }}</h5>\r\n                <p>{{ 'TRANSFER.3D-SECURE.AUTHENTIFICATIONMSG' | translate }}</p>\r\n\r\n                <span class=\"mb-2\">{{ 'TRANSFER.3D-SECURE.MARCHANT' | translate }} : BMCE Euro service</span>\r\n                <span class=\"mb-2\">{{ 'TRANSFER.3D-SECURE.AMOUNT' | translate }} : {{form.get('amount').value |currencyMask}}</span>\r\n                <span>{{ 'TRANSFER.3D-SECURE.DATE' | translate }} : {{date | date:'yMdjm'}}</span>\r\n                <span class=\"mb-2\">{{ 'TRANSFER.3D-SECURE.CARD-NUMBER' | translate }} : xxxx-xxxx-xxxx-xxxx-{{secureCardNumber}}</span>\r\n                <span class=\"mb-2\">{{ 'TRANSFER.3D-SECURE.PHONE-NUMBER' | translate }} : +33 {{phone}}</span>\r\n                <div class=\"mb-2\">\r\n                    <form name=\"form\" novalidate>\r\n                        <div>\r\n                            <label for=\"nf-email\">{{ 'TRANSFER.3D-SECURE.LABEL' | translate }}</label>\r\n                            <input class=\"form-control form-bes\" id=\"nf-email\" name=\"nf-email\" placeholder=\"\" type=\"email\">\r\n                        </div>\r\n                        <p>{{ 'TRANSFER.3D-SECURE.SMS' | translate }} <a href=\"#\"></a>{{ 'TRANSFER.3D-SECURE.CLICKHERE' | translate\r\n                            }} {{ 'TRANSFER.3D-SECURE.SMS-PART2' | translate }}</p>\r\n                        <div class=\"row justify-content-center\">\r\n                            <div class=\"text-center\">\r\n                                <button type=\"button\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">{{ 'BUTTON.CANCEL' | translate }}</button>\r\n                                <button type=\"submit\" (click)=\"prev()\" class=\"btn btn-primary btn-bmce\">{{ 'BUTTON.VALIDATE' | translate }}</button>\r\n                            </div>\r\n                        </div>\r\n\r\n\r\n                        <div class=\"row \">\r\n                            <div class=\"col-6\">\r\n                                <a href=\"#\">{{ 'TRANSFER.3D-SECURE.SECURITY' | translate }}</a>\r\n                            </div>\r\n                            <div class=\"col-6 text-right\">\r\n                                <a href=\"#\">{{ 'TRANSFER.3D-SECURE.CONDITIONS' | translate }}</a>\r\n                            </div>\r\n                        </div>\r\n                        <p> {{ 'TRANSFER.3D-SECURE.CONTACT' | translate }}</p>\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"
+
+/***/ }),
+
+/***/ 600:
 /***/ (function(module, exports) {
 
 module.exports = "<router-outlet></router-outlet>"

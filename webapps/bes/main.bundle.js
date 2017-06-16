@@ -43,6 +43,7 @@ var FullLayoutComponent = (function () {
         localStorage.removeItem('address');
         localStorage.removeItem('user');
         localStorage.removeItem('beneficiaire');
+        localStorage.removeItem('currentUser');
     };
     FullLayoutComponent.prototype.ngOnInit = function () { };
     return FullLayoutComponent;
@@ -457,7 +458,7 @@ var I18NComponent = (function () {
         this.languages = [
             {
                 key: "fr",
-                value: "francais"
+                value: "Francais"
             },
             {
                 key: "gb",
@@ -487,12 +488,11 @@ var I18NComponent = (function () {
         this.status.isopen = !this.status.isopen;
     };
     I18NComponent.prototype.ngOnInit = function () {
-        this.setCurrentLanguage(this.browserLang);
+        this.setCurrentLanguage(this.translate.currentLang);
     };
     I18NComponent.prototype.setCurrentLanguage = function (language) {
         var _this = this;
         this.languages.forEach(function (element) {
-            console.log(_this.browserLang);
             if (element.key === language) {
                 _this.language = {
                     key: element.key,
@@ -506,7 +506,7 @@ var I18NComponent = (function () {
 I18NComponent = __decorate([
     core_1.Component({
         selector: 'i18n-translate',
-        template: "\n    <li class=\"nav-item dropdown\" dropdown>\n      <a href class=\"nav-link dropdown-toggle\" dropdownToggle (click)=\"false\">\n        <span class=\" lang\"><span class=\"flag-icon flag-icon-{{language.key}}\"></span><span class=\"languages\">{{language.value}}</span></span>\n      </a>\n      <div class=\"dropdown-menu dropdown-menu-right\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n       <a *ngFor=\"let lang of languages\" (click)=\"translate.use(lang.key); $event.preventDefault();\" class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-{{ lang.key }}\"></span><span  class=\"languages\">{{ lang.value }}</span></a>\n      </div>\n    </li>\n    "
+        template: "\n    <li class=\"nav-item dropdown\" dropdown>\n      <a href class=\"nav-link dropdown-toggle\" dropdownToggle (click)=\"false\">\n        <span class=\" lang\"><span class=\"flag-icon flag-icon-{{language.key}}\"></span><span class=\"languages\">{{language.value}}</span></span>\n      </a>\n      <div class=\"dropdown-menu dropdown-menu-right\" *dropdownMenu aria-labelledby=\"simple-dropdown\">\n       <a *ngFor=\"let lang of languages\"  (click)=\"translate.use(lang.key); $event.preventDefault();\" class=\"dropdown-item\" href=\"#\"><span class=\"flag-icon flag-icon-{{ lang.key }}\"></span><span  class=\"languages\">{{ lang.value }}</span></a>\n      </div>\n    </li>\n    "
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof core_2.TranslateService !== "undefined" && core_2.TranslateService) === "function" && _a || Object])
 ], I18NComponent);
@@ -924,14 +924,14 @@ exports.environment = {
 /***/ 368:
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"app-header navbar ab\">\n  <button class=\"navbar-toggler mobile-sidebar-toggler d-lg-none\" type=\"button\">&#9776;</button>\n\n  <ul class=\"nav navbar-nav d-md-down-none\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link navbar-toggler sidebar-toggler\" href=\"#\">&#9776;</a>\n    </li>\n  </ul>\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Espace client</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Agences</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Services</a>\n    </li>\n  </ul>\n\n\n  <ul class=\"nav navbar-nav pr-1\">\n    <!--<li class=\"nav-item dropdown\" dropdown>-->\n      <i18n-translate></i18n-translate>\n    <!--</li>-->\n  </ul>\n</header>\n\n\n<div class=\"app-body\">\n  <div class=\"sidebar  sidebar-ab\">\n    <div class=\"bg-primary-dark-op\">\n      <nav class=\"sidebar-nav\">\n        <div class=\"logo mobile-sidebar-toggler\">\n          <div class=\"logo-normal\">\n\n            <a class=\"simple-text\" href=\"#\">\n                    BMCE Euro Services\n                </a></div>\n          <div class=\"logo-img\">\n            <img src=\"assets/img/logo.png\">\n          </div>\n        </div>\n        <div class=\"user\">\n          <div class=\"photo\">\n            <img src=\"assets/img/avatars/avatar-badr.jpg\">\n          </div>\n          <div class=\"info\">\n            <a class=\"\" (click)=\"showSettings()\">\n              <span>{{firstname}} {{lastname}}<b class=\"caret\"></b></span>\n            </a>\n\n\n            <div class=\"collapse in\" id=\"collapseExample\" aria-labelledby=\"simple-dropdown\" [hidden]=\"!hidDiv\">\n              <ul class=\"nav\">\n                <li>\n                  <a [routerLink]=\"['/']\" (click)=\"logout()\">\n                    <!--<span class=\"sidebar-mini\">MP</span>-->\n                    <span class=\"sidebar-normal\">Déconnexion</span>\n                  </a>\n                </li>\n              </ul>\n            </div>\n          </div>\n        </div>\n        <ul class=\"nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/dashboard/transfer']\"><i class=\"icon-tag\"></i>{{ 'TRANSFER.TITLE' | translate }}</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n\n  <!-- Main content -->\n  <main class=\"main\">\n\n    <div class=\"container-fluid\">\n      <router-outlet></router-outlet>\n    </div>\n    <!-- /.conainer-fluid -->\n  </main>\n</div>\n\n<footer class=\"app-footer\">\n  <a href=\"http://www.soprabanking.com\">Sopra banking software</a> &copy; 2017 .\n</footer>"
+module.exports = "<header class=\"app-header navbar ab\">\n  <button class=\"navbar-toggler mobile-sidebar-toggler d-lg-none\" type=\"button\">&#9776;</button>\n\n  <ul class=\"nav navbar-nav d-md-down-none\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link navbar-toggler sidebar-toggler\" href=\"#\">&#9776;</a>\n    </li>\n  </ul>\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.ESPACE' | translate }}</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.AGENCES' | translate }}</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.SERVICES' | translate }}</a>\n    </li>\n  </ul>\n\n\n  <ul class=\"nav navbar-nav pr-1\">\n    <!--<li class=\"nav-item dropdown\" dropdown>-->\n      <i18n-translate></i18n-translate>\n    <!--</li>-->\n  </ul>\n</header>\n\n\n<div class=\"app-body\">\n  <div class=\"sidebar  sidebar-ab\">\n    <div class=\"bg-primary-dark-op\">\n      <nav class=\"sidebar-nav\">\n        <div class=\"logo mobile-sidebar-toggler\">\n          <div class=\"logo-normal\">\n\n            <a class=\"simple-text\" href=\"#\">\n                    BMCE Euro Services\n                </a></div>\n          <div class=\"logo-img\">\n            <img src=\"assets/img/logo.png\">\n          </div>\n        </div>\n        <div class=\"user\">\n          <div class=\"photo\">\n            <img src=\"assets/img/avatars/avatar-badr.jpg\">\n          </div>\n          <div class=\"info\">\n            <a class=\"\" (click)=\"showSettings()\">\n              <span>{{firstname}} {{lastname}}<b class=\"caret\"></b></span>\n            </a>\n\n\n            <div class=\"collapse in\" id=\"collapseExample\" aria-labelledby=\"simple-dropdown\" [hidden]=\"!hidDiv\">\n              <ul class=\"nav\">\n                <li>\n                  <a [routerLink]=\"['/']\" (click)=\"logout()\">\n                    <!--<span class=\"sidebar-mini\">MP</span>-->\n                    <span class=\"sidebar-normal\">{{'BUTTON.LOGOUT' | translate}}</span>\n                  </a>\n                </li>\n              </ul>\n            </div>\n          </div>\n        </div>\n        <ul class=\"nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/dashboard/transfer']\"><i class=\"icon-tag\"></i>{{ 'TRANSFER.TITLE' | translate }}</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n\n  <!-- Main content -->\n  <main class=\"main\">\n\n    <div class=\"container-fluid\">\n      <router-outlet></router-outlet>\n    </div>\n    <!-- /.conainer-fluid -->\n  </main>\n</div>\n\n<footer class=\"app-footer\">\n  <a href=\"http://www.soprabanking.com\">Sopra banking software</a> &copy; 2017 .\n</footer>"
 
 /***/ }),
 
 /***/ 369:
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"app-header navbar without-sidebar\">\r\n  <a class=\"navbar-brand\" href=\"#\"></a><a class=\"d-md-down-none\" href=\"#\">BMCE Euro Services</a>\r\n\r\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">Espace client</a>\r\n    </li>\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">Agences</a>\r\n    </li>\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">Services</a>\r\n    </li>\r\n\r\n  </ul>\r\n\r\n  <ul class=\"nav navbar-nav pr-1\">\r\n    <i18n-translate></i18n-translate>\r\n  </ul>\r\n</header>\r\n\r\n<div class=\"app-body\">\r\n  <!-- Main content -->\r\n  <main class=\"main without-bar pt-0\">\r\n        \r\n    <div class=\"container-fluid p-0\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n    <!-- /.conainer-fluid -->\r\n  </main>\r\n</div>\r\n\r\n<footer class=\"app-footer \">\r\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\r\n</footer>\r\n"
+module.exports = "<header class=\"app-header navbar without-sidebar\">\r\n  <a class=\"navbar-brand\" href=\"#\"></a><a class=\"d-md-down-none\" href=\"#\">BMCE Euro Services</a>\r\n\r\n  <ul class=\"nav navbar-nav ml-auto d-md-down-none\">\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.ESPACE' | translate }}</a>\r\n    </li>\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.SERVICES' | translate }}</a>\r\n    </li>\r\n    <li class=\"nav-item px-3\">\r\n      <a class=\"nav-link\" href=\"#\">{{ 'HEADER.AGENCES' | translate }}</a>\r\n    </li>\r\n\r\n  </ul>\r\n\r\n  <ul class=\"nav navbar-nav pr-1\">\r\n    <i18n-translate></i18n-translate>\r\n  </ul>\r\n</header>\r\n\r\n<div class=\"app-body\">\r\n  <!-- Main content -->\r\n  <main class=\"main without-bar pt-0\">\r\n        \r\n    <div class=\"container-fluid p-0\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n    <!-- /.conainer-fluid -->\r\n  </main>\r\n</div>\r\n\r\n<footer class=\"app-footer \">\r\n  &copy; 2017 <a href=\"http://bmce.ma\">BMCE</a>.\r\n</footer>\r\n"
 
 /***/ }),
 
