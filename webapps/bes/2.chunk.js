@@ -1,6 +1,6 @@
 webpackJsonp([2,8],{
 
-/***/ 410:
+/***/ 486:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12,18 +12,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var common_1 = __webpack_require__(38);
-var forms_1 = __webpack_require__(177);
-var home_routing_module_1 = __webpack_require__(570);
-var dropdown_1 = __webpack_require__(182);
-var shared_lazy_module_1 = __webpack_require__(484);
+var core_1 = __webpack_require__(0);
+var common_1 = __webpack_require__(10);
+var forms_1 = __webpack_require__(27);
+var home_routing_module_1 = __webpack_require__(571);
+var dropdown_1 = __webpack_require__(250);
+var shared_lazy_module_1 = __webpack_require__(492);
 // Components
-var reset_component_1 = __webpack_require__(527);
-var login_component_1 = __webpack_require__(525);
-var newsletter_component_1 = __webpack_require__(526);
-var customer_space_links_component_1 = __webpack_require__(569);
-var advantages_bes_component_1 = __webpack_require__(568);
+var reset_component_1 = __webpack_require__(528);
+var login_component_1 = __webpack_require__(526);
+var newsletter_component_1 = __webpack_require__(527);
+var customer_space_links_component_1 = __webpack_require__(570);
+var advantages_bes_component_1 = __webpack_require__(569);
 var HomeModule = (function () {
     function HomeModule() {
     }
@@ -54,7 +54,7 @@ exports.HomeModule = HomeModule;
 
 /***/ }),
 
-/***/ 484:
+/***/ 492:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66,11 +66,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var http_1 = __webpack_require__(98);
-var common_1 = __webpack_require__(38);
-var core_2 = __webpack_require__(99);
-var angular2_loaders_css_1 = __webpack_require__(485);
+var core_1 = __webpack_require__(0);
+var http_1 = __webpack_require__(123);
+var common_1 = __webpack_require__(10);
+var core_2 = __webpack_require__(125);
+var angular2_loaders_css_1 = __webpack_require__(493);
 var SharedLazyModule = (function () {
     function SharedLazyModule() {
     }
@@ -97,7 +97,7 @@ exports.SharedLazyModule = SharedLazyModule;
 
 /***/ }),
 
-/***/ 485:
+/***/ 493:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -106,18 +106,18 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(487));
+__export(__webpack_require__(495));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 486:
+/***/ 494:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var LoadersCssComponent = (function () {
     function LoadersCssComponent() {
         this.nodes = [];
@@ -176,15 +176,15 @@ exports.LoadersCssComponent = LoadersCssComponent;
 
 /***/ }),
 
-/***/ 487:
+/***/ 495:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var common_1 = __webpack_require__(38);
-var loaders_css_component_1 = __webpack_require__(486);
+var core_1 = __webpack_require__(0);
+var common_1 = __webpack_require__(10);
+var loaders_css_component_1 = __webpack_require__(494);
 var LoadersCssModule = (function () {
     function LoadersCssModule() {
     }
@@ -205,7 +205,7 @@ exports.LoadersCssModule = LoadersCssModule;
 
 /***/ }),
 
-/***/ 525:
+/***/ 526:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -220,8 +220,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var router_1 = __webpack_require__(97);
+var core_1 = __webpack_require__(0);
+var router_1 = __webpack_require__(122);
 var LoginComponent = (function () {
     function LoginComponent(router) {
         this.router = router;
@@ -242,7 +242,7 @@ var LoginComponent = (function () {
 }());
 LoginComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(603),
+        template: __webpack_require__(604),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
@@ -253,7 +253,7 @@ var _a;
 
 /***/ }),
 
-/***/ 526:
+/***/ 527:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -268,8 +268,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var router_1 = __webpack_require__(97);
+var core_1 = __webpack_require__(0);
+var router_1 = __webpack_require__(122);
 var NewsletterComponent = (function () {
     function NewsletterComponent(router) {
         this.router = router;
@@ -297,7 +297,7 @@ var NewsletterComponent = (function () {
 }());
 NewsletterComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(604),
+        template: __webpack_require__(605),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
@@ -308,7 +308,7 @@ var _a;
 
 /***/ }),
 
-/***/ 527:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -323,8 +323,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var router_1 = __webpack_require__(97);
+var core_1 = __webpack_require__(0);
+var router_1 = __webpack_require__(122);
 var ResetComponent = (function () {
     function ResetComponent(router) {
         this.router = router;
@@ -344,7 +344,7 @@ var ResetComponent = (function () {
 }());
 ResetComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(605),
+        template: __webpack_require__(606),
         providers: []
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
@@ -352,43 +352,6 @@ ResetComponent = __decorate([
 exports.ResetComponent = ResetComponent;
 var _a;
 //# sourceMappingURL=D:/workspace/Bes_project/src/reset.component.js.map
-
-/***/ }),
-
-/***/ 568:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var AdvantagesBesComponent = (function () {
-    function AdvantagesBesComponent() {
-    }
-    AdvantagesBesComponent.prototype.ngOnInit = function () {
-        // reset login status
-    };
-    return AdvantagesBesComponent;
-}());
-AdvantagesBesComponent = __decorate([
-    core_1.Component({
-        selector: 'advantages-bes',
-        template: __webpack_require__(601),
-        providers: []
-    }),
-    __metadata("design:paramtypes", [])
-], AdvantagesBesComponent);
-exports.AdvantagesBesComponent = AdvantagesBesComponent;
-//# sourceMappingURL=D:/workspace/Bes_project/src/advantages-bes.component.js.map
 
 /***/ }),
 
@@ -407,25 +370,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var CustomerSpaceLinksComponent = (function () {
-    function CustomerSpaceLinksComponent() {
+var core_1 = __webpack_require__(0);
+var AdvantagesBesComponent = (function () {
+    function AdvantagesBesComponent() {
     }
-    CustomerSpaceLinksComponent.prototype.ngOnInit = function () {
+    AdvantagesBesComponent.prototype.ngOnInit = function () {
         // reset login status
     };
-    return CustomerSpaceLinksComponent;
+    return AdvantagesBesComponent;
 }());
-CustomerSpaceLinksComponent = __decorate([
+AdvantagesBesComponent = __decorate([
     core_1.Component({
-        selector: "customer-space-links",
+        selector: 'advantages-bes',
         template: __webpack_require__(602),
         providers: []
     }),
     __metadata("design:paramtypes", [])
-], CustomerSpaceLinksComponent);
-exports.CustomerSpaceLinksComponent = CustomerSpaceLinksComponent;
-//# sourceMappingURL=D:/workspace/Bes_project/src/customer-space-links.component.js.map
+], AdvantagesBesComponent);
+exports.AdvantagesBesComponent = AdvantagesBesComponent;
+//# sourceMappingURL=D:/workspace/Bes_project/src/advantages-bes.component.js.map
 
 /***/ }),
 
@@ -440,12 +403,49 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var router_1 = __webpack_require__(97);
-var reset_component_1 = __webpack_require__(527);
-var newsletter_component_1 = __webpack_require__(526);
-var login_component_1 = __webpack_require__(525);
+var core_1 = __webpack_require__(0);
+var CustomerSpaceLinksComponent = (function () {
+    function CustomerSpaceLinksComponent() {
+    }
+    CustomerSpaceLinksComponent.prototype.ngOnInit = function () {
+        // reset login status
+    };
+    return CustomerSpaceLinksComponent;
+}());
+CustomerSpaceLinksComponent = __decorate([
+    core_1.Component({
+        selector: "customer-space-links",
+        template: __webpack_require__(603),
+        providers: []
+    }),
+    __metadata("design:paramtypes", [])
+], CustomerSpaceLinksComponent);
+exports.CustomerSpaceLinksComponent = CustomerSpaceLinksComponent;
+//# sourceMappingURL=D:/workspace/Bes_project/src/customer-space-links.component.js.map
+
+/***/ }),
+
+/***/ 571:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var router_1 = __webpack_require__(122);
+var reset_component_1 = __webpack_require__(528);
+var newsletter_component_1 = __webpack_require__(527);
+var login_component_1 = __webpack_require__(526);
 var routes = [
     {
         path: '',
@@ -493,35 +493,35 @@ exports.PagesRoutingModule = PagesRoutingModule;
 
 /***/ }),
 
-/***/ 601:
+/***/ 602:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"flex-row  align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">{{ 'ADVANTAGE.TITRE' | translate }}</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/map.png\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block p-a-1 clearfix\">\n\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum.. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  card-block-img p-a-1 clearfix\">\n                <img src=\"assets/img/bg-2.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block card-block-img p-a-1 clearfix\">\n\n                <img src=\"assets/img/bg-3.jpg\">\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-6\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  p-a-1 clearfix\">\n                <div>\n                  <h2>Lorem ipsum</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\n                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\n                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum. </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 602:
+/***/ 603:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"flex-row  align-items-center\">\n  <div class=\"container container-bes\">\n    <div class=\"row justify-content-center\">\n      <h2 class=\"custom-h2\">{{ 'CUSTOMER.ESPACE' | translate }}</h2>\n      <div class=\"animated fadeIn\">\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/ico_assurance.png\">\n                <div>\n                  <h6>{{ 'CUSTOMER.SALAMA' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.SUBSCRIBE' | translate }}</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-geo.png\">\n\n                <div>\n                  <h6>{{ 'CUSTOMER.LOCALISATIONTITLE' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.LOCALISATION' | translate }}</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-newsletter.png\">\n                <div>\n                  <h6>{{ 'CUSTOMER.NEWSLETTER' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.NEWSLETTERDETAILS' | translate }} </p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-bank.ico\">\n                <div>\n                  <h6>{{ 'CUSTOMER.ACCOUNT' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.ACCOUNTDETAILS' | translate }}</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-card.png\">\n                <div>\n                  <h6>{{ 'CUSTOMER.TRANSFERT' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.TRANSFERTDETAILS' | translate }}</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n          <div class=\"col-sm-6 col-md-4\">\n            <div class=\"card card-trans\">\n              <div class=\"card-block  custom-bloc  p-a-1 clearfix\">\n                <img class=\"img-ico\" src=\"assets/img/logo-prelevement.png\">\n                <div>\n                  <h6>{{ 'CUSTOMER.DEBIT' | translate }}</h6>\n                  <p>{{ 'CUSTOMER.DEBITDETAILS' | translate }}</p>\n                </div>\n\n              </div>\n            </div>\n          </div>\n          <!--/.col-->\n        </div>\n        <!--/.row-->\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 603:
+/***/ 604:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"app flex-row app-bes align-items-center\">\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-md-9 pr-0 pl-0 pt-5\">\n        <div class=\"card-group p-3 mb-0\">\n          <div class=\"card card-bes bes p-3\">\n            <div class=\"card-block card-bes card-bes-white\">\n              <div class=\"card-header\">\n                <h2>{{ 'HOME.ESPACE' | translate }}</h2>\n              </div>\n              <p class=\"text-muted\">{{ 'HOME.SUBTITLE' | translate }} </p>\n              <form name=\"form\" (ngSubmit)=\"f.form.valid && login()\" #f=\"ngForm\" novalidate>\n                <div class=\"input-group mb-3\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !username.valid }\">\n                  <span class=\"input-group-addon input-group-addon-bes btn-right-icon\"><i class=\"icon-user\"></i></span>\n                  <input type=\"email\" [ngClass]=\"{ 'form-control-danger': f.submitted && !username.valid }\" name=\"username\" [(ngModel)]=\"model.username\"\n                    #username=\"ngModel\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" required class=\"form-control form-bes border-left-none\"\n                    placeholder=\"{{ 'HOME.PLACEHOLDER.USERNAME' | translate }}\">\n                </div>\n\n                <div *ngIf=\"f.submitted && username.errors && username.errors.required\" class=\"alert alert-danger\">{{ 'HOME.USERNAME' | translate }}</div>\n                <div *ngIf=\"f.submitted && username.errors && username.errors.pattern\" class=\"alert alert-danger\">{{ 'HOME.EMAIL' | translate }}</div>\n\n                <div class=\"input-group mb-4\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !password.valid }\">\n                  <span class=\"input-group-addon  input-group-addon-bes btn-right-icon\"><i class=\"icon-lock\"></i></span>\n                  <input type=\"password\" name=\"password\" [(ngModel)]=\"model.password\" #password=\"ngModel\" required [ngClass]=\"{ 'form-control-danger': f.submitted && !password.valid }\"\n                    class=\"form-control form-bes border-left-none\" placeholder=\"{{'HOME.PLACEHOLDER.PASSWORD' | translate}}\">\n                </div>\n\n                <div *ngIf=\"f.submitted   && password.errors && password.errors.required\" class=\"alert alert-danger\">{{ 'HOME.PASSWORD' | translate }}</div>\n                <div class=\"card-footer\">\n                <div class=\"row\">\n                  <div class=\"col-6\">\n                    <button type=\"submit\" class=\"btn btn-primary btn-bmce\" [disabled]=\"loading\">{{ 'HOME.CONNEXION' | translate }}</button>\n\n                    <img *ngIf=\"loading\" class=\"img-gif\" src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n                    />\n                  </div>\n                  <div class=\"col-6 text-right\">\n        \n                    <button type=\"button\" [routerLink]=\"['/reset']\" class=\"btn btn-link btn-forgot px-0\">{{ 'HOME.PASSWORDFORGOTTEN' | translate }}</button>\n                  </div>\n                </div>\n                <div *ngIf=\"error\" class=\"alert alert-danger\">{{error}}</div>\n                </div>\n              </form>\n            </div>\n          </div>\n\n          <div class=\"card card-bes  card-inverse card-segond  p-3\">\n            <div class=\"card-block\">\n              <div>\n                <div class=\"card-header\">\n                  <h2 class=\"text-center\">BMCE EUROSERVICES</h2>\n                </div>\n                <br>\n                <br>\n                <p>{{ 'HOME.INTRODUCTION' | translate }}\n                  <br>{{ 'HOME.INTRODUCTIONSUITE' | translate }}\n                </p>\n                <br>\n                <div class=\"card-footer\">\n                  <div class=\"row\">\n                    <div class=\"col-6\">\n                      <button type=\"button\" [routerLink]=\"['/register/infos-generales']\" class=\"btn btn-primary btn-bmce active\">{{ 'HOME.CLIENT' | translate }}</button>\n                    </div>\n                    <div class=\"col-6 text-right\">\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<customer-space-links></customer-space-links>\n<advantages-bes></advantages-bes>"
 
 /***/ }),
 
-/***/ 604:
+/***/ 605:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"app app-bes flex-row align-items-center\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-7\">\n        <div class=\"clearfix\">\n          <h2 class=\"mr-4\">{{ 'Newsletter.SUBSCRIBE' | translate }}</h2>\n          <h4 class=\"pt-3\">{{ 'Newsletter.SUBSCRIBE' | translate }}</h4>\n        </div>\n\n        <form name=\"form\" (ngSubmit)=\"f.form.valid && subscribe()\" #f=\"ngForm\" novalidate>\n          <div class=\"input-group mb-3\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !email.valid }\">\n            <span class=\"input-group-addon input-group-addon-bes\"><i class=\"fa fa-search\"></i></span>\n            <input id=\"prependedInput\" #email=\"ngModel\" required [ngClass]=\"{ 'form-control-danger': f.submitted && !email.valid }\" name=\"email\"\n              [(ngModel)]=\"model.email\" class=\"form-control form-bes form-bes-height\" size=\"16\" type=\"email\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\"\n              placeholder=\"Adresse email\">\n            <span class=\"input-group-btn\">\n            <button class=\"btn btn-info btn-pass \" [disabled]=\"loading\" type=\"submit\">{{ 'Newsletter.VALID' | translate }}</button>\n            <img *ngIf=\"loading\" class=\"img-gif\" src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n                    />\n          </span>\n          </div>\n          <div class=\"response-container\">\n            <div *ngIf=\"f.submitted && email.errors &&  email.errors.required && !email.errors.pattern\" class=\"alert alert-danger\">{{ 'Newsletter.EMAILREQUIRED' | translate }}</div>\n            <div *ngIf=\"f.submitted  && email.errors && email.errors.pattern\" class=\"alert alert-danger\">{{ 'Newsletter.EMAILREQUIRED' | translate }}</div>\n            <div *ngIf=\"success && !email.errors && !error\" class=\"alert alert-success\">{{ 'Newsletter.EMAILREQUIRED' | translate }} {{model.email}} </div>\n            <div *ngIf=\"error  && !email.errors\" class=\"alert alert-danger\">{{error}}</div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 605:
+/***/ 606:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"app app-bes flex-row align-items-center\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <div class=\"clearfix\">\n          <h2 class=\" mr-4\">{{ 'RESET.PASSWORD' | translate }}</h2>\n          <h4 class=\"pt-3\">{{ 'RESET.IDENTIFIANT' | translate }}</h4>\n        </div>\n\n        <form name=\"form\" (ngSubmit)=\"f.form.valid && reset()\" #f=\"ngForm\" novalidate>\n\n          <div class=\"input-group mb-3\" [ngClass]=\"{ 'has-danger has-feedback': f.submitted && !email.valid }\">\n\n            <span class=\"input-group-addon input-group-addon-bes\"><i class=\"fa fa-search\"></i></span>\n            <input id=\"prependedInput\" #email=\"ngModel\" required [ngClass]=\"{ 'form-control-danger': f.submitted && !email.valid }\" name=\"email\"\n              [(ngModel)]=\"model.email\" class=\"form-control form-bes form-bes-height\" size=\"16\" type=\"email\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\"\n              placeholder=\"Adresse email\">\n            <span class=\"input-group-btn\">\n            <button class=\"btn btn-info btn-pass \" [disabled]=\"loading\" type=\"submit\">{{ 'RESET.VALID' | translate }}</button>\n            <img *ngIf=\"loading\" class=\"img-gif\" src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n                    />\n          </span>\n          </div>\n          <div class=\"response-container\">\n            <div *ngIf=\"f.submitted && email.errors &&  email.errors.required && !email.errors.pattern\" class=\"alert alert-danger\">{{ 'RESET.EMAILREQUIRED' | translate }}</div>\n            <div *ngIf=\"f.submitted  && email.errors && email.errors.pattern\" class=\"alert alert-danger\">{{ 'RESET.INVALIDEMAIL' | translate }}</div>\n            <div *ngIf=\"success && !email.errors && !error\" class=\"alert alert-success\">{{ 'RESET.RECUPERATIONEMAIL' | translate }} {{model.email}}</div>\n            <div *ngIf=\"error  && !email.errors\" class=\"alert alert-danger\">{{error}}</div>\n          </div>\n\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
