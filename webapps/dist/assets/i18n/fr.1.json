@@ -1,0 +1,200 @@
+{
+  // page du choix pays
+  "INTERNATIONAL": {
+    "WELCOME": "BIENVENUE SUR LE SITE DE BMCE EUROSERVICES", //titre pour la page du choix de pays
+    "TITLE": "Sélectionnez votre pays de résidence" // sous titre 
+  },
+  "OFFERS": {
+    "TITLE": "Avec BMCE EuroServices, le transfert d’argent n’a jamais été aussi simple !",
+    "SUBTITLE": "Grâce à des solutions adaptées à vos besoins, effectuez vos transferts d’argent vers le Maroc et le Mali en toute simplicité"
+  },
+  // espace me connecter
+  "HOME": {
+    "TITLE": "Espace client", // titre du formulaire me connecter
+    "SUBTITLE": "Identifiez-vous pour accéder à votre compte", // sous titre du formulaire me connecter
+    "FORM": {
+      "BUTTONS": {
+        "CONNEXION": "Connexion", // button de connexion
+        "PASSWORDFORGOTTEN": "Mot de passe oublié?" // libellé mot de passe oublié
+      },
+      "VALIDATIONS": {
+        // message de validation lorsque les champs sont requis
+        "REQUIRED": {
+          "USERNAME": "",
+          "PASSWORD": ""
+        },
+        // message de validation lorsque les champs sont non valides
+        "NOTVALID": {
+          "USERNAME": "",
+          "PASSWORD": ""
+        }
+      },
+      "PLACEHOLDER": {
+        "USERNAME": "Email de l'utilisateur", // placeholder champ de saisie addresse email 
+        "PASSWORD": "Mot de passe" // placeholder champ de saisie mot de passe
+      },
+      "ERRORS": {
+        "SERVER": "", // message d'erreur en cas  d'un erreur coté serveur
+        "NOTFOUND": "", // message d'erreur en cas ou login ou mot de pass incorrect
+        "FORBIDEN": "" // message d'erreur en cas ou l'utilisateur n'a pas le droit d'access
+      }
+    },
+    "INTRODUCTION": "BMCE EuroServices vous propose un nouveau service en ligne qui vous permet de transférer par carte Banque par Internet", //VISUEL de l’homme et de l’ordinateur de Sopra
+    "INTRODUCTIONNEXT": "Avec un seul clic, vous transférez en toute sécurité, votre argent où que vous soyez", //VISUEL de l’homme et de l’ordinateur de Sopra
+    //"CLIENT": "Devenir client",
+    "ACTIVATE": "Activer mon compte" // button activer mon compte
+  },
+
+  "ACTIVATE": {
+    "VISUEL": "", // visuel
+    "FORM": {
+      "TITLE": "", // titre du formulaire
+      "COUNTRY": "", // libellé pays de résidence
+      "ACCOUNTNUMBER": "", //libellé de Numéro de compte BMCE EuroServices
+      "BIRTHDATE": "", //libellé date de naissance
+      "ACTIVATIONCODE": "", // Code d’activation reçu par courrier
+      "EMAIL": "", // addresse email libellé
+      "EMAILCONFIRM": "", // addresse email de confirmation,
+      "PHONENUMBER": "" // libellé de numéro de téléphone
+    },
+    "BUTTONS": {
+      "SEARCH": "", // button pour chercher l'utilisateur
+      "PREV": "", // button pour revenir en arrière
+      "ACTIVATE": "" // button pour activer le compte
+    },
+    "VALIDATIONS": {
+      // message de validation lorsque les champs sont requis
+      "REQUIRED": {
+        "ACCOUNTNUMBER": "",
+        "BIRTHDATE": "",// message d'erreur si l'utilisateur est moins de 18ans
+        "ACTIVATIONCODE": "",
+        "EMAIL": "",
+        "EMAILCONFIRM": "",
+        "PHONENUMBER": ""
+      },
+      // message de validation lorsque les champs sont non valides
+      "NOTVALID": {
+        "ACCOUNTNUMBER": "",
+        "BIRTHDATE": "",
+        "ACTIVATIONCODE": "",
+        "EMAIL": "",
+        "EMAILCONFIRM": "",
+        "PHONENUMBER": ""
+      }
+    },
+    "ERRORS": {
+      "SERVER": "", // message d'erreur en cas  d'un erreur coté serveur
+      "NOTFOUND": "", // message d'erreur en cas ou l'utilisateur n'existe pas
+      "FORBIDEN": "" // message d'erreur en cas ou l'utilisateur n'a pas le droit d'access
+    },
+    "SUCCESS": {
+      "ACTIVATE": "" // message de success sur l'opération d'activation
+    }
+  },
+  "HEADER": {
+    "ACTIVER": "Activer mon compte", // lien pour acceder a activer mon compte
+    "ESPACE": "Me connecter" // lien pour acceder a l'espace authentification
+  },
+  // changer le mot de passe
+  "RESET": {
+    // page envois d'email pour le changement du mot de passe
+    "SENDEMAIL": {
+      "TITLE": "Changer votre mot de passe", // titre pour la page changement de mot de passe 
+      "SUBTITLE": "Entrez votre email et un lien pour changer le mot de passe sera envoyé", // sous titre
+      "FORM": {
+        "EMAIL": "", // placeholder champ de saisie de l'addresse email
+        "VALIDATIONS": {
+          // message de validation lorsque les champs sont requis
+          "REQUIRED": {
+            "EMAIL": ""
+          },
+          // message de validation lorsque les champs sont non valides
+          "NOTVALID": {
+            "EMAIL": ""
+          }
+        },
+        "ERRORS": {
+          "SERVER": "" // message d'erreur en cas d'échecs d'envois d'émail
+        },
+        "SUCCESS": {
+          "EMAILSEND": "" // message de success sur l'opération d'enois d'email de changement de mot de passe
+        },
+        "BUTTONS": {
+          "change": "", // button pour envoyer l'email
+          "PREV": "" // button pour revenir à la page du login
+        }
+      }
+    },
+    // page changement du mot de passe
+    "CHANGEPWD": {
+      "TITLE": "", // titre pour la page changement de mot de passe 
+      "SUBTITLE": "Le mot de passe doit contenir une lettre minuscule/majuscule, un numéro et avoir au moins 7 caractères.", // sous titre
+      "FORM": {
+        "PASSWORD": "", // libellé champ de saisie de mot de passe
+        "CONFIRMPASSWORD": "", // libellé champ de saisie de confirmation de mot de passe
+        "VALIDATIONS": {
+          // message de validation lorsque les champs sont requis
+          "REQUIRED": {
+            "PASSWORD": "",
+            "CONFIRMPASSWORD": ""
+          },
+          // message de validation lorsque les champs sont non valides
+          "NOTVALID": {
+            "PASSWORD": "",
+            "CONFIRMPASSWORD": ""
+          }
+        },
+        "ERRORS": {
+          "SERVER": "" // message d'erreur en cas d'échecs d'envois d'émail
+        },
+        "SUCCESS": {
+          "PWDCHANGED": "" // message de success sur l'opération du changement de mot de passe
+        },
+        "BUTTONS": {
+          "change": "", // button pour CHANGE LE MOT DE PASSE
+          "PREV": "" // button pour revenir à la page du login
+        }
+      }
+    },
+    // page transfert
+    "TRANSFERT": {
+      "TITLE": "Transfert d'argent",
+      "FORM": {
+        "AMOUNT": "", // libellé champ de saisie du montant
+        "ACCOUNTNUMBER": "", // libellé champ de select du compte payeur
+        "NAME": "", //libellé champ de saisie du nom de porteur de compte payeur
+        "AGREE": "", // libellé checkbox je confirm que je suis le porteur de la carte
+        "VALIDATIONS": {
+          // message de validation lorsque les champs sont requis
+          "REQUIRED": {
+            "AMOUNT": "",
+            "ACCOUNTNUMBER": "",
+            "NAME": "",
+            "AGREE": ""
+          },
+          // message de validation lorsque les champs sont non valides
+          "NOTVALID": {
+            "AMOUNT": {
+              "MIN": "",// message d'erreur si le montant est inférieur au plafond
+              "MAX": "",// message d'erreur si le montant est inférieur au plafond
+              "NOTVALID":""// message d'erreur si le montant est non valid
+            },
+            "ACCOUNTNUMBER": "",
+            "NAME": "",
+            "AGREE": ""
+          }
+        },
+        "ERRORS": {
+          "SERVER": "" // message d'erreur en cas d'échecs d'envois d'émail
+        },
+        "SUCCESS": {
+          "PWDCHANGED": "" // message de success sur l'opération du changement de mot de passe
+        },
+        "BUTTONS": {
+          "VALIDATE": "", // button pour valider la transaction
+          "CANCEL": "" // button pour annuler la transaction
+        }
+      }
+    }
+  }
+}

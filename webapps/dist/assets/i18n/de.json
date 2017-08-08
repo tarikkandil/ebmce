@@ -1,0 +1,239 @@
+{
+  "HOME": {
+    "TITLE": "Hello Angular 2 with ng2-translate!",
+    "SELECT": "Change the language",
+    "ESPACE": "Customer Area",
+    "SUBTITLE": "Sign in to access your account",
+    "USERNAME": "Email Address Required",
+    "EMAIL": "Email address Invalid",
+    "PASSWORD": "Password required",
+    "CONNEXION": "Log in",
+    "PASSWORDFORGOTTEN": "Forgot your password?",
+    "INTRODUCTION": "BMCE EuroServices offers you a new online service that allows you to transfer by bank card using Internet",
+    "INTRODUCTIONSUITE": "With a single click, you can safely transfer your money wherever you are",
+    "CLIENT": "Become a customer",
+    "ACTIVATE": "Activer mon compte",
+    "PLACEHOLDER": {
+      "USERNAME": "User's email",
+      "PASSWORD": "Password"
+    }
+  },
+  "ACTIVATE": {
+    "COUNTRY": {
+      "LABEL": "Country",
+      "REQUIRED": "Country is required"
+    }
+  },
+  "HEADER": {
+    "ACTIVER": "Activate Account",
+    "ESPACE": "Customer Area"
+  },
+  "TRANSFER": {
+    "TITLE": "Money transfer",
+    "MONTANT": "Amount",
+    "PAYMENT": "payment methods",
+    "CARD-NUMBER": "Card number",
+    "EXPIRATION": "Expiration date (MM/YY)",
+    "CODE": "Verification code",
+    "NAME": "Last name and first name",
+    "VALIDATION": {
+      "MONTANT": {
+        "REQUIRED": "Amount required",
+        "NOTVALID": "Amount not valid"
+      },
+      "CARD-NUMBER": {
+        "REQUIRED": "Required card number",
+        "NOTVALID": "Non-valid card number"
+      },
+      "EXPIRATION": {
+        "REQUIRED": "Expiration date required"
+      },
+      "CODE": {
+        "REQUIRED": "Required verification code",
+        "NOTVALID": "Verification code not valid"
+      },
+      "NAME": {
+        "REQUIRED": "Name required"
+      }
+    },
+    "3D-SECURE": {
+      "AUTHENTIFICATION": "Enter the authentication code",
+      "AUTHENTIFICATIONMSG": "In order to secure your transfer on this site displaying the logo Mastercard Secure Code, we thank you for authenticating using to the code that you will receive on your mobile phone",
+      "MARCHANT": "Marchant",
+      "AMOUNT": "Amount",
+      "DATE": "Date",
+      "CARD-NUMBER": "Card number",
+      "PHONE-NUMBER": "Phone number",
+      "LABEL": "Please enter your 3D Secure code",
+      "SMS": "If you have not received your code by SMS",
+      "CLICKHERE": "click here?",
+      "SMS-PART2": "Your code will be communicated to you by phone call on your mobile phone",
+      "SECURITY": "Security",
+      "CONDITIONS": "Terms and conditions",
+      "CONTACT": "This authentication is required to complete your transfer. In case of problem please contact us on +33 4 68 29 46 69."
+    }
+  },
+  "REGISTER": {
+    "TITLE": "Become a customer"
+  },
+  "ADVANTAGE": {
+    "TITRE": "What are the advantages of your BMCE customer area?"
+
+  },
+  "CUSTOMER": {
+    "ESPACE": "Access the main sections of your customer area",
+    "SALAMA": "Assurance Salama",
+    "SUBSCRIBE": "Possibility to Subscribe online to Salama insurance",
+    "LOCALISATIONTITLE": "geolocate",
+    "LOCALISATION": "Your agency by submitting their contact details",
+    "NEWSLETTER": "Newsletter",
+    "NEWSLETTERDETAILS": "Register on-line to our newsletter system",
+    "ACCOUNT": "Online Account",
+    "ACCOUNTDETAILS": "Open your BMCE online account and benefit from different functionalities",
+    "TRANSFERT": "Transfer your money",
+    "TRANSFERTDETAILS": "Securely transfer online via bank card",
+    "DEBIT": "automatic withdrawal",
+    "DEBITDETAILS": "Subscribe online for automatic withdrawal"
+  },
+  "Newsletter": {
+    "SUBSCRIBE": "Subscribe to newsletter ?",
+    "EMAIL": "mail adress",
+    "VALID": "Validate",
+    "EMAILREQUIRED": "Email Address Required",
+    "INVALIDEMAIL": "Email address not valid",
+    "VALIDSUSCRIBE": "Subscribe to the newsletter of"
+  },
+  "RESET": {
+    "PASSWORD": "Reset your password",
+    "IDENTIFIANT": "Enter your email address and we will send you a link to reset your password.",
+    "VALID": "Send password reset email",
+    "RETURN": "Return to sign in",
+    "PLACEHOLDER": {
+      "EMAIL": "Enter your email address"
+    },
+    "EMAILREQUIRED": "Email Address Required",
+    "INVALIDEMAIL": "Email address not valid",
+    "RECUPERATIONEMAIL": "Check your email for a link to reset your password. If it doesn't appear within a few minutes, check your spam folder."
+  },
+
+  "GENERAL": {
+    "LASTNAME": "Name Required",
+    "FIRSTNAME": "First name required",
+    "EMAIL": "Email Address Required",
+    "INVALIDEMAIL": "Email address Invalid",
+    "CONFIRMATIONEMAIL": "Required confirmation email",
+    "INVALIDCONFEMAIL": "Invalid confirmation email",
+    "TESTROBOT": "Please prove that you are not a robot",
+    "NEXT": "Next",
+    "PLACEHOLDER": {
+      "LASTNAME": "Name",
+      "FIRSTNAME": "Last name",
+      "EMAIL": "Email",
+      "CONFIRMEMAIL": "Confirm your Email"
+    }
+  },
+  "SIGNALITIQUE": {
+    "CLIENT": "Become a customer",
+    "GENDER": "Gender",
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "SEXREQUIRED": "Gender required",
+    "BIRTHDATE": "Birth date",
+    "BIRTHDATEREQUIRED": "Birth date required",
+    "AGE": "18 years old, this is the minimum age",
+    "BIRTHPLACE": "Place of birth",
+    "BIRTHPLACEREQUIRED": "Place of birth required",
+    "ID": "ID",
+    "IDTYPE": "ID card",
+    "IDTYPEP": "Passport",
+    "IDNUM": "ID number",
+    "IDNUMREQUIRED": "ID number required",
+    "ISSUEDATE": "Date of issue",
+    "ISSUEDATEREQUIRED": "Issue Date Required",
+    "ISSUEPLACE": "Place of issue",
+    "ISSUEPLACEREQUIRED": "Place of issue requireds",
+    "EXPIRATIONDATE": "Expiration date",
+    "EXPIRATIONDATEREQUIRED": "Expiration date required",
+    "EXPIRATIONDATEINVALID": "Invalid expiration date",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next"
+  },
+  "CONTACT": {
+    "LABELS": {
+      "ADDRESS": "Adress",
+      "CODE": "Postal code",
+      "COUNTRY": "Country",
+      "CITY": "City",
+      "TEL": "Phone",
+      "EMAIL": "Mail"
+    },
+    "CHOOSE": "Choose",
+    "OTHERS": "Others",
+    "VALIDATIONS": {
+      "ADDRESS": "Required Address",
+      "CODE": "Postal code required",
+      "COUNTRY": "Country Required",
+      "CITY": "City required",
+      "TEL": {
+        "REQUIRED": "Phone Number Required",
+        "NOTVALID": "Phone not valid"
+      }
+    }
+  },
+  "BENEFICIAIRE": {
+    "RIB": "Beneficiary RIB",
+    "CUSTOMER": "I am the beneficiary customer",
+    "LASTNAME": "Name of beneficiary",
+    "FIRSTNAME": "First name of the beneficiary",
+    "AGENCES": "BES Agency",
+    "DOWNLOALD": "Download ID",
+    "NEWSLETTER": "I agree to receive newsletters and offers of products and services by e-mail from BMCE EuroServices and its partners",
+    "MENTIONS": "I have read and accept the legal notices",
+    "VALIDATIONS": {
+      "RIB": {
+        "REQUIRED": "Required RIB number",
+        "NOTVALID": "Invalid account number"
+      },
+      "LASTNAME": "Name of beneficiary required",
+      "FIRSTNAME": "Beneficiary first name required",
+      "AGENCES": "Agency BES required"
+    }
+  },
+  "RESULT": {
+    "SUCCESSFUL": "Successful operation",
+    "MSGSUCCESSFUL": "A welcome message containing your login password was sent to your email"
+
+  },
+  "BUTTON": {
+    "NEXT": "Next",
+    "PREV": "Previous",
+    "VALIDATE": "Validate",
+    "CANCEL": "Cancel",
+    "LOGOUT": "Sign out",
+    "SEARCH": "Recherche"
+  },
+   "INTERNATIONAL": {
+    "WELCOME": "Bienvenu a BMCE",
+    "TITLE": "Veuillez selectionner votre pays de résidence"
+  },
+  "FORMSTEPS": {
+    "INFOS": "GENERAL INFORMATION",
+    "SIGNALITIQUE": "SIGNALITIQUE",
+    "CONTACT": "CONTACT",
+    "BENEFICIAIRE": "BENEFICIARY"
+  },
+  "TRANSFERHISTORY":{
+    "TITLE": "Mon historique de transfert"
+  },
+  "TRANSFERHISTORY":{
+    "TITLE": "Transfer Geschichte",
+    "PAYINGACCOUNTNUMBER":"Rechnungsnummer bezahlen",
+    "BENEFACCOUNTNUMBER" :"Begünstigte Kontonummer",
+    "BENEFFIRSTNAME":"Vorname",
+    "BENEFLASTNAME":"Nachname", 
+    "AMOUNT":"Menge",
+    "TYPE": "Typ",
+    "EMISSIONDATE":"Datum",
+    "FINALSTATE": "Endzustand"
+  }
+}
